@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        {
+          "header": "Origin",
+          "operation": "set",
+          "value": "https://www.upwork.com"
+        },
+        {
+          "header": "Referer",
+          "operation": "set",
+          "value": "https://www.upwork.com/nx/find-work/"
+        }
+      ]
+    },
+    "condition": { "urlFilter": "https://www.upwork.com/api/graphql/v1" }
+  }
+]

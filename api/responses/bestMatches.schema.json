@@ -1,0 +1,478 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/BestMatchesSchema",
+  "definitions": {
+    "BestMatchesSchema": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "data": {
+          "$ref": "#/definitions/Data"
+        }
+      },
+      "required": ["data"],
+      "title": "BestMatchesSchema"
+    },
+    "Data": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "bestMatchJobsFeed": {
+          "$ref": "#/definitions/BestMatchJobsFeed"
+        }
+      },
+      "required": ["bestMatchJobsFeed"],
+      "title": "Data"
+    },
+    "BestMatchJobsFeed": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "results": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Result"
+          }
+        },
+        "paging": {
+          "$ref": "#/definitions/Paging"
+        }
+      },
+      "required": ["paging", "results"],
+      "title": "BestMatchJobsFeed"
+    },
+    "Paging": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "total": {
+          "type": "integer"
+        },
+        "count": {
+          "type": "integer"
+        },
+        "minTime": {
+          "type": "string"
+        },
+        "maxTime": {
+          "type": "string"
+        }
+      },
+      "required": ["count", "maxTime", "minTime", "total"],
+      "title": "Paging"
+    },
+    "Result": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "uid": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "ciphertext": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "type": {
+          "type": "integer"
+        },
+        "recno": {
+          "type": "string",
+          "format": "integer"
+        },
+        "freelancersToHire": {
+          "type": "integer"
+        },
+        "duration": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/Duration"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "durationLabel": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/Duration"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "engagement": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/Engagement"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "amount": {
+          "$ref": "#/definitions/Amount"
+        },
+        "createdOn": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "publishedOn": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "renewedOn": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "prefFreelancerLocation": {
+          "type": "null"
+        },
+        "prefFreelancerLocationMandatory": {
+          "type": "boolean"
+        },
+        "connectPrice": {
+          "type": "integer"
+        },
+        "client": {
+          "$ref": "#/definitions/Client"
+        },
+        "enterpriseJob": {
+          "type": "boolean"
+        },
+        "premium": {
+          "type": "boolean"
+        },
+        "jobTime": {
+          "type": "string"
+        },
+        "skills": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Skill"
+          }
+        },
+        "tierText": {
+          "$ref": "#/definitions/Tier"
+        },
+        "tier": {
+          "$ref": "#/definitions/Tier"
+        },
+        "tierLabel": {
+          "$ref": "#/definitions/TierLabel"
+        },
+        "proposalsTier": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "isApplied": {
+          "type": "boolean"
+        },
+        "hourlyBudget": {
+          "$ref": "#/definitions/HourlyBudget"
+        },
+        "weeklyBudget": {
+          "$ref": "#/definitions/WeeklyBudget"
+        },
+        "clientRelation": {
+          "type": "null"
+        },
+        "relevanceEncoded": {
+          "type": "string"
+        },
+        "attrs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Attr"
+          }
+        }
+      },
+      "required": [
+        "amount",
+        "attrs",
+        "ciphertext",
+        "client",
+        "clientRelation",
+        "connectPrice",
+        "createdOn",
+        "description",
+        "duration",
+        "durationLabel",
+        "engagement",
+        "enterpriseJob",
+        "freelancersToHire",
+        "hourlyBudget",
+        "isApplied",
+        "jobTime",
+        "prefFreelancerLocation",
+        "prefFreelancerLocationMandatory",
+        "premium",
+        "proposalsTier",
+        "publishedOn",
+        "recno",
+        "relevanceEncoded",
+        "renewedOn",
+        "skills",
+        "tier",
+        "tierLabel",
+        "tierText",
+        "title",
+        "type",
+        "uid",
+        "weeklyBudget"
+      ],
+      "title": "Result"
+    },
+    "Amount": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "amount": {
+          "type": "number"
+        },
+        "currencyCode": {
+          "$ref": "#/definitions/CurrencyCode"
+        }
+      },
+      "required": ["amount", "currencyCode"],
+      "title": "Amount"
+    },
+    "Attr": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "uid": {
+          "type": "string"
+        },
+        "prettyName": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "freeText": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "skillType": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": ["freeText", "prettyName", "skillType", "uid"],
+      "title": "Attr"
+    },
+    "Client": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "totalHires": {
+          "type": "integer"
+        },
+        "totalSpent": {
+          "type": "number"
+        },
+        "paymentVerificationStatus": {
+          "type": "integer"
+        },
+        "location": {
+          "$ref": "#/definitions/Location"
+        },
+        "totalReviews": {
+          "type": "integer"
+        },
+        "totalFeedback": {
+          "type": "number"
+        },
+        "hasFinancialPrivacy": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "hasFinancialPrivacy",
+        "location",
+        "paymentVerificationStatus",
+        "totalFeedback",
+        "totalHires",
+        "totalReviews",
+        "totalSpent"
+      ],
+      "title": "Client"
+    },
+    "Location": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "country": {
+          "type": "string"
+        },
+        "city": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "state": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "countryTimezone": {
+          "type": "string"
+        },
+        "worldRegion": {
+          "$ref": "#/definitions/WorldRegion"
+        }
+      },
+      "required": [
+        "city",
+        "country",
+        "countryTimezone",
+        "state",
+        "worldRegion"
+      ],
+      "title": "Location"
+    },
+    "HourlyBudget": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/Type"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "min": {
+          "type": "number"
+        },
+        "max": {
+          "type": "number"
+        }
+      },
+      "required": ["max", "min", "type"],
+      "title": "HourlyBudget"
+    },
+    "Skill": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "prefLabel": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "required": ["id", "prefLabel"],
+      "title": "Skill"
+    },
+    "WeeklyBudget": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "amount": {
+          "type": "number"
+        }
+      },
+      "required": ["amount"],
+      "title": "WeeklyBudget"
+    },
+    "CurrencyCode": {
+      "type": "string",
+      "enum": ["USD"],
+      "title": "CurrencyCode"
+    },
+    "WorldRegion": {
+      "type": "string",
+      "enum": ["Europe", "Americas", "Asia", "Oceania"],
+      "title": "WorldRegion"
+    },
+    "Duration": {
+      "type": "string",
+      "enum": [
+        "1 to 3 months",
+        "More than 6 months",
+        "Less than 1 month",
+        "3 to 6 months"
+      ],
+      "title": "Duration"
+    },
+    "Engagement": {
+      "type": "string",
+      "enum": ["30+ hrs/week", "Less than 30 hrs/week"],
+      "title": "Engagement"
+    },
+    "Type": {
+      "type": "string",
+      "enum": ["Manual", "NotProvided", "Default"],
+      "title": "Type"
+    },
+    "Tier": {
+      "type": "string",
+      "enum": ["Intermediate", "Entry level", "Expert"],
+      "title": "Tier"
+    },
+    "TierLabel": {
+      "type": "string",
+      "enum": ["Experience Level"],
+      "title": "TierLabel"
+    }
+  }
+}

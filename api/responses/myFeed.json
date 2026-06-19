@@ -1,0 +1,1429 @@
+{
+  "data": {
+    "userSavedSearches": {
+      "results": [
+        {
+          "id": "1887804072489307755",
+          "uid": "1887804072489307755",
+          "title": "WordPress Coach – Support for specific Web Design Customizations",
+          "ciphertext": "~021887804072489307755",
+          "description": "As part of the further development of our website, we are looking for an experienced WordPress mentor to support us with several specific customizations and technical challenges. \nCollaboration is to take place via video chat and shared screen to ensure direct and efficient editing. \n\nIndependent Editing: The goal of the coaching is to expand our basic Wordpress knowledge further, to enable us to independently handle our own future minor adjustments and modifications on our website.\n\nHere is an example page from us:https://www.certification-india.com/\n\nDescription of tasks (among others):\n\n1.\tOrientation in the theme code: Support for the general navigation and structure of our own theme.\n2.\tFooter customization: Enabling targeted changes to the footer section of the website.\n3.\tSlider Block: Adjust the speed of an existing slider block.\n4.\tJustification: Activation of justification for a specific type of post.\n5.\tMain navigation: Reproduction of a pop-up text box for the main navigation (a similar function already exists in certain sections of the page).\n6.\tIntegration of an external chatbot (priority-high): Assistance in embedding a chatbot, especially in solving current problems with the permission procedure and inserting it into the theme code.",
+          "type": "FIXED",
+          "recno": "1018140639",
+          "freelancersToHire": 1,
+          "duration": "WEEK",
+          "durationLabel": "Less than 1 month",
+          "engagement": null,
+          "amount": {
+            "amount": "50.0"
+          },
+          "createdOn": "2025-02-07T10:02:19+0000",
+          "publishedOn": "2025-02-07T10:02:19+0000",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 11,
+          "client": {
+            "totalHires": 18,
+            "totalPostedJobs": 11,
+            "totalSpent": {
+              "rawValue": "20899.69",
+              "currency": "USD",
+              "displayValue": "20899.69"
+            },
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "Germany"
+            },
+            "totalReviews": 8,
+            "totalFeedback": 5.0,
+            "companyRid": "0",
+            "edcUserId": "0",
+            "lastContractRid": "0",
+            "companyOrgUid": null,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1738922539000",
+          "skills": [
+            {
+              "id": null,
+              "name": "advanced-custom-fields-plugin",
+              "prettyName": "Advanced Custom Fields Plugin",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "css",
+              "prettyName": "CSS",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "javascript",
+              "prettyName": "JavaScript",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "wordpress",
+              "prettyName": "WordPress",
+              "highlighted": false
+            }
+          ],
+          "contractorTier": "EXPERT",
+          "jobStatus": "Open",
+          "relevanceEncoded": "{\"position\":\"0\"}",
+          "totalApplicants": 0,
+          "proposalsTier": "Less than 5",
+          "isLocal": false,
+          "locations": null,
+          "isApplied": false,
+          "attrs": [
+            {
+              "id": "1733104401058775042",
+              "uid": "1733104401058775042",
+              "prettyName": "Advanced Custom Fields Plugin",
+              "parentSkillId": null,
+              "prefLabel": "Advanced Custom Fields Plugin",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626728794472448",
+              "uid": "1031626728794472448",
+              "prettyName": "CSS",
+              "parentSkillId": null,
+              "prefLabel": "CSS",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "996364628025274383",
+              "uid": "996364628025274383",
+              "prettyName": "JavaScript",
+              "parentSkillId": null,
+              "prefLabel": "JavaScript",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1052162208999198724",
+              "uid": "1052162208999198724",
+              "prettyName": "WordPress",
+              "parentSkillId": null,
+              "prefLabel": "WordPress",
+              "highlighted": false,
+              "freeText": null
+            }
+          ],
+          "hourlyBudget": {
+            "type": null,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "clientRelation": null,
+          "totalFreelancersToHire": null,
+          "contractToHire": null
+        },
+        {
+          "id": "1887803315639733867",
+          "uid": "1887803315639733867",
+          "title": "Freelance Webflow Developer – Pixel-Perfect Figma Integration (Client-First Methodology)",
+          "ciphertext": "~021887803315639733867",
+          "description": "We need an experienced Freelance Webflow Developer who specializes in converting pixel-perfect Figma designs into fully responsive Webflow templates and static pages. The ideal candidate should follow the Client-First methodology, ensuring best practices in class naming, global styles, and CMS structure.\n\nKey Responsibilities:\n- Convert approved Figma designs into Webflow pages with precision.\n- Implement global typography, color palettes, and UI components following Client-First standards.\n- Manage Webflow CMS collections for dynamic content such as blog posts and portfolios.\n- Ensure seamless functionality, form submissions, and third-party integrations (e.g., Calendly, reCAPTCHA).\n- Optimize and test for cross-browser compatibility and responsiveness across devices.\n- Perform final design QA and branding review before project handoff.\n- Required Skills & Experience:\n- Proven Webflow experience with a portfolio of pixel-perfect - Figma-to-Webflow projects.\n- Strong understanding of Client-First methodology and Webflow best practices.\n- Experience with Webflow CMS, global styles, and utility classes.\n- Familiarity with component libraries like Relume is a plus.\n- Ability to work independently, meet deadlines, and communicate effectively.\n\n\nHow to Apply:\nProvide a brief cover letter outlining your experience.\nShare links to previous Webflow projects, especially those following Client-First methodology.\nMention your availability and freelance rates.\nThis role is project-based and ideal for detail-oriented Webflow developers passionate about delivering high-quality, responsive web experiences.",
+          "type": "FIXED",
+          "recno": "1018140605",
+          "freelancersToHire": 1,
+          "duration": "WEEK",
+          "durationLabel": "Less than 1 month",
+          "engagement": null,
+          "amount": {
+            "amount": "300.0"
+          },
+          "createdOn": "2025-02-07T09:59:18+0000",
+          "publishedOn": "2025-02-07T10:00:38+0000",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 9,
+          "client": {
+            "totalHires": 0,
+            "totalPostedJobs": 0,
+            "totalSpent": null,
+            "paymentVerificationStatus": null,
+            "location": {
+              "country": "United States"
+            },
+            "totalReviews": 0,
+            "totalFeedback": 0.0,
+            "companyRid": "0",
+            "edcUserId": "0",
+            "lastContractRid": "0",
+            "companyOrgUid": null,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1738922438000",
+          "skills": [],
+          "contractorTier": "EXPERT",
+          "jobStatus": "Open",
+          "relevanceEncoded": "{\"position\":\"1\"}",
+          "totalApplicants": 0,
+          "proposalsTier": "Less than 5",
+          "isLocal": false,
+          "locations": null,
+          "isApplied": false,
+          "attrs": [],
+          "hourlyBudget": {
+            "type": null,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "clientRelation": null,
+          "totalFreelancersToHire": null,
+          "contractToHire": null
+        },
+        {
+          "id": "1887803470363414123",
+          "uid": "1887803470363414123",
+          "title": "iOS Developer Needed for UI/UX design of App using UIKit and Storyboards",
+          "ciphertext": "~021887803470363414123",
+          "description": "Knowledge of UIKit Framework using Storyboards also have strong background in Swift and Objective-C.",
+          "type": "HOURLY",
+          "recno": "1018140615",
+          "freelancersToHire": 1,
+          "duration": "MONTH",
+          "durationLabel": "1 to 3 months",
+          "engagement": "30+ hrs/week",
+          "amount": {
+            "amount": "0.0"
+          },
+          "createdOn": "2025-02-07T09:59:55+0000",
+          "publishedOn": "2025-02-07T09:59:56+0000",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 21,
+          "client": {
+            "totalHires": 12,
+            "totalPostedJobs": 7,
+            "totalSpent": {
+              "rawValue": "5819.86",
+              "currency": "USD",
+              "displayValue": "5819.86"
+            },
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "IND"
+            },
+            "totalReviews": 11,
+            "totalFeedback": 5.0,
+            "companyRid": "0",
+            "edcUserId": "0",
+            "lastContractRid": "0",
+            "companyOrgUid": null,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1738922396000",
+          "skills": [
+            {
+              "id": null,
+              "name": "ios",
+              "prettyName": "iOS",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "swift",
+              "prettyName": "Swift",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "phone",
+              "prettyName": "Smartphone",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "ios-development",
+              "prettyName": "iOS Development",
+              "highlighted": false
+            }
+          ],
+          "contractorTier": "INTERMEDIATE",
+          "jobStatus": "Open",
+          "relevanceEncoded": "{\"position\":\"2\"}",
+          "totalApplicants": 0,
+          "proposalsTier": "Less than 5",
+          "isLocal": false,
+          "locations": null,
+          "isApplied": false,
+          "attrs": [
+            {
+              "id": "996364628025274377",
+              "uid": "996364628025274377",
+              "prettyName": "iOS",
+              "parentSkillId": null,
+              "prefLabel": "iOS",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "996364627995914241",
+              "uid": "996364627995914241",
+              "prettyName": "Swift",
+              "parentSkillId": null,
+              "prefLabel": "Swift",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "996364628000108550",
+              "uid": "996364628000108550",
+              "prettyName": "Smartphone",
+              "parentSkillId": null,
+              "prefLabel": "Smartphone",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626749656940544",
+              "uid": "1031626749656940544",
+              "prettyName": "iOS Development",
+              "parentSkillId": null,
+              "prefLabel": "iOS Development",
+              "highlighted": false,
+              "freeText": null
+            }
+          ],
+          "hourlyBudget": {
+            "type": "MANUAL",
+            "min": 15.0,
+            "max": 25.0
+          },
+          "clientRelation": null,
+          "totalFreelancersToHire": null,
+          "contractToHire": null
+        },
+        {
+          "id": "1887803361126022052",
+          "uid": "1887803361126022052",
+          "title": "Elementor Woocomerce changes today",
+          "ciphertext": "~021887803361126022052",
+          "description": "I have a woocommerce site, with pages built in Elementor. I need the following changes made to the site ASAP. Within the next 2 hours would be preferred. \n\n1. Payment page\n- change \"Phone\" to \"Phone number for tracking\"\n- change the payment conditions text and remove tickbox.\n- Remove the coupon message from the top of the page and add to bottom and reduce to \"Add a coupon\"\n- Add \"All transactions are secure and encrypted.\" message to top of page below \"Billing details\"\n- Remove infill colour from upsell box. Add outline line.\n- Add 3 logos (SSL encryption and GDPR compliant, Stripe) and text to checkout pages. \n- Change Place Order button colour to blue (same colour of site)\n- Change Place Order text to \"Pay\"\n\n2. Remove legal disclaimer from the footer of the website when the user is in checkout process or on pricing page. It should be visible on all other pages.",
+          "type": "FIXED",
+          "recno": "1018140611",
+          "freelancersToHire": 1,
+          "duration": "WEEK",
+          "durationLabel": "Less than 1 month",
+          "engagement": null,
+          "amount": {
+            "amount": "75.0"
+          },
+          "createdOn": "2025-02-07T09:59:29+0000",
+          "publishedOn": "2025-02-07T09:59:30+0000",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 14,
+          "client": {
+            "totalHires": 168,
+            "totalPostedJobs": 114,
+            "totalSpent": {
+              "rawValue": "18035.35",
+              "currency": "USD",
+              "displayValue": "18035.35"
+            },
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "United Kingdom"
+            },
+            "totalReviews": 105,
+            "totalFeedback": 4.94,
+            "companyRid": "0",
+            "edcUserId": "0",
+            "lastContractRid": "0",
+            "companyOrgUid": null,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1738922370000",
+          "skills": [
+            {
+              "id": null,
+              "name": "wordpress",
+              "prettyName": "WordPress",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "woocommerce",
+              "prettyName": "WooCommerce",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "elementor",
+              "prettyName": "Elementor",
+              "highlighted": false
+            }
+          ],
+          "contractorTier": "INTERMEDIATE",
+          "jobStatus": "Open",
+          "relevanceEncoded": "{\"position\":\"3\"}",
+          "totalApplicants": 0,
+          "proposalsTier": "Less than 5",
+          "isLocal": false,
+          "locations": null,
+          "isApplied": false,
+          "attrs": [
+            {
+              "id": "1052162208999198724",
+              "uid": "1052162208999198724",
+              "prettyName": "WordPress",
+              "parentSkillId": null,
+              "prefLabel": "WordPress",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626796331155456",
+              "uid": "1031626796331155456",
+              "prettyName": "WooCommerce",
+              "parentSkillId": null,
+              "prefLabel": "WooCommerce",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1110580557531041792",
+              "uid": "1110580557531041792",
+              "prettyName": "Elementor",
+              "parentSkillId": null,
+              "prefLabel": "Elementor",
+              "highlighted": false,
+              "freeText": null
+            }
+          ],
+          "hourlyBudget": {
+            "type": null,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "clientRelation": null,
+          "totalFreelancersToHire": null,
+          "contractToHire": null
+        },
+        {
+          "id": "1887802633679463752",
+          "uid": "1887802633679463752",
+          "title": "Seeking an Expert of E-commerce Developer",
+          "ciphertext": "~021887802633679463752",
+          "description": "Looking for an experienced developer skilled in integrating payment gateways into eCommerce and WordPress websites. The perfect candidate should demonstrate expertise in implementing secure and seamless payment solutions, enhancing user experience, and collaborating with the team to improve online store functionality. If you have a passion for eCommerce development and meet these qualifications, we want to hear from you!",
+          "type": "FIXED",
+          "recno": "1018140586",
+          "freelancersToHire": 1,
+          "duration": "WEEK",
+          "durationLabel": "Less than 1 month",
+          "engagement": null,
+          "amount": {
+            "amount": "5.0"
+          },
+          "createdOn": "2025-02-07T09:56:36+0000",
+          "publishedOn": "2025-02-07T09:56:36+0000",
+          "renewedOn": null,
+          "prefFreelancerLocation": ["Philippines"],
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 11,
+          "client": {
+            "totalHires": 52,
+            "totalPostedJobs": 21,
+            "totalSpent": {
+              "rawValue": "2879.98",
+              "currency": "USD",
+              "displayValue": "2879.98"
+            },
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "United States"
+            },
+            "totalReviews": 47,
+            "totalFeedback": 4.87,
+            "companyRid": "0",
+            "edcUserId": "0",
+            "lastContractRid": "0",
+            "companyOrgUid": null,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1738922196000",
+          "skills": [
+            {
+              "id": null,
+              "name": "react-js",
+              "prettyName": "React",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "node.js",
+              "prettyName": "Node.js",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "html5",
+              "prettyName": "HTML5",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "css",
+              "prettyName": "CSS",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "postgresql",
+              "prettyName": "PostgreSQL",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "web-application",
+              "prettyName": "Web Application",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "ecommerce-consulting",
+              "prettyName": "Ecommerce Website Development",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "shopify",
+              "prettyName": "Shopify",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "amazon-web-services",
+              "prettyName": "Amazon Web Services",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "git",
+              "prettyName": "Git",
+              "highlighted": false
+            }
+          ],
+          "contractorTier": "EXPERT",
+          "jobStatus": "Open",
+          "relevanceEncoded": "{\"position\":\"4\"}",
+          "totalApplicants": 0,
+          "proposalsTier": "Less than 5",
+          "isLocal": false,
+          "locations": null,
+          "isApplied": false,
+          "attrs": [
+            {
+              "id": "1031626773660942336",
+              "uid": "1031626773660942336",
+              "prettyName": "React",
+              "parentSkillId": null,
+              "prefLabel": "React",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626762999021568",
+              "uid": "1031626762999021568",
+              "prettyName": "Node.js",
+              "parentSkillId": null,
+              "prefLabel": "Node.js",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626745118703616",
+              "uid": "1031626745118703616",
+              "prettyName": "HTML5",
+              "parentSkillId": null,
+              "prefLabel": "HTML5",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626728794472448",
+              "uid": "1031626728794472448",
+              "prettyName": "CSS",
+              "parentSkillId": null,
+              "prefLabel": "CSS",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "996364628000108546",
+              "uid": "996364628000108546",
+              "prettyName": "PostgreSQL",
+              "parentSkillId": null,
+              "prefLabel": "PostgreSQL",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1110580737240190976",
+              "uid": "1110580737240190976",
+              "prettyName": "Web Application",
+              "parentSkillId": null,
+              "prefLabel": "Web Application",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626733781499904",
+              "uid": "1031626733781499904",
+              "prettyName": "Ecommerce Website Development",
+              "parentSkillId": null,
+              "prefLabel": "Ecommerce Website Development",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626779570716672",
+              "uid": "1031626779570716672",
+              "prettyName": "Shopify",
+              "parentSkillId": null,
+              "prefLabel": "Shopify",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "996364628012691471",
+              "uid": "996364628012691471",
+              "prettyName": "Amazon Web Services",
+              "parentSkillId": null,
+              "prefLabel": "Amazon Web Services",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626741293498368",
+              "uid": "1031626741293498368",
+              "prettyName": "Git",
+              "parentSkillId": null,
+              "prefLabel": "Git",
+              "highlighted": false,
+              "freeText": null
+            }
+          ],
+          "hourlyBudget": {
+            "type": null,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "clientRelation": null,
+          "totalFreelancersToHire": null,
+          "contractToHire": null
+        },
+        {
+          "id": "1887802619640651077",
+          "uid": "1887802619640651077",
+          "title": "Need electronics ecommerce website with 1000 products",
+          "ciphertext": "~021887802619640651077",
+          "description": "need electronics items like laptop, phone, camera, tv, ecommerce website usa based. with 1000 products. product image, specs, details, price in usd. you upload the product. get it from amazon or any site. I need it for adsense. I am not going to sell any products.",
+          "type": "FIXED",
+          "recno": "1018140585",
+          "freelancersToHire": 1,
+          "duration": "WEEK",
+          "durationLabel": "Less than 1 month",
+          "engagement": null,
+          "amount": {
+            "amount": "25.0"
+          },
+          "createdOn": "2025-02-07T09:56:33+0000",
+          "publishedOn": "2025-02-07T09:56:33+0000",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 11,
+          "client": {
+            "totalHires": 4,
+            "totalPostedJobs": 4,
+            "totalSpent": {
+              "rawValue": "210.0",
+              "currency": "USD",
+              "displayValue": "210.0"
+            },
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "India"
+            },
+            "totalReviews": 3,
+            "totalFeedback": 5.0,
+            "companyRid": "0",
+            "edcUserId": "0",
+            "lastContractRid": "0",
+            "companyOrgUid": null,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1738922193000",
+          "skills": [
+            {
+              "id": null,
+              "name": "wordpress",
+              "prettyName": "WordPress",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "woocommerce",
+              "prettyName": "WooCommerce",
+              "highlighted": false
+            }
+          ],
+          "contractorTier": "INTERMEDIATE",
+          "jobStatus": "Open",
+          "relevanceEncoded": "{\"position\":\"5\"}",
+          "totalApplicants": 0,
+          "proposalsTier": "Less than 5",
+          "isLocal": false,
+          "locations": null,
+          "isApplied": false,
+          "attrs": [
+            {
+              "id": "1052162208999198724",
+              "uid": "1052162208999198724",
+              "prettyName": "WordPress",
+              "parentSkillId": null,
+              "prefLabel": "WordPress",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626796331155456",
+              "uid": "1031626796331155456",
+              "prettyName": "WooCommerce",
+              "parentSkillId": null,
+              "prefLabel": "WooCommerce",
+              "highlighted": false,
+              "freeText": null
+            }
+          ],
+          "hourlyBudget": {
+            "type": null,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "clientRelation": null,
+          "totalFreelancersToHire": null,
+          "contractToHire": null
+        },
+        {
+          "id": "1887802359678166344",
+          "uid": "1887802359678166344",
+          "title": "WordPress Website Improvement Specialist Needed",
+          "ciphertext": "~021887802359678166344",
+          "description": "I am seeking a skilled WordPress developer to enhance my existing website. The ideal candidate will possess a keen eye for design and functionality improvements. Tasks may include optimizing site speed, improving SEO, updating themes, and ensuring responsive design across all devices. If you have a proven track record of elevating WordPress sites and can provide creative solutions, I would love to hear from you. Please include examples of previous work in your proposal.",
+          "type": "HOURLY",
+          "recno": "1018140581",
+          "freelancersToHire": 1,
+          "duration": "MONTH",
+          "durationLabel": "1 to 3 months",
+          "engagement": "Less than 30 hrs/week",
+          "amount": {
+            "amount": "0.0"
+          },
+          "createdOn": "2025-02-07T09:55:31+0000",
+          "publishedOn": "2025-02-07T09:55:32+0000",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 11,
+          "client": {
+            "totalHires": 0,
+            "totalPostedJobs": 0,
+            "totalSpent": null,
+            "paymentVerificationStatus": null,
+            "location": {
+              "country": "Netherlands"
+            },
+            "totalReviews": 0,
+            "totalFeedback": 0.0,
+            "companyRid": "0",
+            "edcUserId": "0",
+            "lastContractRid": "0",
+            "companyOrgUid": null,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1738922132000",
+          "skills": [
+            {
+              "id": null,
+              "name": "wordpress",
+              "prettyName": "WordPress",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "web-programming",
+              "prettyName": "Web Development",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "web-design",
+              "prettyName": "Web Design",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "html",
+              "prettyName": "HTML",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "css",
+              "prettyName": "CSS",
+              "highlighted": false
+            }
+          ],
+          "contractorTier": "INTERMEDIATE",
+          "jobStatus": "Open",
+          "relevanceEncoded": "{\"position\":\"6\"}",
+          "totalApplicants": 3,
+          "proposalsTier": "Less than 5",
+          "isLocal": false,
+          "locations": null,
+          "isApplied": false,
+          "attrs": [
+            {
+              "id": "1052162208999198724",
+              "uid": "1052162208999198724",
+              "prettyName": "WordPress",
+              "parentSkillId": null,
+              "prefLabel": "WordPress",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626795211276288",
+              "uid": "1031626795211276288",
+              "prettyName": "Web Development",
+              "parentSkillId": null,
+              "prefLabel": "Web Development",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626795181916160",
+              "uid": "1031626795181916160",
+              "prettyName": "Web Design",
+              "parentSkillId": null,
+              "prefLabel": "Web Design",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626745110315008",
+              "uid": "1031626745110315008",
+              "prettyName": "HTML",
+              "parentSkillId": null,
+              "prefLabel": "HTML",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626728794472448",
+              "uid": "1031626728794472448",
+              "prettyName": "CSS",
+              "parentSkillId": null,
+              "prefLabel": "CSS",
+              "highlighted": false,
+              "freeText": null
+            }
+          ],
+          "hourlyBudget": {
+            "type": "DEFAULT",
+            "min": 15.0,
+            "max": 30.0
+          },
+          "clientRelation": null,
+          "totalFreelancersToHire": null,
+          "contractToHire": null
+        },
+        {
+          "id": "1887802231694199770",
+          "uid": "1887802231694199770",
+          "title": "Shopware to Shopify Data Migration",
+          "ciphertext": "~021887802231694199770",
+          "description": "We are looking for someone who can migrate  shopware user database including past purchases to shopify and also connect the shopify store to the ERP System (Xentral)",
+          "type": "HOURLY",
+          "recno": "1018140576",
+          "freelancersToHire": 1,
+          "duration": "WEEK",
+          "durationLabel": "Less than 1 month",
+          "engagement": "Not sure",
+          "amount": {
+            "amount": "0.0"
+          },
+          "createdOn": "2025-02-07T09:55:00+0000",
+          "publishedOn": "2025-02-07T09:55:00+0000",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 14,
+          "client": {
+            "totalHires": 11,
+            "totalPostedJobs": 4,
+            "totalSpent": {
+              "rawValue": "18339.09",
+              "currency": "USD",
+              "displayValue": "18339.09"
+            },
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "Germany"
+            },
+            "totalReviews": 4,
+            "totalFeedback": 5.0,
+            "companyRid": "0",
+            "edcUserId": "0",
+            "lastContractRid": "0",
+            "companyOrgUid": null,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1738922100000",
+          "skills": [
+            {
+              "id": null,
+              "name": "shopware",
+              "prettyName": "Shopware",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "shopify",
+              "prettyName": "Shopify",
+              "highlighted": false
+            }
+          ],
+          "contractorTier": "INTERMEDIATE",
+          "jobStatus": "Open",
+          "relevanceEncoded": "{\"position\":\"7\"}",
+          "totalApplicants": 5,
+          "proposalsTier": "5 to 10",
+          "isLocal": false,
+          "locations": null,
+          "isApplied": false,
+          "attrs": [
+            {
+              "id": "1031626779608465408",
+              "uid": "1031626779608465408",
+              "prettyName": "Shopware",
+              "parentSkillId": null,
+              "prefLabel": "Shopware",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626779570716672",
+              "uid": "1031626779570716672",
+              "prettyName": "Shopify",
+              "parentSkillId": null,
+              "prefLabel": "Shopify",
+              "highlighted": false,
+              "freeText": null
+            }
+          ],
+          "hourlyBudget": {
+            "type": "MANUAL",
+            "min": 12.0,
+            "max": 60.0
+          },
+          "clientRelation": null,
+          "totalFreelancersToHire": null,
+          "contractToHire": null
+        },
+        {
+          "id": "1887802189913706091",
+          "uid": "1887802189913706091",
+          "title": "Squarespace Developer for LinkedIn Sign-Up Integration & CRM Automation",
+          "ciphertext": "~021887802189913706091",
+          "description": "I am looking for a Squarespace developer to refine my LinkedIn sign-up integration for a seamless, automated onboarding experience.\n\nCurrently, when users sign up via LinkedIn, they are redirected to my Calendly booking page, but their information (full name, email, LinkedIn profile) is not being captured in HubSpot as intended. The transition needs to be smooth and professional, not feel like a spoof site.\n\nYou will ensure this integration is further developed, improve user flow, and ensure all data is captured correctly in HubSpot to build my CRM.\n\nWork & Requirements:\n\n✅ Ensure a seamless LinkedIn login experience—the process should feel smooth, professional, and not redirect users abruptly.\n✅ Fix LinkedIn-to-HubSpot data sync—ensure user details (full name, email, LinkedIn profile) are automatically pushed to HubSpot.\n✅ Refine the user journey—after sign-in, direct users to a clear confirmation or onboarding page before sending them to Calendly.\n✅ Ensure all automations work correctly—HubSpot should be properly integrated with Squarespace and Calendly for a frictionless process.\n✅ Prioritize user experience & security—the system should feel intuitive, polished, and reliable.\n\nWhat to Include in Your Proposal:\n\n\uD83D\uDCCC Your plan of action – A step-by-step breakdown of how you will complete the integration and fix the broken workflows.\n\uD83D\uDCCC Estimated timeline – How long will it take to develop, test, and launch?\n\uD83D\uDCCC Tools & integrations required – Will there be third-party services, APIs, or additional costs?\n\uD83D\uDCCC Previous experience – Share examples of similar Squarespace or API integration projects.\n\nI am streamlining my business automation, onboarding, and CRM workflows—so I need a go-to developer for future projects. If this project goes well, there will be ongoing work to refine and expand integrations.\n\nIf you specialize in creating seamless, automated user experiences with Squarespace and LinkedIn API, I want to hear from you!",
+          "type": "HOURLY",
+          "recno": "1018140572",
+          "freelancersToHire": 1,
+          "duration": "ONGOING",
+          "durationLabel": "More than 6 months",
+          "engagement": "30+ hrs/week",
+          "amount": {
+            "amount": "0.0"
+          },
+          "createdOn": "2025-02-07T09:54:50+0000",
+          "publishedOn": "2025-02-07T09:54:50+0000",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 21,
+          "client": {
+            "totalHires": 45,
+            "totalPostedJobs": 27,
+            "totalSpent": {
+              "rawValue": "9257.08",
+              "currency": "USD",
+              "displayValue": "9257.08"
+            },
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "United States"
+            },
+            "totalReviews": 34,
+            "totalFeedback": 4.82,
+            "companyRid": "0",
+            "edcUserId": "0",
+            "lastContractRid": "0",
+            "companyOrgUid": null,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1738922090000",
+          "skills": [
+            {
+              "id": null,
+              "name": "api",
+              "prettyName": "API",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "crm",
+              "prettyName": "Customer Relationship Management",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "api-integration",
+              "prettyName": "API Integration",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "automation",
+              "prettyName": "Automation",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "zapier",
+              "prettyName": "Zapier",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "squarespace",
+              "prettyName": "Squarespace",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "web-programming",
+              "prettyName": "Web Development",
+              "highlighted": false
+            }
+          ],
+          "contractorTier": "EXPERT",
+          "jobStatus": "Open",
+          "relevanceEncoded": "{\"position\":\"8\"}",
+          "totalApplicants": 1,
+          "proposalsTier": "Less than 5",
+          "isLocal": false,
+          "locations": null,
+          "isApplied": false,
+          "attrs": [
+            {
+              "id": "1110580482322976768",
+              "uid": "1110580482322976768",
+              "prettyName": "API",
+              "parentSkillId": null,
+              "prefLabel": "API",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626728555397120",
+              "uid": "1031626728555397120",
+              "prettyName": "Customer Relationship Management",
+              "parentSkillId": null,
+              "prefLabel": "Customer Relationship Management",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1110580482566246400",
+              "uid": "1110580482566246400",
+              "prettyName": "API Integration",
+              "parentSkillId": null,
+              "prefLabel": "API Integration",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626717876699136",
+              "uid": "1031626717876699136",
+              "prettyName": "Automation",
+              "parentSkillId": null,
+              "prefLabel": "Automation",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626797853687808",
+              "uid": "1031626797853687808",
+              "prettyName": "Zapier",
+              "parentSkillId": null,
+              "prefLabel": "Zapier",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1052162208999198727",
+              "uid": "1052162208999198727",
+              "prettyName": "Squarespace",
+              "parentSkillId": null,
+              "prefLabel": "Squarespace",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626795211276288",
+              "uid": "1031626795211276288",
+              "prettyName": "Web Development",
+              "parentSkillId": null,
+              "prefLabel": "Web Development",
+              "highlighted": false,
+              "freeText": null
+            }
+          ],
+          "hourlyBudget": {
+            "type": "NOT_PROVIDED",
+            "min": 0.0,
+            "max": 0.0
+          },
+          "clientRelation": null,
+          "totalFreelancersToHire": null,
+          "contractToHire": null
+        },
+        {
+          "id": "1887802039388052805",
+          "uid": "1887802039388052805",
+          "title": "Looking for web designers to update my website in Squarespace",
+          "ciphertext": "~021887802039388052805",
+          "description": "Hi, I have a website that needs to be updated on Squarespace. The inages currently on there cannot be zoom out and I would love to be able to zoom out.\n\nI want someone who is familiar with Squarespace platform.",
+          "type": "HOURLY",
+          "recno": "1018140561",
+          "freelancersToHire": 1,
+          "duration": "WEEK",
+          "durationLabel": "Less than 1 month",
+          "engagement": "Less than 30 hrs/week",
+          "amount": {
+            "amount": "0.0"
+          },
+          "createdOn": "2025-02-07T09:54:14+0000",
+          "publishedOn": "2025-02-07T09:54:15+0000",
+          "renewedOn": null,
+          "prefFreelancerLocation": ["Tanzania"],
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 8,
+          "client": {
+            "totalHires": 0,
+            "totalPostedJobs": 0,
+            "totalSpent": null,
+            "paymentVerificationStatus": null,
+            "location": {
+              "country": "Tanzania"
+            },
+            "totalReviews": 0,
+            "totalFeedback": 0.0,
+            "companyRid": "0",
+            "edcUserId": "0",
+            "lastContractRid": "0",
+            "companyOrgUid": null,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1738922055000",
+          "skills": [
+            {
+              "id": null,
+              "name": "mobile-app-design",
+              "prettyName": "Mobile App Design",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "desktop-application-testing",
+              "prettyName": "Desktop Application Testing",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "web-design",
+              "prettyName": "Web Design",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "digital-marketing",
+              "prettyName": "Digital Marketing",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "seo-audit",
+              "prettyName": "SEO Audit",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "e-commerce-website",
+              "prettyName": "Ecommerce Website",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "unix-shell",
+              "prettyName": "Unix Shell",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "mobile-game-development",
+              "prettyName": "Mobile Game Development",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "animation",
+              "prettyName": "Animation",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "graphic-design",
+              "prettyName": "Graphic Design",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "php",
+              "prettyName": "PHP",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "flutter",
+              "prettyName": "Flutter",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "java",
+              "prettyName": "Java",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "c#",
+              "prettyName": "C#",
+              "highlighted": false
+            },
+            {
+              "id": null,
+              "name": "javascript",
+              "prettyName": "JavaScript",
+              "highlighted": false
+            }
+          ],
+          "contractorTier": "INTERMEDIATE",
+          "jobStatus": "Open",
+          "relevanceEncoded": "{\"position\":\"9\"}",
+          "totalApplicants": 0,
+          "proposalsTier": "Less than 5",
+          "isLocal": false,
+          "locations": null,
+          "isApplied": false,
+          "attrs": [
+            {
+              "id": "1110580633431166976",
+              "uid": "1110580633431166976",
+              "prettyName": "Mobile App Design",
+              "parentSkillId": null,
+              "prefLabel": "Mobile App Design",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1225465937601466368",
+              "uid": "1225465937601466368",
+              "prettyName": "Desktop Application Testing",
+              "parentSkillId": null,
+              "prefLabel": "Desktop Application Testing",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626795181916160",
+              "uid": "1031626795181916160",
+              "prettyName": "Web Design",
+              "parentSkillId": null,
+              "prefLabel": "Web Design",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626731843731456",
+              "uid": "1031626731843731456",
+              "prettyName": "Digital Marketing",
+              "parentSkillId": null,
+              "prefLabel": "Digital Marketing",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626778861879296",
+              "uid": "1031626778861879296",
+              "prettyName": "SEO Audit",
+              "parentSkillId": null,
+              "prefLabel": "SEO Audit",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1110580555693936640",
+              "uid": "1110580555693936640",
+              "prettyName": "Ecommerce Website",
+              "parentSkillId": null,
+              "prefLabel": "Ecommerce Website",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626792162017280",
+              "uid": "1031626792162017280",
+              "prettyName": "Unix Shell",
+              "parentSkillId": null,
+              "prefLabel": "Unix Shell",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1577360225775202304",
+              "uid": "1577360225775202304",
+              "prettyName": "Mobile Game Development",
+              "parentSkillId": null,
+              "prefLabel": "Mobile Game Development",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1052162208776900617",
+              "uid": "1052162208776900617",
+              "prettyName": "Animation",
+              "parentSkillId": null,
+              "prefLabel": "Animation",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "1031626742929276928",
+              "uid": "1031626742929276928",
+              "prettyName": "Graphic Design",
+              "parentSkillId": null,
+              "prefLabel": "Graphic Design",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "996364628025274385",
+              "uid": "996364628025274385",
+              "prettyName": "PHP",
+              "parentSkillId": null,
+              "prefLabel": "PHP",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "996364628016885773",
+              "uid": "996364628016885773",
+              "prettyName": "Flutter",
+              "parentSkillId": null,
+              "prefLabel": "Flutter",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "996364628025274382",
+              "uid": "996364628025274382",
+              "prettyName": "Java",
+              "parentSkillId": null,
+              "prefLabel": "Java",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "996364628025274380",
+              "uid": "996364628025274380",
+              "prettyName": "C#",
+              "parentSkillId": null,
+              "prefLabel": "C#",
+              "highlighted": false,
+              "freeText": null
+            },
+            {
+              "id": "996364628025274383",
+              "uid": "996364628025274383",
+              "prettyName": "JavaScript",
+              "parentSkillId": null,
+              "prefLabel": "JavaScript",
+              "highlighted": false,
+              "freeText": null
+            }
+          ],
+          "hourlyBudget": {
+            "type": "NOT_PROVIDED",
+            "min": 0.0,
+            "max": 0.0
+          },
+          "clientRelation": null,
+          "totalFreelancersToHire": null,
+          "contractToHire": null
+        }
+      ],
+      "paging": {
+        "total": 41362,
+        "count": 10,
+        "resultSetTs": "0"
+      }
+    }
+  }
+}

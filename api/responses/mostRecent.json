@@ -1,0 +1,854 @@
+{
+  "data": {
+    "mostRecentJobsFeed": {
+      "results": [
+        {
+          "id": "1780321800496017408",
+          "uid": "1780321800496017408",
+          "title": "Front-end Developer for Responsive Website Design",
+          "ciphertext": "~015924fb188831a505",
+          "description": "We are seeking a highly skilled front-end developer to join our team and contribute to the development of our website. The core functionality of the website is already in place, and we are now looking for someone to help us enhance its responsiveness, visual appeal, and overall efficiency using React.\n\nThe ideal candidate should have a solid background in front-end development and possess a strong familiarity with React. Key responsibilities will include implementing new features, optimizing existing code, and ensuring seamless compatibility across multiple browsers.\n\nThe estimated duration of the project is expected to range from 1 to 2 months, depending on the complexity of the outstanding tasks. If you are an intermediate or expert-level front-end developer with a commanding proficiency in React, we would be thrilled to hear from you.",
+          "type": 1,
+          "recno": "1012681873",
+          "freelancersToHire": 1,
+          "duration": "1 to 3 months",
+          "engagement": null,
+          "amount": {
+            "amount": 120.0
+          },
+          "createdOn": "2024-04-16T19:46:08.870Z",
+          "publishedOn": "2024-04-16T19:46:09.473Z",
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 10,
+          "client": {
+            "totalHires": 0,
+            "totalSpent": 0.0,
+            "paymentVerificationStatus": 2,
+            "location": {
+              "country": "Ethiopia"
+            },
+            "totalReviews": 0,
+            "totalFeedback": 0.0,
+            "hasFinancialPrivacy": false
+          },
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "Less than 5",
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1713296779227",
+          "attrs": [
+            {
+              "id": "1031626745118703616",
+              "uid": "1031626745118703616",
+              "prettyName": "HTML5",
+              "prefLabel": "HTML5"
+            },
+            {
+              "id": "1031626795181916160",
+              "uid": "1031626795181916160",
+              "prettyName": "Web Design",
+              "prefLabel": "Web Design"
+            },
+            {
+              "id": "1031626728807055360",
+              "uid": "1031626728807055360",
+              "prettyName": "CSS 3",
+              "prefLabel": "CSS 3"
+            },
+            {
+              "id": "996364628025274383",
+              "uid": "996364628025274383",
+              "prettyName": "JavaScript",
+              "prefLabel": "JavaScript"
+            },
+            {
+              "id": "1031626773660942336",
+              "uid": "1031626773660942336",
+              "prettyName": "React",
+              "prefLabel": "React"
+            },
+            {
+              "id": "996364628012691466",
+              "uid": "996364628012691466",
+              "prettyName": "React Native",
+              "prefLabel": "React Native"
+            },
+            {
+              "id": "1031626720951123968",
+              "uid": "1031626720951123968",
+              "prettyName": "Bootstrap",
+              "prefLabel": "Bootstrap"
+            },
+            {
+              "id": "1110580482322976768",
+              "uid": "1110580482322976768",
+              "prettyName": "API",
+              "prefLabel": "API"
+            },
+            {
+              "id": "1052162209007587329",
+              "uid": "1052162209007587329",
+              "prettyName": "Responsive Design",
+              "prefLabel": "Responsive Design"
+            },
+            {
+              "id": "1031626795211276288",
+              "uid": "1031626795211276288",
+              "prettyName": "Web Development",
+              "prefLabel": "Web Development"
+            }
+          ],
+          "hourlyBudget": {
+            "type": null,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "isApplied": false
+        },
+        {
+          "id": "1780321429817151488",
+          "uid": "1780321429817151488",
+          "title": "Senior Python & AWS Developer",
+          "ciphertext": "~01fbeea5356279c49d",
+          "description": "Looking for an expert-level Python/AWS developer. Only solo developers!\n\nAvailable to work full-time during US business hours.",
+          "type": 2,
+          "recno": "1012681838",
+          "freelancersToHire": 1,
+          "duration": "1 to 3 months",
+          "engagement": "30+ hrs/week",
+          "amount": {
+            "amount": 0.0
+          },
+          "createdOn": "2024-04-16T19:44:40.748Z",
+          "publishedOn": "2024-04-16T19:44:40.975Z",
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 22,
+          "client": {
+            "totalHires": 30,
+            "totalSpent": 12299.12,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "United States"
+            },
+            "totalReviews": 15,
+            "totalFeedback": 4.358823001,
+            "hasFinancialPrivacy": false
+          },
+          "tierText": "Expert",
+          "tier": "Expert",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "15 to 20",
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1713296686436",
+          "attrs": [
+            {
+              "id": "996364628012691471",
+              "uid": "996364628012691471",
+              "prettyName": "Amazon Web Services",
+              "prefLabel": "Amazon Web Services"
+            },
+            {
+              "id": "996364628025274386",
+              "uid": "996364628025274386",
+              "prettyName": "Python",
+              "prefLabel": "Python"
+            },
+            {
+              "id": "1110580482322976768",
+              "uid": "1110580482322976768",
+              "prettyName": "API",
+              "prefLabel": "API"
+            }
+          ],
+          "hourlyBudget": {
+            "type": "Manual",
+            "min": 15.0,
+            "max": 40.0
+          },
+          "isApplied": false
+        },
+        {
+          "id": "1780319692717150208",
+          "uid": "1780319692717150208",
+          "title": "Looking for a full stacked php laravel developer ",
+          "ciphertext": "~01f0cedf3ffd3b2679",
+          "description": "I have several tasks that I need to get done \n\nI am looking for someone who can work daily with me 8-10 hours and finish up all tasks. \n\n\nThanks ",
+          "type": 2,
+          "recno": "1012681691",
+          "freelancersToHire": 1,
+          "duration": "1 to 3 months",
+          "engagement": "30+ hrs/week",
+          "amount": {
+            "amount": 0.0
+          },
+          "createdOn": "2024-04-16T19:37:46.580Z",
+          "publishedOn": "2024-04-16T19:37:46.840Z",
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 21,
+          "client": {
+            "totalHires": 50,
+            "totalSpent": 1838.3,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "Pakistan"
+            },
+            "totalReviews": 24,
+            "totalFeedback": 4.83751556,
+            "hasFinancialPrivacy": false
+          },
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "Less than 5",
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1713296283079",
+          "attrs": [
+            {
+              "id": "996364628025274385",
+              "uid": "996364628025274385",
+              "prettyName": "PHP",
+              "prefLabel": "PHP"
+            },
+            {
+              "id": "1110580538178523136",
+              "uid": "1110580538178523136",
+              "prettyName": "Custom PHP",
+              "prefLabel": "Custom PHP"
+            },
+            {
+              "id": "996364628025274383",
+              "uid": "996364628025274383",
+              "prettyName": "JavaScript",
+              "prefLabel": "JavaScript"
+            },
+            {
+              "id": "1031626753368899584",
+              "uid": "1031626753368899584",
+              "prettyName": "Laravel",
+              "prefLabel": "Laravel"
+            }
+          ],
+          "hourlyBudget": {
+            "type": "NotProvided",
+            "min": 0.0,
+            "max": 0.0
+          },
+          "isApplied": false
+        },
+        {
+          "id": "1780319275646476288",
+          "uid": "1780319275646476288",
+          "title": "Github Action - Call Databricks Jobs REST API From Bash Script",
+          "ciphertext": "~01420c0369e49f668a",
+          "description": "Hi!\n\nI need a Github Action that calls a Bash script that calls this REST API to trigger a databricks job: https://docs.databricks.com/api/workspace/jobs/runnow. Trigger for Github Action is \"pull-request\".\n\nI need you to write the Github Action workflow yml and the bash script, using your own test account. Then I will modify the script to work on my account. I would like a short call to answer any questions I have in running the workflow in my account.\n\nIf this project goes well, there is an opportunity for long-term ongoing CI/CD work.\n\nThanks!",
+          "type": 1,
+          "recno": "1012681664",
+          "freelancersToHire": 1,
+          "duration": "Less than 1 month",
+          "engagement": null,
+          "amount": {
+            "amount": 50.0
+          },
+          "createdOn": "2024-04-16T19:36:07.097Z",
+          "publishedOn": "2024-04-16T19:36:07.390Z",
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 11,
+          "client": {
+            "totalHires": 3,
+            "totalSpent": 360.5,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "United States"
+            },
+            "totalReviews": 1,
+            "totalFeedback": 5.0,
+            "hasFinancialPrivacy": false
+          },
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "Less than 5",
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1713296220984",
+          "attrs": [
+            {
+              "id": "1031626741322858496",
+              "uid": "1031626741322858496",
+              "prettyName": "GitHub",
+              "prefLabel": "GitHub"
+            },
+            {
+              "id": "1691099312962416640",
+              "uid": "1691099312962416640",
+              "prettyName": "REST API",
+              "prefLabel": "REST API"
+            },
+            {
+              "id": "1110580518297522176",
+              "uid": "1110580518297522176",
+              "prettyName": "CI/CD",
+              "prefLabel": "CI/CD"
+            },
+            {
+              "id": "free_text",
+              "uid": "free_text",
+              "prettyName": "Github Actions",
+              "prefLabel": "Github Actions"
+            },
+            {
+              "id": "1031626718942052352",
+              "uid": "1031626718942052352",
+              "prettyName": "Bash",
+              "prefLabel": "Bash"
+            },
+            {
+              "id": "1031626718958829568",
+              "uid": "1031626718958829568",
+              "prettyName": "Bash Programming",
+              "prefLabel": "Bash Programming"
+            },
+            {
+              "id": "1253342872854999040",
+              "uid": "1253342872854999040",
+              "prettyName": "Databricks Platform",
+              "prefLabel": "Databricks Platform"
+            },
+            {
+              "id": "1110580482322976768",
+              "uid": "1110580482322976768",
+              "prettyName": "API",
+              "prefLabel": "API"
+            },
+            {
+              "id": "1031626778232733696",
+              "uid": "1031626778232733696",
+              "prettyName": "Scripting",
+              "prefLabel": "Scripting"
+            }
+          ],
+          "hourlyBudget": {
+            "type": null,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "isApplied": false
+        },
+        {
+          "id": "1780318968814325760",
+          "uid": "1780318968814325760",
+          "title": "Application Developer",
+          "ciphertext": "~01ea101d398d70fa10",
+          "description": "We are seeking a talented and motivated Application Developer to join our team. The ideal candidate will be responsible for designing, developing, and maintaining high-quality software applications that meet our clients' needs. You will work closely with our project managers and other team members to deliver innovative solutions that enhance user experience and drive business growth.\n\nResponsibilities:\n\nCollaborate with project managers and stakeholders to understand project requirements and objectives.\nDesign and develop software applications according to specifications.\nWrite clean, efficient, and maintainable code using best practices.\nConduct thorough testing to ensure the reliability and functionality of applications.\nTroubleshoot and debug issues to optimize performance and user experience.\nStay up-to-date with emerging technologies and industry trends to continuously improve skills and contribute innovative ideas.\nProvide technical support and guidance to team members as needed.\nDocument development processes, procedures, and application architecture.\nQualifications:\n\nBachelor's degree in Computer Science, Software Engineering, or related field.\nProven experience as an Application Developer or similar role.\nProficiency in programming languages such as Java, C#, Python, or JavaScript.\nStrong understanding of software development methodologies, frameworks, and tools.\nExperience with database management systems (e.g., MySQL, PostgreSQL, MongoDB).\nFamiliarity with front-end development technologies (e.g., HTML, CSS, React, Angular).\nExcellent problem-solving and analytical skills.\nAbility to work both independently and collaboratively in a fast-paced environment.\nEffective communication skills and the ability to interact professionally with clients and team members.\nAttention to detail and a commitment to delivering high-quality work on time.\nIf you meet the qualifications and are passionate about creating innovative software solutions, we encourage you to apply for this exciting opportunity. Join our team and help us build the next generation of applications that make a difference in people's lives.",
+          "type": 1,
+          "recno": "1012681645",
+          "freelancersToHire": 0,
+          "duration": "3 to 6 months",
+          "engagement": null,
+          "amount": {
+            "amount": 500.0
+          },
+          "createdOn": "2024-04-16T19:34:53.762Z",
+          "publishedOn": "2024-04-16T19:34:54.186Z",
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 10,
+          "client": {
+            "totalHires": 0,
+            "totalSpent": 0.0,
+            "paymentVerificationStatus": 2,
+            "location": {
+              "country": "Pakistan"
+            },
+            "totalReviews": 0,
+            "totalFeedback": 0.0,
+            "hasFinancialPrivacy": false
+          },
+          "tierText": "Expert",
+          "tier": "Expert",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "Less than 5",
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1713296097130",
+          "attrs": [
+            {
+              "id": "1031626756833394688",
+              "uid": "1031626756833394688",
+              "prettyName": "Material UI",
+              "prefLabel": "Material UI"
+            },
+            {
+              "id": "1031626745118703616",
+              "uid": "1031626745118703616",
+              "prettyName": "HTML5",
+              "prefLabel": "HTML5"
+            },
+            {
+              "id": "996364628025274383",
+              "uid": "996364628025274383",
+              "prettyName": "JavaScript",
+              "prefLabel": "JavaScript"
+            },
+            {
+              "id": "996364628012691466",
+              "uid": "996364628012691466",
+              "prettyName": "React Native",
+              "prefLabel": "React Native"
+            },
+            {
+              "id": "1031626728807055360",
+              "uid": "1031626728807055360",
+              "prettyName": "CSS 3",
+              "prefLabel": "CSS 3"
+            },
+            {
+              "id": "996364627995914245",
+              "uid": "996364627995914245",
+              "prettyName": "MongoDB",
+              "prefLabel": "MongoDB"
+            },
+            {
+              "id": "1031626714051493888",
+              "uid": "1031626714051493888",
+              "prettyName": "API Development",
+              "prefLabel": "API Development"
+            },
+            {
+              "id": "1031626773660942336",
+              "uid": "1031626773660942336",
+              "prettyName": "React",
+              "prefLabel": "React"
+            },
+            {
+              "id": "1031626762999021568",
+              "uid": "1031626762999021568",
+              "prettyName": "Node.js",
+              "prefLabel": "Node.js"
+            },
+            {
+              "id": "1031626782364123136",
+              "uid": "1031626782364123136",
+              "prettyName": "SQL",
+              "prefLabel": "SQL"
+            },
+            {
+              "id": "1110580676779298816",
+              "uid": "1110580676779298816",
+              "prettyName": "Redux",
+              "prefLabel": "Redux"
+            },
+            {
+              "id": "1225465955225931776",
+              "uid": "1225465955225931776",
+              "prettyName": "React Bootstrap",
+              "prefLabel": "React Bootstrap"
+            },
+            {
+              "id": "1031626745110315008",
+              "uid": "1031626745110315008",
+              "prettyName": "HTML",
+              "prefLabel": "HTML"
+            },
+            {
+              "id": "1031626762688643072",
+              "uid": "1031626762688643072",
+              "prettyName": "Next.js",
+              "prefLabel": "Next.js"
+            },
+            {
+              "id": "1031626731394940928",
+              "uid": "1031626731394940928",
+              "prettyName": "Desktop Application",
+              "prefLabel": "Desktop Application"
+            }
+          ],
+          "hourlyBudget": {
+            "type": null,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "isApplied": false
+        },
+        {
+          "id": "1780318835166531584",
+          "uid": "1780318835166531584",
+          "title": "Node.js Programmer for Simple Subpage with Rainbowkit and Buy Button",
+          "ciphertext": "~01438876c099ed82ce",
+          "description": "We are looking for a skilled Node.js programmer who can assist us in creating a simple subpage. The subpage should have the ability to add Rainbowkit and a buy button. The ideal candidate will have experience in Node.js development and be able to implement the required functionalities efficiently. This project requires attention to detail and the ability to work independently. If you have previous experience working with Rainbowkit and are comfortable with front-end development, we would love to hear from you.",
+          "type": 2,
+          "recno": "1012681636",
+          "freelancersToHire": 1,
+          "duration": "Less than 1 month",
+          "engagement": "not_sure",
+          "amount": {
+            "amount": 0.0
+          },
+          "createdOn": "2024-04-16T19:34:21.978Z",
+          "publishedOn": "2024-04-16T19:34:22.448Z",
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 9,
+          "client": {
+            "totalHires": 0,
+            "totalSpent": 0.0,
+            "paymentVerificationStatus": 2,
+            "location": {
+              "country": "Spain"
+            },
+            "totalReviews": 0,
+            "totalFeedback": 0.0,
+            "hasFinancialPrivacy": false
+          },
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "Less than 5",
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1713296066182",
+          "attrs": [
+            {
+              "id": "996364628025274383",
+              "uid": "996364628025274383",
+              "prettyName": "JavaScript",
+              "prefLabel": "JavaScript"
+            },
+            {
+              "id": "1031626745110315008",
+              "uid": "1031626745110315008",
+              "prettyName": "HTML",
+              "prefLabel": "HTML"
+            },
+            {
+              "id": "1031626728794472448",
+              "uid": "1031626728794472448",
+              "prettyName": "CSS",
+              "prefLabel": "CSS"
+            },
+            {
+              "id": "1031626762999021568",
+              "uid": "1031626762999021568",
+              "prettyName": "Node.js",
+              "prefLabel": "Node.js"
+            },
+            {
+              "id": "1031626795211276288",
+              "uid": "1031626795211276288",
+              "prettyName": "Web Development",
+              "prefLabel": "Web Development"
+            }
+          ],
+          "hourlyBudget": {
+            "type": "Manual",
+            "min": 3.0,
+            "max": 5.0
+          },
+          "isApplied": false
+        },
+        {
+          "id": "1780318691611865088",
+          "uid": "1780318691611865088",
+          "title": "Nuxt 3 (Single Screen) Website",
+          "ciphertext": "~01da653b9dff92a903",
+          "description": "Hi, I want to create a single screen (website) based on Nuxt 3. The 1-Page website will be just a table of top 10.\n\nThe top-10 will not be a fixed names, but it will be changeable based on a database which it could be (Airtable, Sheets, Notion, or anything we decide together).\n\nWe only have to show the most repeated emails on te (Nuxt 3) website.",
+          "type": 2,
+          "recno": "1012681625",
+          "freelancersToHire": 1,
+          "duration": "Less than 1 month",
+          "engagement": "Less than 30 hrs/week",
+          "amount": {
+            "amount": 0.0
+          },
+          "createdOn": "2024-04-16T19:33:47.746Z",
+          "publishedOn": "2024-04-16T19:33:48.076Z",
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 15,
+          "client": {
+            "totalHires": 75,
+            "totalSpent": 15259.94,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "United Arab Emirates"
+            },
+            "totalReviews": 35,
+            "totalFeedback": 4.954557874,
+            "hasFinancialPrivacy": false
+          },
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "5 to 10",
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1713296035316",
+          "attrs": [
+            {
+              "id": "1031626763535892480",
+              "uid": "1031626763535892480",
+              "prettyName": "Nuxt.js",
+              "prefLabel": "Nuxt.js"
+            },
+            {
+              "id": "1484275089215770624",
+              "uid": "1484275089215770624",
+              "prettyName": "Full-Stack Development",
+              "prefLabel": "Full-Stack Development"
+            },
+            {
+              "id": "1110580482566246400",
+              "uid": "1110580482566246400",
+              "prettyName": "API Integration",
+              "prefLabel": "API Integration"
+            },
+            {
+              "id": "996364628012691471",
+              "uid": "996364628012691471",
+              "prettyName": "Amazon Web Services",
+              "prefLabel": "Amazon Web Services"
+            },
+            {
+              "id": "1031626795211276288",
+              "uid": "1031626795211276288",
+              "prettyName": "Web Development",
+              "prefLabel": "Web Development"
+            },
+            {
+              "id": "1031626794477273088",
+              "uid": "1031626794477273088",
+              "prettyName": "Vue.js",
+              "prefLabel": "Vue.js"
+            },
+            {
+              "id": "1110580474769035264",
+              "uid": "1110580474769035264",
+              "prettyName": "Airtable",
+              "prefLabel": "Airtable"
+            },
+            {
+              "id": "1031626797853687808",
+              "uid": "1031626797853687808",
+              "prettyName": "Zapier",
+              "prefLabel": "Zapier"
+            }
+          ],
+          "hourlyBudget": {
+            "type": "NotProvided",
+            "min": 0.0,
+            "max": 0.0
+          },
+          "isApplied": false
+        },
+        {
+          "id": "1780318492473212928",
+          "uid": "1780318492473212928",
+          "title": "Convert old stock trading game web application",
+          "ciphertext": "~01d81912c2a12aadab",
+          "description": "I would like you to find some open source code and take the game concept black money, a pixel stock trading game, convert it to a game that is crypto coins not stock coins and crypto trading terminology. \n\nhttps://www.youtube.com/watch?v=8Jk5ptnTx9A\n\nThis kind of style. \n\nReply back with experience, what language you would code this in. Preferably PHP Laravel \n\nPreferably thinking about we can achieve this from a onchain perspective. ",
+          "type": 2,
+          "recno": "1012681611",
+          "freelancersToHire": 1,
+          "duration": "Less than 1 month",
+          "engagement": "Less than 30 hrs/week",
+          "amount": {
+            "amount": 0.0
+          },
+          "createdOn": "2024-04-16T19:33:00.224Z",
+          "publishedOn": "2024-04-16T19:33:00.486Z",
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 15,
+          "client": {
+            "totalHires": 327,
+            "totalSpent": 69298.82,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "United States"
+            },
+            "totalReviews": 155,
+            "totalFeedback": 4.769286388,
+            "hasFinancialPrivacy": false
+          },
+          "tierText": "Expert",
+          "tier": "Expert",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "Less than 5",
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1713296840882",
+          "attrs": [
+            {
+              "id": "1031626740463026176",
+              "uid": "1031626740463026176",
+              "prettyName": "Game Development",
+              "prefLabel": "Game Development"
+            }
+          ],
+          "hourlyBudget": {
+            "type": "NotProvided",
+            "min": 0.0,
+            "max": 0.0
+          },
+          "isApplied": false
+        },
+        {
+          "id": "1780317563089182720",
+          "uid": "1780317563089182720",
+          "title": "Freelance Software Engineer - React",
+          "ciphertext": "~01d45c0b29ba4354b0",
+          "description": "Book of the Month is a growing, e-commerce subscription company focused on helping readers discover new books they love while promoting the careers of new and emerging authors. The Engineering team at Book of the Month is responsible for developing and maintaining the platform's web and mobile applications. This team works closely with the Product team to build new features that delight our members. The team is responsible for ensuring the platform's high-quality code, scalability, and reliability.\n\nRole Summary:\n\nAs a Freelance Software Engineer at Book of the Month, your primary responsibility is to design, develop, and maintain features on our web and mobile applications. You will collaborate with cross-functional teams to ensure the software solutions meet the business requirements and provide a seamless user experience for the members.\n\nWhat you will be doing:\n\n-Partner with Product and Design teams to align our consumer facing products with our internal design system.\n-Reconcile components on our app to match our Figma designs.\n-Receive feedback at the end of each day on updates with quick turnaround times. \n\nWhat you should have:\n\n-Excellent written communication skills to effectively communicate complex technical information to non-technical team members and stakeholders.\n-Ability to resolve design feedback in a highly iterative manner.\n-High attention to detail and a commitment to producing high-quality, scalable, maintainable, and reliable code. \n-1+ years of experience delivering high quality production code. \n-Expertise in TypeScript, React, and CSS.\n-Experience with NextJS and React Native preferred.\n",
+          "type": 2,
+          "recno": "1012681545",
+          "freelancersToHire": 1,
+          "duration": "1 to 3 months",
+          "engagement": "Less than 30 hrs/week",
+          "amount": {
+            "amount": 0.0
+          },
+          "createdOn": "2024-04-16T19:29:18.870Z",
+          "publishedOn": "2024-04-16T19:29:20.019Z",
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 20,
+          "client": {
+            "totalHires": 1,
+            "totalSpent": 162.45,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "United States"
+            },
+            "totalReviews": 0,
+            "totalFeedback": 0.0,
+            "hasFinancialPrivacy": false
+          },
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "50+",
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1713295766829",
+          "attrs": [
+            {
+              "id": "1031626773660942336",
+              "uid": "1031626773660942336",
+              "prettyName": "React",
+              "prefLabel": "React"
+            },
+            {
+              "id": "1031626728794472448",
+              "uid": "1031626728794472448",
+              "prettyName": "CSS",
+              "prefLabel": "CSS"
+            },
+            {
+              "id": "996364628025274389",
+              "uid": "996364628025274389",
+              "prettyName": "TypeScript",
+              "prefLabel": "TypeScript"
+            },
+            {
+              "id": "free_text",
+              "uid": "free_text",
+              "prettyName": "NextJS",
+              "prefLabel": "NextJS"
+            },
+            {
+              "id": "996364628012691466",
+              "uid": "996364628012691466",
+              "prettyName": "React Native",
+              "prefLabel": "React Native"
+            }
+          ],
+          "hourlyBudget": {
+            "type": "Manual",
+            "min": 15.0,
+            "max": 30.0
+          },
+          "isApplied": false
+        },
+        {
+          "id": "1780315516082085888",
+          "uid": "1780315516082085888",
+          "title": "User Behavior Tracking in Next.js using Typescript for Analytics dashboard ",
+          "ciphertext": "~01db082fe7aef55905",
+          "description": "detailed user interaction tracking within Next.js application for a analytics dashboard specifically for eCommerce. Will be using Google analytics Admin API, a sample repository as a template to insert the typescript needed for tracking. Pre Built components for the UI. ",
+          "type": 2,
+          "recno": "1012681379",
+          "freelancersToHire": 1,
+          "duration": "1 to 3 months",
+          "engagement": "30+ hrs/week",
+          "amount": {
+            "amount": 0.0
+          },
+          "createdOn": "2024-04-16T19:21:10.600Z",
+          "publishedOn": "2024-04-16T19:38:35.495Z",
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 16,
+          "client": {
+            "totalHires": 0,
+            "totalSpent": 0.0,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "United States"
+            },
+            "totalReviews": 0,
+            "totalFeedback": 0.0,
+            "hasFinancialPrivacy": false
+          },
+          "tierText": "Expert",
+          "tier": "Expert",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "20 to 50",
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTs": "1713296324672",
+          "attrs": [
+            {
+              "id": "996364628025274389",
+              "uid": "996364628025274389",
+              "prettyName": "TypeScript",
+              "prefLabel": "TypeScript"
+            },
+            {
+              "id": "1031626773660942336",
+              "uid": "1031626773660942336",
+              "prettyName": "React",
+              "prefLabel": "React"
+            },
+            {
+              "id": "free_text",
+              "uid": "free_text",
+              "prettyName": "Next JS",
+              "prefLabel": "Next JS"
+            },
+            {
+              "id": "1031626718187077632",
+              "uid": "1031626718187077632",
+              "prettyName": "AWS Application",
+              "prefLabel": "AWS Application"
+            },
+            {
+              "id": "1031626741863923712",
+              "uid": "1031626741863923712",
+              "prettyName": "Google Analytics API",
+              "prefLabel": "Google Analytics API"
+            }
+          ],
+          "hourlyBudget": {
+            "type": "NotProvided",
+            "min": 0.0,
+            "max": 0.0
+          },
+          "isApplied": false
+        }
+      ],
+      "paging": {
+        "total": 6378,
+        "count": 10,
+        "resultSetTs": "1713295270600",
+        "maxTime": "1713296768870"
+      }
+    }
+  }
+}

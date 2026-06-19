@@ -1,0 +1,309 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/MostRecentSchema",
+  "definitions": {
+    "MostRecentSchema": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "data": {
+          "$ref": "#/definitions/Data"
+        }
+      },
+      "required": ["data"],
+      "title": "MostRecentSchema"
+    },
+    "Data": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mostRecentJobsFeed": {
+          "$ref": "#/definitions/MostRecentJobsFeed"
+        }
+      },
+      "required": ["mostRecentJobsFeed"],
+      "title": "Data"
+    },
+    "MostRecentJobsFeed": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "results": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Result"
+          }
+        },
+        "paging": {
+          "$ref": "#/definitions/Paging"
+        }
+      },
+      "required": ["paging", "results"],
+      "title": "MostRecentJobsFeed"
+    },
+    "Paging": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "total": {
+          "type": "integer"
+        },
+        "count": {
+          "type": "integer"
+        },
+        "resultSetTs": {
+          "type": "string"
+        },
+        "maxTime": {
+          "type": "string"
+        }
+      },
+      "required": ["count", "maxTime", "resultSetTs", "total"],
+      "title": "Paging"
+    },
+    "Result": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "uid": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "ciphertext": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "type": {
+          "type": "integer"
+        },
+        "recno": {
+          "type": "string",
+          "format": "integer"
+        },
+        "freelancersToHire": {
+          "type": "integer"
+        },
+        "duration": {
+          "$ref": "#/definitions/Duration"
+        },
+        "engagement": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "amount": {
+          "$ref": "#/definitions/Amount"
+        },
+        "createdOn": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "publishedOn": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "prefFreelancerLocationMandatory": {
+          "type": "boolean"
+        },
+        "connectPrice": {
+          "type": "integer"
+        },
+        "client": {
+          "$ref": "#/definitions/Client"
+        },
+        "tierText": {
+          "$ref": "#/definitions/Tier"
+        },
+        "tier": {
+          "$ref": "#/definitions/Tier"
+        },
+        "tierLabel": {
+          "$ref": "#/definitions/TierLabel"
+        },
+        "proposalsTier": {
+          "type": "string"
+        },
+        "enterpriseJob": {
+          "type": "boolean"
+        },
+        "premium": {
+          "type": "boolean"
+        },
+        "jobTs": {
+          "type": "string"
+        },
+        "attrs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Attr"
+          }
+        },
+        "hourlyBudget": {
+          "$ref": "#/definitions/HourlyBudget"
+        },
+        "isApplied": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "amount",
+        "attrs",
+        "ciphertext",
+        "client",
+        "connectPrice",
+        "createdOn",
+        "description",
+        "duration",
+        "engagement",
+        "enterpriseJob",
+        "freelancersToHire",
+        "hourlyBudget",
+        "id",
+        "isApplied",
+        "jobTs",
+        "prefFreelancerLocationMandatory",
+        "premium",
+        "proposalsTier",
+        "publishedOn",
+        "recno",
+        "tier",
+        "tierLabel",
+        "tierText",
+        "title",
+        "type",
+        "uid"
+      ],
+      "title": "Result"
+    },
+    "Amount": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "amount": {
+          "type": "number"
+        }
+      },
+      "required": ["amount"],
+      "title": "Amount"
+    },
+    "Attr": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "uid": {
+          "type": "string"
+        },
+        "prettyName": {
+          "type": "string"
+        },
+        "prefLabel": {
+          "type": "string"
+        }
+      },
+      "required": ["id", "prefLabel", "prettyName", "uid"],
+      "title": "Attr"
+    },
+    "Client": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "totalHires": {
+          "type": "integer"
+        },
+        "totalSpent": {
+          "type": "number"
+        },
+        "paymentVerificationStatus": {
+          "type": "integer"
+        },
+        "location": {
+          "$ref": "#/definitions/Location"
+        },
+        "totalReviews": {
+          "type": "integer"
+        },
+        "totalFeedback": {
+          "type": "number"
+        },
+        "hasFinancialPrivacy": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "hasFinancialPrivacy",
+        "location",
+        "paymentVerificationStatus",
+        "totalFeedback",
+        "totalHires",
+        "totalReviews",
+        "totalSpent"
+      ],
+      "title": "Client"
+    },
+    "Location": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "country": {
+          "type": "string"
+        }
+      },
+      "required": ["country"],
+      "title": "Location"
+    },
+    "HourlyBudget": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "min": {
+          "type": "number"
+        },
+        "max": {
+          "type": "number"
+        }
+      },
+      "required": ["max", "min", "type"],
+      "title": "HourlyBudget"
+    },
+    "Duration": {
+      "type": "string",
+      "enum": ["1 to 3 months", "Less than 1 month", "3 to 6 months"],
+      "title": "Duration"
+    },
+    "Tier": {
+      "type": "string",
+      "enum": ["Intermediate", "Expert"],
+      "title": "Tier"
+    },
+    "TierLabel": {
+      "type": "string",
+      "enum": ["Experience Level"],
+      "title": "TierLabel"
+    }
+  }
+}

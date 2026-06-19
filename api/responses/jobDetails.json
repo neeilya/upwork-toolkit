@@ -1,0 +1,1222 @@
+{
+  "passed": true,
+  "payload": {
+    "opening": {
+      "occupation": {
+        "uid": "1017484851352698949",
+        "ontologyId": "upworkOccupation:ecommercedevelopment",
+        "type": [1],
+        "prefLabel": "Ecommerce Website Development",
+        "altLabel": null,
+        "narrower": [
+          "upworkOccupation:newecommercesitedevelopment",
+          "upworkOccupation:ecommercepaymentprocessingconfiguration",
+          "upworkOccupation:ecommercethemecustomization",
+          "upworkOccupation:existingecommercesiteupdate"
+        ],
+        "broader": ["upworkOccupation:ecommercedevelopmentsubcategory"],
+        "entityStatus": 3,
+        "narrowerUids": [
+          "1031626808465276928",
+          "1031626803713130496",
+          "1031626803725713408",
+          "1031626804350664704"
+        ],
+        "broaderUids": ["531770282589057026"],
+        "replacedBy": null,
+        "replacedByUid": null,
+        "scopeNote": "eCommerce development involves building, maintaining, and delivering customized and secure eCommerce platforms and solutions.",
+        "splitInto": null,
+        "splitIntoUids": null,
+        "mergedInto": null,
+        "mergedIntoUid": null,
+        "externalLink": ["http:\/\/en.wikipedia.org\/wiki\/E-commerce"],
+        "exactMatch": null,
+        "exactMatchUids": null,
+        "closeMatch": null,
+        "closeMatchUids": null,
+        "relatedMatch": [
+          "upwork:cscart",
+          "upwork:nopcommerce",
+          "upwork:mivamerchant",
+          "upwork:zencart",
+          "upwork:cratejoy",
+          "upwork:opencart",
+          "upwork:shopifyplus",
+          "upwork:vc4inventorymanagementsystem",
+          "upwork:oscommerce",
+          "upwork:lightspeedretail",
+          "upwork:oracleatgwebcommerce",
+          "upwork:auctionsoftware",
+          "upwork:magento",
+          "upwork:three3dcart",
+          "upwork:softwaredevelopment",
+          "upwork:yahoostore",
+          "upwork:apacheofbiz",
+          "upwork:shopifytemplates",
+          "upwork:shipworks",
+          "upwork:paymentgatewayintegration",
+          "upwork:paypalintegration",
+          "upwork:agilesoftwaredevelopment",
+          "upwork:amazonappstore",
+          "upwork:magento2",
+          "upwork:electroniccommerceempower",
+          "upwork:ubercart",
+          "upwork:wpecommerce",
+          "upwork:virtuemart",
+          "upwork:shopifyapps",
+          "upwork:abantecart",
+          "upwork:shopify",
+          "upwork:paymentprocessing",
+          "upwork:one1shoppingcart",
+          "upwork:microsoftcommerceserver",
+          "upwork:marketplacedevelopment",
+          "upwork:psdtowordpress",
+          "upwork:xcart",
+          "upwork:amazonwebstore",
+          "upwork:prestashop",
+          "upwork:ebayapi",
+          "upwork:ecommerceconsulting",
+          "upwork:shopifytheme",
+          "upwork:shopware",
+          "upwork:esmsolutionscontractmanagement",
+          "upwork:ebaywebservices",
+          "upwork:bigcommerce",
+          "upwork:joomshopping",
+          "upwork:woocommerce",
+          "upwork:shopmetrics"
+        ],
+        "relatedMatchUids": [
+          "1031626728744140800",
+          "1031626763103879168",
+          "1031626760037842944",
+          "1031626797916602368",
+          "1031626728324710400",
+          "1031626764550914048",
+          "1110580693728481280",
+          "1031626792703082496",
+          "1031626767000387584",
+          "1031626754300035072",
+          "1031626765532381184",
+          "1031626717050421248",
+          "1052162208999198728",
+          "1031626786424209408",
+          "1225465958237442048",
+          "1031626797543309312",
+          "1031626713661423616",
+          "1031626779600076800",
+          "1031626779524579328",
+          "1031626767910551552",
+          "1031626767960883200",
+          "1031626711035789312",
+          "1031626711824318464",
+          "1031626755600269312",
+          "1031626734398062592",
+          "1031626791637729280",
+          "1031626796662505472",
+          "1031626793642606592",
+          "1110580693703315456",
+          "1031626708020084736",
+          "1031626779570716672",
+          "1031626767918940160",
+          "1031626764244729856",
+          "1031626758385287168",
+          "1110580625612984320",
+          "1031626771593150464",
+          "1031626796956106752",
+          "1031626712356995072",
+          "1031626770490048512",
+          "1031626733601144832",
+          "1031626733781499904",
+          "1110580693770424320",
+          "1031626779608465408",
+          "1031626736121921536",
+          "1031626733643087872",
+          "1031626719420203008",
+          "1110580610815479808",
+          "1031626796331155456",
+          "1110580693795590144"
+        ],
+        "hasDeliverable": null,
+        "p1keyword": null,
+        "p2keyword": null,
+        "p3keyword": null,
+        "p4keyword": null,
+        "p5keyword": null,
+        "relatedSkill": null,
+        "requires": [
+          "kg:30-10212",
+          "upwork:ecommercedevelopmentattributegroup",
+          "upwork:ecommerceplatforms",
+          "upwork:ecommercedevelopmentdeliverables",
+          "upwork:paymentsystems",
+          "upwork:ecommercedevelopmentskills"
+        ],
+        "taxonomyLevel": [3],
+        "seeAlso": null,
+        "hasDeliverableUids": null,
+        "requiresUids": [
+          "1737190624499249157",
+          "1110580555631022080",
+          "1171125442998415360",
+          "1204836453975179264",
+          "1204836470609788928",
+          "1204836453983567872"
+        ],
+        "published": true,
+        "primaryBroader": "upworkOccupation:ecommercedevelopmentsubcategory",
+        "primaryBroaderUid": "531770282589057026",
+        "supply": 0,
+        "demand": 0,
+        "createdTs": "2018-08-20T19:39:31.351Z",
+        "modifiedTs": "2023-12-19T19:18:11.069Z"
+      },
+      "currentUserInfo": {
+        "owner": false,
+        "freelancerInfo": {
+          "qualificationsMatches": {
+            "totalQualifications": 4,
+            "totalMatches": 4,
+            "matches": [
+              {
+                "qualification": 6,
+                "qualified": true,
+                "clientPreferred": "0",
+                "freelancerValue": "0",
+                "freelancerValueLabel": "0%",
+                "clientPreferredLabel": "At least 0%"
+              },
+              {
+                "qualification": 4,
+                "qualified": true,
+                "clientPreferred": "0",
+                "freelancerValue": "3",
+                "freelancerValueLabel": "Fluent",
+                "clientPreferredLabel": "Any"
+              },
+              {
+                "qualification": 2,
+                "qualified": true,
+                "clientPreferred": "0",
+                "freelancerValue": "1211",
+                "freelancerValueLabel": "1211",
+                "clientPreferredLabel": "At least 0 hours"
+              },
+              {
+                "qualification": 10,
+                "qualified": true,
+                "clientPreferred": "Any",
+                "freelancerValue": "en, no, ru",
+                "freelancerValueLabel": "English, Norwegian, Russian",
+                "clientPreferredLabel": null
+              }
+            ]
+          },
+          "applied": null,
+          "hired": null,
+          "contract": null,
+          "profileState": 2,
+          "hourlyRate": {
+            "currencyCode": "USD",
+            "amount": 60
+          },
+          "devProfileCiphertext": "~014da71e0d82dc5cdf",
+          "application": null,
+          "pendingInvite": null
+        }
+      },
+      "qtAllocations": null,
+      "sponsored": null,
+      "clientSuspended": false,
+      "flSuspended": false,
+      "buyer": null,
+      "isPremium": false,
+      "isTopRated": false,
+      "isHipo": false,
+      "job": null,
+      "opening": {
+        "uid": "1913630591331675873",
+        "title": "Shopify Website Audit and Optimization Expert Needed",
+        "description": "We are seeking a Shopify website expert to conduct a comprehensive audit of our online store. Our current website is underperforming, and we need someone to identify issues and implement effective fixes to enhance its functionality and user experience. The ideal candidate will have a proven track record in improving Shopify sites and increasing conversion rates. Strong analytical skills and attention to detail are essential for this role.",
+        "version": 1,
+        "engagementType": 1,
+        "duration": {
+          "uid": "474250516458926082",
+          "rid": 3,
+          "label": "1 to 3 months",
+          "weeks": 9,
+          "ctime": "2014-06-04T17:59:10.123Z",
+          "mtime": "2014-06-04T17:59:10.123Z",
+          "replacedByUid": null
+        },
+        "status": 0,
+        "type": 0,
+        "amount": null,
+        "coverLetterRequired": true,
+        "organizationUid": "1751643762663788545",
+        "companyUid": "1751643762663788545",
+        "access": 0,
+        "contractorTier": 1,
+        "freelancersToHire": 1,
+        "ctime": "2025-04-19T16:27:41.356Z",
+        "mtime": "2025-04-19T16:27:59.649Z",
+        "hidden": false,
+        "categoryUid": "531770282589057026",
+        "groupUid": "531770282580668418",
+        "createdByUid": "1751643762663788544",
+        "ciphertext": "01*2rCsHPGUm7cIr7SH0UclplS3T70GH7OKyhwqWJFSBM=",
+        "endDate": null,
+        "startDate": null,
+        "ghostPost": false,
+        "siteSource": "desktop_rjp",
+        "maxAmount": null,
+        "keepOpenOnHire": false,
+        "draftOpeningUid": "1913629018665070917",
+        "freelancerMilestonesAllowed": false,
+        "createdByFirstName": null,
+        "createdByLastName": null,
+        "companyName": null,
+        "publishTime": "2025-04-19T16:27:41.575Z",
+        "sourcingTime": "2025-04-19T16:27:59.645Z",
+        "sourcingUpdateForbidden": false,
+        "sourcingUpdateCount": 1,
+        "premium": true,
+        "legacyCiphertext": "~021913630591331675873",
+        "hideBudget": false,
+        "notSureFreelancersToHire": false,
+        "notSureProjectDuration": false,
+        "notSureExperienceLevel": false,
+        "notSureLocationPreference": false,
+        "reasonRid": null,
+        "legacyRid": 1019374221,
+        "hourlyBudgetType": 1,
+        "hourlyBudgetMin": 12,
+        "hourlyBudgetMax": 75,
+        "weeklyRetainerBudget": null,
+        "deletedReason": null,
+        "autoReviewStatus": 0,
+        "autoReviewTs": "2025-04-19T16:27:59.737Z",
+        "filledDate": null,
+        "changedByUid": "1751643762663788544",
+        "manualReviewStatus": null,
+        "lastOboAgentUserUID": null,
+        "lastOboAgentActionTs": null,
+        "closeTime": null,
+        "job": {
+          "info": {
+            "type": 2,
+            "title": "Shopify Website Audit and Optimization Expert Needed",
+            "ciphertext": "~021913630591331675873",
+            "access": 4,
+            "recno": null,
+            "createdOn": "2025-04-19T16:27:41.356Z",
+            "isPtcPrivate": false,
+            "uid": "1913630591331675873",
+            "premium": true,
+            "hideBudget": false,
+            "notSureFreelancersToHire": false,
+            "notSureProjectDuration": false,
+            "notSureExperienceLevel": false,
+            "notSureLocationPreference": false
+          },
+          "description": "We are seeking a Shopify website expert to conduct a comprehensive audit of our online store. Our current website is underperforming, and we need someone to identify issues and implement effective fixes to enhance its functionality and user experience. The ideal candidate will have a proven track record in improving Shopify sites and increasing conversion rates. Strong analytical skills and attention to detail are essential for this role.",
+          "status": 1,
+          "postedOn": "2025-04-19T16:27:41.356Z",
+          "startDate": null,
+          "deliveryDate": null,
+          "workload": "Less than 30 hrs\/week",
+          "companyRecno": 1012010995,
+          "duration": "1 to 3 months",
+          "budget": {
+            "currencyCode": "USD",
+            "amount": 0
+          },
+          "visibility": 4,
+          "clientActivity": {
+            "lastBuyerActivity": "2025-04-19T16:27:41.271Z",
+            "numberOfPositionsToHire": 1,
+            "totalApplicants": 7,
+            "totalInvitedToInterview": 0,
+            "totalHired": 0,
+            "unansweredInvites": 0,
+            "invitationsSent": 0
+          },
+          "contractorTier": 2,
+          "segmentationData": [
+            {
+              "name": "Employment",
+              "value": "EMPLOYMENT_POSITION",
+              "label": "Ongoing project",
+              "type": "EMPLOYMENT",
+              "sortOrder": 1,
+              "typeUid": "535792587707281410",
+              "customValue": null,
+              "skill": null
+            }
+          ],
+          "categoryGroup": {
+            "name": "Web, Mobile \u0026 Software Dev",
+            "urlSlug": "web-mobile-software-dev"
+          },
+          "category": {
+            "name": "Ecommerce Development",
+            "urlSlug": "ecommerce-development"
+          },
+          "maxBudget": null,
+          "attachments": null,
+          "openingUid": "1913630591331675873",
+          "sourcingTime": "2025-04-19T16:27:59.645Z",
+          "publishTime": "2025-04-19T16:27:41.575Z",
+          "durationLabel": null,
+          "durationIdV3": null,
+          "extendedBudgetInfo": {
+            "hourlyBudgetType": 1,
+            "hourlyBudgetMin": 12,
+            "hourlyBudgetMax": 75
+          },
+          "engagementDuration": {
+            "uid": "474250516458926082",
+            "rid": 3,
+            "label": "1 to 3 months",
+            "weeks": 9,
+            "ctime": "2014-06-04T17:59:10.123Z",
+            "mtime": "2014-06-04T17:59:10.123Z",
+            "replacedByUid": null
+          },
+          "sandsData": {
+            "occupation": {
+              "uid": "1017484851352698949",
+              "freeText": null,
+              "ontologyId": "upworkOccupation:ecommercedevelopment",
+              "prefLabel": "Ecommerce Website Development"
+            },
+            "ontologySkills": null,
+            "additionalSkills": [
+              {
+                "attributeUid": "1031626778853490688",
+                "attributeGroupUid": null,
+                "freeText": null,
+                "ontologyId": "upwork:seo",
+                "prefLabel": "Search Engine Optimization"
+              },
+              {
+                "attributeUid": "1031626795211276288",
+                "attributeGroupUid": null,
+                "freeText": null,
+                "ontologyId": "upwork:webprogramming",
+                "prefLabel": "Web Development"
+              },
+              {
+                "attributeUid": "1031626778882850816",
+                "attributeGroupUid": null,
+                "freeText": null,
+                "ontologyId": "upwork:seokeywordresearch",
+                "prefLabel": "SEO Keyword Research"
+              },
+              {
+                "attributeUid": "1204836469276000256",
+                "attributeGroupUid": null,
+                "freeText": null,
+                "ontologyId": "upwork:onpageseo",
+                "prefLabel": "On-Page SEO"
+              },
+              {
+                "attributeUid": null,
+                "attributeGroupUid": null,
+                "freeText": "backlinks",
+                "ontologyId": null,
+                "prefLabel": null
+              },
+              {
+                "attributeUid": null,
+                "attributeGroupUid": null,
+                "freeText": "Conversion Tracking",
+                "ontologyId": null,
+                "prefLabel": null
+              },
+              {
+                "attributeUid": null,
+                "attributeGroupUid": null,
+                "freeText": "Landing pages",
+                "ontologyId": null,
+                "prefLabel": null
+              },
+              {
+                "attributeUid": null,
+                "attributeGroupUid": null,
+                "freeText": "shopify expert",
+                "ontologyId": null,
+                "prefLabel": null
+              }
+            ],
+            "occupations": [
+              {
+                "uid": "1017484851352698949",
+                "freeText": null,
+                "ontologyId": "upworkOccupation:ecommercedevelopment",
+                "prefLabel": "Ecommerce Website Development"
+              }
+            ]
+          },
+          "annotations": {
+            "tags": ["premium", "jpgV2Generated", "searchable"],
+            "customFields": {
+              "siteSource": "desktop_rjp",
+              "publishTime": "2025-04-19T16:27:41.575Z",
+              "sourcingUpdateCount": "1",
+              "sourcingUpdateForbidden": "false",
+              "type": "RJP",
+              "sourcingTime": "2025-04-19T16:27:59.645Z",
+              "optInDescriptionAIv2": "yes",
+              "generatedInputsAIv2": "{\u0022title\u0022:\u0022Shopify Website Audit and Optimization Expert Needed\u0022,\u0022skills\u0022:[{\u0022skillUid\u0022:\u00221031626779570716672\u0022},{\u0022skillUid\u0022:\u00221031626778853490688\u0022},{\u0022skillUid\u0022:\u00221031626795211276288\u0022},{\u0022skillUid\u0022:\u00221031626778882850816\u0022},{\u0022skillUid\u0022:\u00221204836469276000256\u0022}],\u0022scope\u0022:{\u0022duration\u0022:\u0022474250516458926082\u0022,\u0022segmentation\u0022:\u0022535795054385852416\u0022,\u0022expertise\u0022:1},\u0022budget\u0022:{}}",
+              "jpgV2Prompt": "Shopify website expert audit and fix website that is not performing ",
+              "browser": "Chrome",
+              "device": "Windows",
+              "retriesAIv2": "1",
+              "startTimeJobPostFlowAIv2": "1745079685395",
+              "flowType": "RJP",
+              "generatedDescriptionHistoryAIV2": "[{\u0022tag\u0022:\u0022AI Prompt\u0022,\u0022timeSpent\u0022:6,\u0022description\u0022:\u0022We are seeking a Shopify website expert to conduct a comprehensive audit of our online store. Our current website is underperforming, and we need someone to identify issues and implement effective fixes to enhance its functionality and user experience. The ideal candidate will have a proven track record in improving Shopify sites and increasing conversion rates. Strong analytical skills and attention to detail are essential for this role.\u0022,\u0022editedDescription\u0022:\u0022We are seeking a Shopify website expert to conduct a comprehensive audit of our online store. Our current website is underperforming, and we need someone to identify issues and implement effective fixes to enhance its functionality and user experience. The ideal candidate will have a proven track record in improving Shopify sites and increasing conversion rates. Strong analytical skills and attention to detail are essential for this role.\u0022,\u0022similarityScore\u0022:1}]"
+            }
+          }
+        }
+      },
+      "qualifications": {
+        "openingUid": "1913630591331675873",
+        "englishSkill": 0,
+        "oDeskHours": null,
+        "testRid": null,
+        "locationRegionRid": null,
+        "freelancerType": null,
+        "ctime": "2025-04-19T16:27:41.273Z",
+        "mtime": "2025-04-19T16:27:41.273Z",
+        "jobSuccessScore": null,
+        "englishProficiency": 0,
+        "risingTalent": null,
+        "countries": null,
+        "locationCheckRequired": false,
+        "regions": null,
+        "states": null,
+        "timezones": null,
+        "earnings": null,
+        "localMarket": true,
+        "onSiteType": null,
+        "locations": null,
+        "localDescription": null,
+        "localFlexibilityDescription": null,
+        "languages": null
+      },
+      "questions": {
+        "questions": []
+      },
+      "segmentationData": {
+        "segmentationData": [
+          {
+            "segmentationValueUid": "535795054385852416",
+            "customValue": null,
+            "ctime": "2025-04-19T16:27:41.273Z",
+            "mtime": "2025-04-19T16:27:41.273Z",
+            "segmentationValue": {
+              "uid": "535795054385852416",
+              "rid": 1868,
+              "type": {
+                "uid": "535792587707281410",
+                "name": "Employment",
+                "ctime": "2014-06-04T18:24:59.000Z",
+                "mtime": "2014-06-04T18:24:59.000Z",
+                "rname": "EMPLOYMENT"
+              },
+              "label": "Ongoing project",
+              "rname": "EMPLOYMENT_POSITION",
+              "skillUid": null,
+              "sortOrder": 1,
+              "ctime": "2014-06-04T18:24:59.000Z",
+              "mtime": "2014-06-04T18:24:59.000Z",
+              "skill": null
+            }
+          }
+        ]
+      },
+      "qualificationsLoaded": true,
+      "questionsLoaded": true,
+      "segmentationDataLoaded": true,
+      "openingExtra": {
+        "uid": "1913630591331675873",
+        "organizationUid": "1751643762663788545",
+        "companyUid": "1751643762663788545",
+        "directHire": false,
+        "invitePost": false,
+        "clientTlv": null
+      },
+      "openingExtraLoaded": true,
+      "attachments": {
+        "attachments": []
+      },
+      "attachmentsLoaded": true,
+      "createdBy": null,
+      "organization": {
+        "uid": "1751643762663788545",
+        "parentUid": null,
+        "legacyId": "mtc1mty0mzc2mjy2mzc4odu0nq",
+        "rid": "1012010995",
+        "legacyParentRid": null,
+        "legacyType": 1,
+        "name": "",
+        "photoUrl": null,
+        "type": 1,
+        "contactRid": null,
+        "creationDate": "2024-01-28T16:29:51.643Z",
+        "active": true,
+        "hidden": false,
+        "description": "",
+        "contact": [],
+        "topLevelOrgUid": "1751643762663788545",
+        "timezoneName": "America\/New_York"
+      },
+      "createdByLoaded": true,
+      "organizationLoaded": true,
+      "ptcInfo": null,
+      "ptcInfoLoaded": true,
+      "category": {
+        "uid": "531770282589057026",
+        "name": "Ecommerce Development",
+        "slug": "sc-ecommerce-development"
+      },
+      "group": {
+        "uid": "531770282580668418",
+        "name": "Web, Mobile \u0026 Software Dev",
+        "categories": null,
+        "slug": null
+      },
+      "categoryLoaded": true,
+      "groupLoaded": true,
+      "sandsJobPost": {
+        "jobPostUid": "1913630591331675873",
+        "occupationUid": "1017484851352698949",
+        "skills": [],
+        "status": 2,
+        "freetextOccupation": null,
+        "tags": null,
+        "additionalSkills": [
+          {
+            "skillUid": "1031626778853490688",
+            "freeText": null,
+            "isLegacyConvertedSkill": false
+          },
+          {
+            "skillUid": "1031626795211276288",
+            "freeText": null,
+            "isLegacyConvertedSkill": false
+          },
+          {
+            "skillUid": "1031626778882850816",
+            "freeText": null,
+            "isLegacyConvertedSkill": false
+          },
+          {
+            "skillUid": "1204836469276000256",
+            "freeText": null,
+            "isLegacyConvertedSkill": false
+          },
+          {
+            "skillUid": null,
+            "freeText": "backlinks",
+            "isLegacyConvertedSkill": false
+          },
+          {
+            "skillUid": null,
+            "freeText": "Conversion Tracking",
+            "isLegacyConvertedSkill": false
+          },
+          {
+            "skillUid": null,
+            "freeText": "Landing pages",
+            "isLegacyConvertedSkill": false
+          },
+          {
+            "skillUid": null,
+            "freeText": "shopify expert",
+            "isLegacyConvertedSkill": false
+          }
+        ]
+      },
+      "sandsJobPostLoaded": true,
+      "annotations": null,
+      "annotationsLoaded": false
+    },
+    "jobDetails": {
+      "context": {
+        "MIN_RATE": 5,
+        "HOURS_PER_WEEK": 40,
+        "MAX_WEEKLY_RATE": 9999,
+        "DEFAULT_MILESTONES_MAX": 1000000,
+        "engagementDurationsList": [
+          {
+            "uid": "474250516458926080",
+            "rid": 1,
+            "label": "More than 6 months",
+            "weeks": 52,
+            "ctime": "2014-06-04T17:59:10.123Z",
+            "mtime": "2014-06-04T17:59:10.123Z",
+            "replacedByUid": null
+          },
+          {
+            "uid": "474250516458926081",
+            "rid": 2,
+            "label": "3 to 6 months",
+            "weeks": 18,
+            "ctime": "2014-06-04T17:59:10.123Z",
+            "mtime": "2014-06-04T17:59:10.123Z",
+            "replacedByUid": null
+          },
+          {
+            "uid": "474250516458926082",
+            "rid": 3,
+            "label": "1 to 3 months",
+            "weeks": 9,
+            "ctime": "2014-06-04T17:59:10.123Z",
+            "mtime": "2014-06-04T17:59:10.123Z",
+            "replacedByUid": null
+          },
+          {
+            "uid": "474250516458926083",
+            "rid": 4,
+            "label": "Less than 1 month",
+            "weeks": 3,
+            "ctime": "2014-06-04T17:59:10.123Z",
+            "mtime": "2014-06-04T17:59:10.123Z",
+            "replacedByUid": null
+          }
+        ],
+        "qt": {
+          "TRTN2800_EducationalAwareness": "",
+          "TRTN970_ProposalTemplates": "",
+          "UPL406TalentProposalConsultant": "Treatment",
+          "TONB3345_ShowHighlightedSectionByPerson": "Treatment"
+        },
+        "ff": {
+          "TRTN2800EducationalAwareness": false,
+          "TRTN970ProposalTemplates": false,
+          "UPL49EnableTalentProposalGeneration": true,
+          "TONB3345ShowHighlightedSection": true
+        },
+        "mode": "ic",
+        "ENTERPRISE_COMPLIANCE_MILESTONES_TOTAL_MAX": 5000000,
+        "ENTERPRISE_COMPLIANCE_MILESTONES_MAX": 250000,
+        "phoneVerificationNeeded": false,
+        "idVerificationNeeded": false,
+        "idvRequiredByOpening": false,
+        "upgradeSubscriptionLink": "\/nx\/plans\/membership\/change-plan?returnUrl=eyJzdWNjZXNzIjoiXC9qb2JzXC9%2BMDIxOTEzNjMwNTkxMzMxNjc1ODczP2Zyb209bXNwbHVzIiwiYmFjayI6Ilwvam9ic1wvfjAyMTkxMzYzMDU5MTMzMTY3NTg3MyIsInVubG9ja0FnZW5jeSI6MSwiam9iT3BlbmluZ3NJZCI6MX0%3D",
+        "isEnterpriseClient": false
+      },
+      "jobDetails": {
+        "opening": {
+          "job": {
+            "info": {
+              "type": 2,
+              "title": "Shopify Website Audit and Optimization Expert Needed",
+              "ciphertext": "~021913630591331675873",
+              "access": 4,
+              "recno": null,
+              "createdOn": "2025-04-19T16:27:41.356Z",
+              "isPtcPrivate": false,
+              "uid": "1913630591331675873",
+              "premium": true,
+              "hideBudget": false,
+              "notSureFreelancersToHire": false,
+              "notSureProjectDuration": false,
+              "notSureExperienceLevel": false,
+              "notSureLocationPreference": false
+            },
+            "description": "We are seeking a Shopify website expert to conduct a comprehensive audit of our online store. Our current website is underperforming, and we need someone to identify issues and implement effective fixes to enhance its functionality and user experience. The ideal candidate will have a proven track record in improving Shopify sites and increasing conversion rates. Strong analytical skills and attention to detail are essential for this role.",
+            "status": 1,
+            "postedOn": "2025-04-19T16:27:41.356Z",
+            "startDate": null,
+            "deliveryDate": null,
+            "workload": "Less than 30 hrs\/week",
+            "companyRecno": 1012010995,
+            "duration": "1 to 3 months",
+            "budget": {
+              "currencyCode": "USD",
+              "amount": 0
+            },
+            "visibility": 4,
+            "clientActivity": {
+              "lastBuyerActivity": "2025-04-19T16:27:41.271Z",
+              "numberOfPositionsToHire": 1,
+              "totalApplicants": 7,
+              "totalInvitedToInterview": 0,
+              "totalHired": 0,
+              "unansweredInvites": 0,
+              "invitationsSent": 0
+            },
+            "contractorTier": 2,
+            "segmentationData": [
+              {
+                "name": "Employment",
+                "value": "EMPLOYMENT_POSITION",
+                "label": "Ongoing project",
+                "type": "EMPLOYMENT",
+                "sortOrder": 1,
+                "typeUid": "535792587707281410",
+                "customValue": null,
+                "skill": null
+              }
+            ],
+            "categoryGroup": {
+              "name": "Web, Mobile \u0026 Software Dev",
+              "urlSlug": "web-mobile-software-dev"
+            },
+            "category": {
+              "name": "Ecommerce Development",
+              "urlSlug": "ecommerce-development"
+            },
+            "maxBudget": null,
+            "attachments": null,
+            "openingUid": "1913630591331675873",
+            "sourcingTime": "2025-04-19T16:27:59.645Z",
+            "publishTime": "2025-04-19T16:27:41.575Z",
+            "durationLabel": null,
+            "durationIdV3": null,
+            "extendedBudgetInfo": {
+              "hourlyBudgetType": 1,
+              "hourlyBudgetMin": 12,
+              "hourlyBudgetMax": 75
+            },
+            "engagementDuration": {
+              "uid": "474250516458926082",
+              "rid": 3,
+              "label": "1 to 3 months",
+              "weeks": 9,
+              "ctime": "2014-06-04T17:59:10.123Z",
+              "mtime": "2014-06-04T17:59:10.123Z",
+              "replacedByUid": null
+            },
+            "sandsData": {
+              "occupation": {
+                "uid": "1017484851352698949",
+                "freeText": null,
+                "ontologyId": "upworkOccupation:ecommercedevelopment",
+                "prefLabel": "Ecommerce Website Development"
+              },
+              "ontologySkills": null,
+              "additionalSkills": [
+                {
+                  "attributeUid": "1031626778853490688",
+                  "attributeGroupUid": null,
+                  "freeText": null,
+                  "ontologyId": "upwork:seo",
+                  "prefLabel": "Search Engine Optimization"
+                },
+                {
+                  "attributeUid": "1031626795211276288",
+                  "attributeGroupUid": null,
+                  "freeText": null,
+                  "ontologyId": "upwork:webprogramming",
+                  "prefLabel": "Web Development"
+                },
+                {
+                  "attributeUid": "1031626778882850816",
+                  "attributeGroupUid": null,
+                  "freeText": null,
+                  "ontologyId": "upwork:seokeywordresearch",
+                  "prefLabel": "SEO Keyword Research"
+                },
+                {
+                  "attributeUid": "1204836469276000256",
+                  "attributeGroupUid": null,
+                  "freeText": null,
+                  "ontologyId": "upwork:onpageseo",
+                  "prefLabel": "On-Page SEO"
+                },
+                {
+                  "attributeUid": null,
+                  "attributeGroupUid": null,
+                  "freeText": "backlinks",
+                  "ontologyId": null,
+                  "prefLabel": null
+                },
+                {
+                  "attributeUid": null,
+                  "attributeGroupUid": null,
+                  "freeText": "Conversion Tracking",
+                  "ontologyId": null,
+                  "prefLabel": null
+                },
+                {
+                  "attributeUid": null,
+                  "attributeGroupUid": null,
+                  "freeText": "Landing pages",
+                  "ontologyId": null,
+                  "prefLabel": null
+                },
+                {
+                  "attributeUid": null,
+                  "attributeGroupUid": null,
+                  "freeText": "shopify expert",
+                  "ontologyId": null,
+                  "prefLabel": null
+                }
+              ],
+              "occupations": [
+                {
+                  "uid": "1017484851352698949",
+                  "freeText": null,
+                  "ontologyId": "upworkOccupation:ecommercedevelopment",
+                  "prefLabel": "Ecommerce Website Development"
+                }
+              ]
+            },
+            "annotations": {
+              "tags": ["premium", "jpgV2Generated", "searchable"],
+              "customFields": {
+                "siteSource": "desktop_rjp",
+                "publishTime": "2025-04-19T16:27:41.575Z",
+                "sourcingUpdateCount": "1",
+                "sourcingUpdateForbidden": "false",
+                "type": "RJP",
+                "sourcingTime": "2025-04-19T16:27:59.645Z",
+                "optInDescriptionAIv2": "yes",
+                "generatedInputsAIv2": "{\u0022title\u0022:\u0022Shopify Website Audit and Optimization Expert Needed\u0022,\u0022skills\u0022:[{\u0022skillUid\u0022:\u00221031626779570716672\u0022},{\u0022skillUid\u0022:\u00221031626778853490688\u0022},{\u0022skillUid\u0022:\u00221031626795211276288\u0022},{\u0022skillUid\u0022:\u00221031626778882850816\u0022},{\u0022skillUid\u0022:\u00221204836469276000256\u0022}],\u0022scope\u0022:{\u0022duration\u0022:\u0022474250516458926082\u0022,\u0022segmentation\u0022:\u0022535795054385852416\u0022,\u0022expertise\u0022:1},\u0022budget\u0022:{}}",
+                "jpgV2Prompt": "Shopify website expert audit and fix website that is not performing ",
+                "browser": "Chrome",
+                "device": "Windows",
+                "retriesAIv2": "1",
+                "startTimeJobPostFlowAIv2": "1745079685395",
+                "flowType": "RJP",
+                "generatedDescriptionHistoryAIV2": "[{\u0022tag\u0022:\u0022AI Prompt\u0022,\u0022timeSpent\u0022:6,\u0022description\u0022:\u0022We are seeking a Shopify website expert to conduct a comprehensive audit of our online store. Our current website is underperforming, and we need someone to identify issues and implement effective fixes to enhance its functionality and user experience. The ideal candidate will have a proven track record in improving Shopify sites and increasing conversion rates. Strong analytical skills and attention to detail are essential for this role.\u0022,\u0022editedDescription\u0022:\u0022We are seeking a Shopify website expert to conduct a comprehensive audit of our online store. Our current website is underperforming, and we need someone to identify issues and implement effective fixes to enhance its functionality and user experience. The ideal candidate will have a proven track record in improving Shopify sites and increasing conversion rates. Strong analytical skills and attention to detail are essential for this role.\u0022,\u0022similarityScore\u0022:1}]"
+              }
+            }
+          },
+          "qualifications": {
+            "type": 0,
+            "location": null,
+            "minOdeskHours": 0,
+            "groupRecno": null,
+            "shouldHavePortfolio": false,
+            "tests": null,
+            "minHoursWeek": 30,
+            "group": null,
+            "prefEnglishSkill": 0,
+            "minJobSuccessScore": 0,
+            "risingTalent": false,
+            "locationCheckRequired": false,
+            "countries": null,
+            "regions": null,
+            "states": null,
+            "timezones": null,
+            "localMarket": true,
+            "onSiteType": null,
+            "locations": null,
+            "localDescription": null,
+            "localFlexibilityDescription": null,
+            "earnings": null,
+            "languages": null
+          },
+          "questions": [],
+          "isJobClosedByCss": null
+        },
+        "buyer": {
+          "info": {
+            "company": {
+              "name": "Send Smiles Inc",
+              "id": "mtc1mty0mzc2mjy2mzc4odu0nq",
+              "description": null,
+              "summary": null,
+              "url": "http:\/\/SendSmiles.com",
+              "isCompanyVisibleInProfile": false,
+              "contractDate": "2024-01-28T00:00:00.000Z",
+              "isEDCReplicated": false,
+              "companyRid": null,
+              "companyUid": "1751643762663788545",
+              "profile": {
+                "size": "2",
+                "industry": "",
+                "visible": true,
+                "l3Occupations": []
+              }
+            },
+            "location": {
+              "country": "United States",
+              "city": null,
+              "state": null,
+              "countryTimezone": "America\/New_York (UTC-04:00)",
+              "worldRegion": null,
+              "offsetFromUtcMillis": -14400000
+            },
+            "jobs": {
+              "postedCount": 7,
+              "filledCount": 1,
+              "openCount": 1,
+              "openJobs": []
+            },
+            "stats": {
+              "feedbackCount": 1,
+              "hoursCount": 378,
+              "totalCharges": {
+                "currencyCode": "USD",
+                "amount": 12840.9
+              },
+              "totalAssignments": 2,
+              "activeAssignmentsCount": 1,
+              "score": 5,
+              "totalJobsWithHires": 2
+            },
+            "logo": null,
+            "avgHourlyJobsRate": {
+              "currencyCode": "USD",
+              "amount": 32.32804232804233
+            }
+          },
+          "workHistory": [
+            {
+              "jobInfo": {
+                "type": 2,
+                "title": "Shopify Ecommerce Based Google Ads PMAX \u0026 SEO CRO",
+                "ciphertext": null,
+                "access": 2,
+                "recno": null,
+                "uid": null
+              },
+              "startDate": "2024-04-24T13:05:52.682Z",
+              "endDate": null,
+              "status": null,
+              "contractorInfo": {
+                "contractorName": "Shehroz T.",
+                "ciphertext": "~0163eb7148157779a9",
+                "accessType": 4
+              },
+              "totalHours": 320.166669,
+              "feedback": null,
+              "feedbackToClient": null,
+              "totalCharge": 10538.55,
+              "rate": {
+                "currencyCode": "USD",
+                "amount": 36
+              },
+              "isEDCReplicated": false,
+              "isPtcJob": false,
+              "isPtcPrivate": false
+            },
+            {
+              "jobInfo": {
+                "type": 2,
+                "title": "Expert Google Adwords tracking GA4 \u0026 Shopify Website Expert \/ Google Adwords Audit Increase ROI",
+                "ciphertext": "~01973bc2a05b9ac1d6",
+                "access": 4,
+                "recno": null,
+                "uid": "1779164128035164160"
+              },
+              "startDate": "2024-04-14T17:09:26.000Z",
+              "endDate": "2024-04-24T13:12:19.000Z",
+              "status": 3,
+              "contractorInfo": {
+                "contractorName": "Shehroz T.",
+                "ciphertext": "~0163eb7148157779a9",
+                "accessType": 4
+              },
+              "totalHours": 57.833334,
+              "feedback": null,
+              "feedbackToClient": {
+                "comment": "Great experience and collaborative!",
+                "score": 5,
+                "commentAccess": 1,
+                "response_for_client_feedback": null,
+                "response_for_freelancer_feedback": null,
+                "feedback_suppressed": 0
+              },
+              "totalCharge": 567.75,
+              "rate": {
+                "currencyCode": "USD",
+                "amount": 12
+              },
+              "isEDCReplicated": false,
+              "isPtcJob": false,
+              "isPtcPrivate": false
+            }
+          ],
+          "cssTier": 0,
+          "isPaymentMethodVerified": true,
+          "isEnterprise": null
+        },
+        "similarJobs": [],
+        "currentUserInfo": {
+          "owner": false,
+          "freelancerInfo": {
+            "qualificationsMatches": {
+              "totalQualifications": 4,
+              "totalMatches": 4,
+              "matches": [
+                {
+                  "qualification": 6,
+                  "qualified": true,
+                  "clientPreferred": "0",
+                  "freelancerValue": "0",
+                  "freelancerValueLabel": "0%",
+                  "clientPreferredLabel": "At least 0%"
+                },
+                {
+                  "qualification": 4,
+                  "qualified": true,
+                  "clientPreferred": "0",
+                  "freelancerValue": "3",
+                  "freelancerValueLabel": "Fluent",
+                  "clientPreferredLabel": "Any"
+                },
+                {
+                  "qualification": 2,
+                  "qualified": true,
+                  "clientPreferred": "0",
+                  "freelancerValue": "1211",
+                  "freelancerValueLabel": "1211",
+                  "clientPreferredLabel": "At least 0 hours"
+                },
+                {
+                  "qualification": 10,
+                  "qualified": true,
+                  "clientPreferred": "Any",
+                  "freelancerValue": "en, no, ru",
+                  "freelancerValueLabel": "English, Norwegian, Russian",
+                  "clientPreferredLabel": null
+                }
+              ]
+            },
+            "applied": null,
+            "hired": null,
+            "contract": null,
+            "profileState": 2,
+            "hourlyRate": {
+              "currencyCode": "USD",
+              "amount": 60
+            },
+            "devProfileCiphertext": "~014da71e0d82dc5cdf",
+            "application": null,
+            "pendingInvite": null
+          }
+        },
+        "diagnosticInfo": {
+          "failedServiceCalls": null
+        }
+      }
+    },
+    "teams": {
+      "combined": [
+        {
+          "name": "SmartDevs.io",
+          "contractors": [
+            {
+              "uid": "851737222671831040",
+              "person": {
+                "uid": "617270918456348672",
+                "legacyId": "ilya_kgz",
+                "rid": "8131345",
+                "personName": {
+                  "lastName": "Nee",
+                  "firstName": "Ilya"
+                },
+                "photoUrl": "https:\/\/www.upwork.com\/profile-portraits\/c1cTnxZGd_wV_CQmyjN0dLpQAvAFKxLYNVqVQZeHpIQB_JmyUsArM-A8IpSv5O6DFj",
+                "creationDate": "2015-07-04T09:57:09.530Z",
+                "isProvider": null,
+                "updatedOn": "2022-09-17T12:41:12.939Z",
+                "active": true,
+                "dateOfBirth": null
+              },
+              "organization": {
+                "name": "SmartDevs.io",
+                "uid": "851737221959749632",
+                "parentUid": null,
+                "legacyId": "bh-2h6sij-mm6hrwiirevg",
+                "rid": "3938130",
+                "legacyParentRid": null,
+                "legacyType": 2,
+                "photoUrl": "https:\/\/assets.static-upwork.com\/org-logo\/851737221959749632",
+                "type": 1,
+                "contactRid": null,
+                "active": true,
+                "hidden": false,
+                "description": null,
+                "topLevelOrgUid": "851737221959749632",
+                "timezoneName": "Europe\/Berlin"
+              },
+              "activationStatus": 1,
+              "owner": false,
+              "invitationRid": null,
+              "contractRid": null,
+              "personUid": "617270918456348672",
+              "orgUid": "851737221959749632",
+              "eac": false,
+              "affiliateContractor": true,
+              "staffType": 2,
+              "colleague": true,
+              "isDefault": true
+            }
+          ],
+          "parent": null,
+          "parentOrgName": null,
+          "canUseACs": null,
+          "canApplyAsAgency": true,
+          "jobProposalDisabled": false,
+          "uid": "851737221959749632",
+          "parentUid": null,
+          "legacyId": "bh-2h6sij-mm6hrwiirevg",
+          "rid": "3938130",
+          "legacyParentRid": null,
+          "legacyType": 2,
+          "photoUrl": "https:\/\/assets.static-upwork.com\/org-logo\/851737221959749632",
+          "type": 1,
+          "contactRid": null,
+          "active": true,
+          "hidden": false,
+          "description": null,
+          "topLevelOrgUid": "851737221959749632",
+          "timezoneName": "Europe\/Berlin"
+        }
+      ],
+      "freelancer": {
+        "uid": "617270918464737280",
+        "person": {
+          "uid": "617270918456348672",
+          "legacyId": "ilya_kgz",
+          "rid": "8131345",
+          "personName": {
+            "lastName": "Nee",
+            "firstName": "Ilya"
+          },
+          "photoUrl": "https:\/\/www.upwork.com\/profile-portraits\/c1cTnxZGd_wV_CQmyjN0dLpQAvAFKxLYNVqVQZeHpIQB_JmyUsArM-A8IpSv5O6DFj",
+          "creationDate": "2015-07-04T09:57:09.530Z",
+          "isProvider": null,
+          "updatedOn": "2022-09-17T12:41:12.939Z",
+          "active": true,
+          "dateOfBirth": null
+        },
+        "organization": {
+          "name": "Ilya Nee",
+          "uid": "617270918460542977",
+          "parentUid": null,
+          "legacyId": null,
+          "rid": null,
+          "legacyParentRid": null,
+          "legacyType": 2,
+          "photoUrl": null,
+          "type": 2,
+          "contactRid": null,
+          "active": true,
+          "hidden": false,
+          "description": null,
+          "topLevelOrgUid": "617270918460542977",
+          "timezoneName": null
+        },
+        "activationStatus": 1,
+        "owner": true,
+        "invitationRid": null,
+        "contractRid": null,
+        "personUid": "617270918456348672",
+        "orgUid": "617270918460542977",
+        "eac": null,
+        "affiliateContractor": null,
+        "staffType": 3,
+        "colleague": true,
+        "isDefault": false
+      }
+    }
+  }
+}

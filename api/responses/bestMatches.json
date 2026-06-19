@@ -1,0 +1,2924 @@
+{
+  "data": {
+    "bestMatchJobsFeed": {
+      "results": [
+        {
+          "uid": "1754164996894232576",
+          "title": "Plain HTML & Tailwind to Laravel Inertia.JS React",
+          "ciphertext": "~01941d02eef037d662",
+          "description": "I have a site bungalowaanbod.nl with the code. It needs to be translated to a Laravel app with Inertia.JS, React and Tailwind.\nEvery section needs to be a component. And some items in a section needs also to be a component so that it can be used on other places also. The styling is already in TailwindCSS. It only needs to be translated to components in React and make the pages in Laravel.\n\nRequirements:\n- Laravel 10\n- Inertia.JS with React & Typescript\n- TailwindCSS\n\nIf you have any questions please let me know!",
+          "type": 1,
+          "recno": "1011116690",
+          "freelancersToHire": 1,
+          "duration": "1 to 3 months",
+          "durationLabel": "1 to 3 months",
+          "engagement": null,
+          "amount": {
+            "amount": 50.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-04T15:28:20.965Z",
+          "publishedOn": "2024-02-04T15:28:21.319Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 12,
+          "client": {
+            "totalHires": 2,
+            "totalSpent": 300.0,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "Netherlands",
+              "city": null,
+              "state": null,
+              "countryTimezone": "",
+              "worldRegion": "Europe"
+            },
+            "totalReviews": 2,
+            "totalFeedback": 5.0,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1707060503015",
+          "skills": [
+            {
+              "id": "1313512603317481472",
+              "prefLabel": "Tailwind CSS"
+            },
+            {
+              "id": "1031626773660942336",
+              "prefLabel": "React"
+            },
+            {
+              "id": "1031626753368899584",
+              "prefLabel": "Laravel"
+            },
+            {
+              "id": "1031626782729027584",
+              "prefLabel": "Statamic CMS"
+            },
+            {
+              "id": "free_text",
+              "prefLabel": null
+            }
+          ],
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": null,
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": null,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"0\"}",
+          "attrs": [
+            {
+              "uid": "1313512603317481472",
+              "prettyName": "Tailwind CSS",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626773660942336",
+              "prettyName": "React",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626753368899584",
+              "prettyName": "Laravel",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626782729027584",
+              "prettyName": "Statamic CMS",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "free_text",
+              "prettyName": null,
+              "freeText": "inertia",
+              "skillType": null
+            }
+          ]
+        },
+        {
+          "uid": "1754096661747662848",
+          "title": "Full-Stack-Developer Vue.js Nuxt.js Laravel PHP - LONG TERM - no agencies",
+          "ciphertext": "~01fdbf6e57b44e5769",
+          "description": "Hello,\n\nWe are looking for a full-stack developer with whom we can continue to develop our SaaS project.\n\nWe have had a SaaS solution developed by an agency, which is about to be launched. There are still a few changes to be made for the launch. After that, we have further feature requests on the roadmap that we want you to implement. We want a long-term partnership. \n\nThe SaaS is a solution with which letters and postcards can be created and sent automatically. \n\n\nWe are looking for the following skills. \n- Vue.js / Nuxt.js - necessary\n- Laravel / PHP - necessary\n- AWS - desirable\n- MySQL - desirable\n- Redis, ADMIN LTE, JQUERY, Formik - desirable\n- Figma - desirable\n\n\nPlease start your application with \"Print is the new digital\". \nNo agencies - only freelancers!\n",
+          "type": 2,
+          "recno": "1011113571",
+          "freelancersToHire": 1,
+          "duration": "More than 6 months",
+          "durationLabel": "More than 6 months",
+          "engagement": "30+ hrs/week",
+          "amount": {
+            "amount": 0.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-04T10:56:48.590Z",
+          "publishedOn": "2024-02-04T10:56:49.107Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 16,
+          "client": {
+            "totalHires": 17,
+            "totalSpent": 4150.58,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "Germany",
+              "city": "Leingarten",
+              "state": "BW",
+              "countryTimezone": "Europe/London",
+              "worldRegion": "Europe"
+            },
+            "totalReviews": 5,
+            "totalFeedback": 5.0,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1707044733934",
+          "skills": [
+            {
+              "id": "1031626763535892480",
+              "prefLabel": "Nuxt.js"
+            },
+            {
+              "id": "1031626794477273088",
+              "prefLabel": "Vue.js"
+            },
+            {
+              "id": "1031626753368899584",
+              "prefLabel": "Laravel"
+            }
+          ],
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "50+",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": "Manual",
+            "min": 25.0,
+            "max": 35.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"3\"}",
+          "attrs": [
+            {
+              "uid": "1031626763535892480",
+              "prettyName": "Nuxt.js",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626794477273088",
+              "prettyName": "Vue.js",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626753368899584",
+              "prettyName": "Laravel",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1754157755698708480",
+          "title": "Simple Golang with chromedp script",
+          "ciphertext": "~0112f0f3ba65d90a5e",
+          "description": "Greetings)\nI need an easy script that uses Chromedp.\nIt has to use proxy with user and pass auth, than go to web.telegram, modify the local storage values and reloads the page, after that keeps the driver opened)\n",
+          "type": 2,
+          "recno": "1011116313",
+          "freelancersToHire": 1,
+          "duration": "Less than 1 month",
+          "durationLabel": "Less than 1 month",
+          "engagement": "Less than 30 hrs/week",
+          "amount": {
+            "amount": 0.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-04T14:59:34.549Z",
+          "publishedOn": "2024-02-04T14:59:35.003Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 8,
+          "client": {
+            "totalHires": 5,
+            "totalSpent": 130.0,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "Ukraine",
+              "city": "Lviv",
+              "state": "15",
+              "countryTimezone": "Asia/Jerusalem",
+              "worldRegion": "Europe"
+            },
+            "totalReviews": 4,
+            "totalFeedback": 4.953846154,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1707058779578",
+          "skills": [
+            {
+              "id": "1031626741679374336",
+              "prefLabel": "Golang"
+            }
+          ],
+          "tierText": "Entry level",
+          "tier": "Entry level",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "Less than 5",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": "NotProvided",
+            "min": 0.0,
+            "max": 0.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"4\"}",
+          "attrs": [
+            {
+              "uid": "1031626741679374336",
+              "prettyName": "Golang",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1753741455361945600",
+          "title": "Full stack developer ",
+          "ciphertext": "~01522a6e294c908639",
+          "description": "Full stack developer needed. \n\nI am looking for a young professional - not attached to any agency freelancer. \n- work independently. \n- Work on features on demand as requested. \n- well versed with latest frontend and backend technologies. \n\n",
+          "type": 2,
+          "recno": "1011097476",
+          "freelancersToHire": 1,
+          "duration": "1 to 3 months",
+          "durationLabel": "1 to 3 months",
+          "engagement": "Less than 30 hrs/week",
+          "amount": {
+            "amount": 0.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-03T11:25:20.862Z",
+          "publishedOn": "2024-02-03T11:25:22.082Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 16,
+          "client": {
+            "totalHires": 22,
+            "totalSpent": 15854.64,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "United States",
+              "city": "bethesda",
+              "state": "MD",
+              "countryTimezone": "America/New_York",
+              "worldRegion": "Americas"
+            },
+            "totalReviews": 8,
+            "totalFeedback": 4.941280451,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1706959524037",
+          "skills": [
+            {
+              "id": "1031626795068669952",
+              "prefLabel": "WebGL"
+            },
+            {
+              "id": "1031626769227563008",
+              "prefLabel": "PixiJS"
+            },
+            {
+              "id": "1031626737355046912",
+              "prefLabel": "Fabric.js"
+            },
+            {
+              "id": "996364628025274389",
+              "prefLabel": "TypeScript"
+            },
+            {
+              "id": "1031626773660942336",
+              "prefLabel": "React"
+            }
+          ],
+          "tierText": "Expert",
+          "tier": "Expert",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "50+",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": "Manual",
+            "min": 10.0,
+            "max": 20.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"5\"}",
+          "attrs": [
+            {
+              "uid": "1031626795068669952",
+              "prettyName": "WebGL",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626769227563008",
+              "prettyName": "PixiJS",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626737355046912",
+              "prettyName": "Fabric.js",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364628025274389",
+              "prettyName": "TypeScript",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626773660942336",
+              "prettyName": "React",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1754158009019228160",
+          "title": "Fix supabase auth bugs in nextjs project",
+          "ciphertext": "~01699e7393cedf72f1",
+          "description": "I have a nextjs app (using App router) with Supabase backend. I'm having some auth issues. I'll send a video of the issues to a short list of candidates, but at a high level: \n\n1. I would like a \"SupabaseProvider\" and SesssionProvider in the main layout page to (as I understand) have easy access to the supabase client and the active session in either client pages or server pages.\n2. I have a reset password and change-password pages set up but there is a bug when changing the password where I get an error \"Auth Session Missing!\". \n3. There seems to be a discrepancy between my useUser hook and supabase.auth.getSession(). I have situtations in testing where there is no session but I still have user details saved. \n4. When the app is working, I was finding I'd be logged out (no session) every hour. I THINK this is a supabase free tier limitation, but please confirm if there any solutions (maybe get a new session before it expires??). \n\nMust-haves in the fixes: \n- continue using the App router, not pages router\n- continue using the supabase-ssr package (not the auth-helpers pkg)\n- use typescript\n- as much as possible, develop solutions that don't congest the network (that is, if possible, I'd rather get user details once, not on every component)\n\nThe end solution I'm looking for is fixes to the bugs above and explain how it works so I understand in the future.\n\nI believe this is a quick couple fixes for people that know what they are doing. If you are an expert in supabase/auth/nextjs, please apply and let's get you some quick money \uD83D\uDC4D ",
+          "type": 1,
+          "recno": "1011116329",
+          "freelancersToHire": 1,
+          "duration": "Less than 1 month",
+          "durationLabel": "Less than 1 month",
+          "engagement": null,
+          "amount": {
+            "amount": 50.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-04T15:00:34.966Z",
+          "publishedOn": "2024-02-04T15:00:35.371Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 12,
+          "client": {
+            "totalHires": 17,
+            "totalSpent": 625.48,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "Canada",
+              "city": "Saskatoon",
+              "state": "SK",
+              "countryTimezone": "",
+              "worldRegion": "Americas"
+            },
+            "totalReviews": 9,
+            "totalFeedback": 4.667101595,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1707059014462",
+          "skills": [
+            {
+              "id": "1031626762688643072",
+              "prefLabel": "Next.js"
+            },
+            {
+              "id": "996364628025274383",
+              "prefLabel": "JavaScript"
+            }
+          ],
+          "tierText": "Expert",
+          "tier": "Expert",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "Less than 5",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": null,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"6\"}",
+          "attrs": [
+            {
+              "uid": "1031626762688643072",
+              "prettyName": "Next.js",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364628025274383",
+              "prettyName": "JavaScript",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1753991568493408256",
+          "title": "Full-Stack Developer (Laravel, React, Node)",
+          "ciphertext": "~0166f833b0dc111982",
+          "description": "We're seeking a highly skilled and experienced full-stack developer to join our team and help us bring our exciting new project to life. You'll be responsible for the entire development process, from designing and building the user interface to developing robust back-end functionality.\n\nResponsibilities:\n\n    Front-End Development:\n        Design and develop a user-friendly and responsive interface using React.js.\n        Implement interactive features and ensure a seamless user experience.\n        Stay updated on the latest front-end trends and best practices.\n    Back-End Development:\n        Build secure and scalable APIs using Laravel and Node.js.\n        Design and implement efficient database solutions using SQL.\n        Manage data flow and ensure data integrity.\n        Troubleshoot and resolve technical issues effectively.\n    Additional Responsibilities:\n        Collaborate with designers and project managers to understand requirements and translate them into code.\n        Write clean, well-documented, and maintainable code.\n        Follow established coding standards and best practices.\n        Participate in code reviews and contribute to improving code quality.\n        Stay up-to-date with the latest technologies and trends in both front-end and back-end development.\n\nIf you're a highly motivated and skilled developer who is ready to take on a new challenge, we encourage you to apply!",
+          "type": 2,
+          "recno": "1011109579",
+          "freelancersToHire": 1,
+          "duration": "1 to 3 months",
+          "durationLabel": "1 to 3 months",
+          "engagement": "Less than 30 hrs/week",
+          "amount": {
+            "amount": 0.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-04T03:59:12.514Z",
+          "publishedOn": "2024-02-04T04:08:55.557Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 12,
+          "client": {
+            "totalHires": 0,
+            "totalSpent": 0.0,
+            "paymentVerificationStatus": 2,
+            "location": {
+              "country": "United Kingdom",
+              "city": null,
+              "state": null,
+              "countryTimezone": "",
+              "worldRegion": "Europe"
+            },
+            "totalReviews": 0,
+            "totalFeedback": 0.0,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1707019736813",
+          "skills": [
+            {
+              "id": "1031626773660942336",
+              "prefLabel": "React"
+            },
+            {
+              "id": "1031626762999021568",
+              "prefLabel": "Node.js"
+            },
+            {
+              "id": "996364628025274383",
+              "prefLabel": "JavaScript"
+            },
+            {
+              "id": "1110580482566246400",
+              "prefLabel": "API Integration"
+            },
+            {
+              "id": "996364627995914245",
+              "prefLabel": "MongoDB"
+            },
+            {
+              "id": "1031626728794472448",
+              "prefLabel": "CSS"
+            }
+          ],
+          "tierText": "Expert",
+          "tier": "Expert",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "20 to 50",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": "Manual",
+            "min": 15.0,
+            "max": 35.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"7\"}",
+          "attrs": [
+            {
+              "uid": "1031626773660942336",
+              "prettyName": "React",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626762999021568",
+              "prettyName": "Node.js",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364628025274383",
+              "prettyName": "JavaScript",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580482566246400",
+              "prettyName": "API Integration",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364627995914245",
+              "prettyName": "MongoDB",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626728794472448",
+              "prettyName": "CSS",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1754151012556713984",
+          "title": "TypeScript/Node.js Developer for Chatbot PDF Signature Feature",
+          "ciphertext": "~01166d101b0e8d0e03",
+          "description": "Title: TypeScript/Node.js Developer for Chatbot PDF Signature Feature\n\nDescription:\n\nWe're seeking a TypeScript and Node.js developer to add a PDF signing feature to our chatbot. This role involves creating a system where agents can mark PDFs for client signatures, automatically fill these PDFs with client-provided details (e.g., name, address), and enable clients to sign in specific areas within the chat interface.\n\n**Requirements:**\n\n- Proficiency in TypeScript and Node.js.\n- Experience with PDF manipulation and electronic signature integration.\n- Familiarity with chatbot development and seamless integration of new features.\n- Strong problem-solving skills, attention to detail, and a focus on security and privacy.\n\n**Project Goals:**\n\n- Enable direct PDF signing within the chat, improving user experience.\n- Automate document filling and signing process for efficiency.\n- Ensure scalability and adaptability to various PDF documents and signing requirements.\n\nCandidates should demonstrate expertise in web development, PDF handling, and ideally, chatbot enhancement, along with examples of past work.",
+          "type": 1,
+          "recno": "1011115966",
+          "freelancersToHire": 1,
+          "duration": "Less than 1 month",
+          "durationLabel": "Less than 1 month",
+          "engagement": null,
+          "amount": {
+            "amount": 100.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-04T14:32:46.882Z",
+          "publishedOn": "2024-02-04T14:32:47.422Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 12,
+          "client": {
+            "totalHires": 40,
+            "totalSpent": 29693.51,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "Israel",
+              "city": "Tel Aviv",
+              "state": "TA",
+              "countryTimezone": "Asia/Jerusalem",
+              "worldRegion": "Asia"
+            },
+            "totalReviews": 20,
+            "totalFeedback": 4.900595116,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1707057168792",
+          "skills": [
+            {
+              "id": "996364628025274383",
+              "prefLabel": "JavaScript"
+            },
+            {
+              "id": "1031626762999021568",
+              "prefLabel": "Node.js"
+            }
+          ],
+          "tierText": "Entry level",
+          "tier": "Entry level",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "5 to 10",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": null,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"8\"}",
+          "attrs": [
+            {
+              "uid": "996364628025274383",
+              "prettyName": "JavaScript",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626762999021568",
+              "prettyName": "Node.js",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1753631217733775360",
+          "title": "Full Stack Developer (React / Node)",
+          "ciphertext": "~01c462c21786458f6b",
+          "description": "We are hiring a full-stack developer to help us build and scale our web app.  You’ll be part of a cross-functional team responsible for the full software development life cycle, from conception to deployment.\n\nYou should be comfortable around both front-end (React) and back-end (Node) development, development frameworks and third-party libraries. You should also be a team player with a knack for visual design and utility.\n\nAlthough we see the value that agencies provide, for this position, we prefer to work with an individual contractor that wants to join our team for an extended period of time. If things work out, this could be a longlasting and rewarding relation.\n\nTechnology Stack:\n\nReact\nMaterialUI\nNodeJS\ngraphQL\nAWS DynamoDB\nAWS Appsync\nAWS Lambda\nGitLab CI/CD\nSentry\n\nResponsibilities:\n\n- Work with development teams and product managers to ideate software solutions\n- Design client-side and server-side architecture\n- Build the front-end of applications through appealing visual design\n- Develop and manage well-functioning databases and applications\n- Write effective APIs\n- Test software to ensure responsiveness and efficiency\n- Troubleshoot, debug and upgrade software\n\nRequirements:\n\n- Good spoken and written English\n- Ability to join and participate on camera in our sprint and other meeting\n- Be able to work async and provide communication through the provided communication tools\n- Willing to participate in a paid coding test (5-10h)\t\n\nRemote Work\n\nAt Simply Bread, we are big advocates for building remote and distributed development teams. We treat our remote team members with the utmost respect and integrity and include them in our team to the best of our ability. We also expect our remote team members to act with the same integrity and be fully part of our team. \n\nAbout Simply Bread:\n\nWe exist to empower the artisan bread-baking community with products and services that are designed to elevate an emerging generation of bakers.\n\nArtisan Bread consumption (and making) is enjoying a renaissance as more and more people are rediscovering the taste of fresh, locally produced artisan bread. \n\nSimply Bread is hyper-focused on building an active customer community of artisan bakers who want to elevate and monetize their craft. Our flagship product is a baking oven that allows micro-bakeries to create 15 loaves of artisan bread in 40 minutes. We also build an online platform that helps community bakers connect with customers and helps manage their business.\n\nwww.simply-bread.co",
+          "type": 2,
+          "recno": "1011093133",
+          "freelancersToHire": 1,
+          "duration": "More than 6 months",
+          "durationLabel": "More than 6 months",
+          "engagement": "30+ hrs/week",
+          "amount": {
+            "amount": 0.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-03T04:07:18.098Z",
+          "publishedOn": "2024-02-03T04:07:18.560Z",
+          "renewedOn": "2024-02-03T04:07:41.482Z",
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 16,
+          "client": {
+            "totalHires": 104,
+            "totalSpent": 159961.07,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "United States",
+              "city": "Santa Ana",
+              "state": "CA",
+              "countryTimezone": "America/Los_Angeles",
+              "worldRegion": "Americas"
+            },
+            "totalReviews": 72,
+            "totalFeedback": 4.99474151,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": true,
+          "jobTime": "1706940394477",
+          "skills": [
+            {
+              "id": "1031626762999021568",
+              "prefLabel": "Node.js"
+            },
+            {
+              "id": "1031626773660942336",
+              "prefLabel": "React"
+            },
+            {
+              "id": "1031626718476484608",
+              "prefLabel": "AWS Lambda"
+            },
+            {
+              "id": "1031626741335441408",
+              "prefLabel": "GitLab"
+            },
+            {
+              "id": "1110580737240190976",
+              "prefLabel": "Web Application"
+            },
+            {
+              "id": "996364628025274383",
+              "prefLabel": "JavaScript"
+            },
+            {
+              "id": "1031626718199660544",
+              "prefLabel": "AWS AppSync"
+            },
+            {
+              "id": "free_text",
+              "prefLabel": null
+            },
+            {
+              "id": "1031626728794472448",
+              "prefLabel": "CSS"
+            },
+            {
+              "id": "1031626745110315008",
+              "prefLabel": "HTML"
+            }
+          ],
+          "tierText": "Expert",
+          "tier": "Expert",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "50+",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": "Default",
+            "min": 25.0,
+            "max": 50.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"9\"}",
+          "attrs": [
+            {
+              "uid": "1031626762999021568",
+              "prettyName": "Node.js",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626773660942336",
+              "prettyName": "React",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626718476484608",
+              "prettyName": "AWS Lambda",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626741335441408",
+              "prettyName": "GitLab",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580737240190976",
+              "prettyName": "Web Application",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364628025274383",
+              "prettyName": "JavaScript",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626718199660544",
+              "prettyName": "AWS AppSync",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "free_text",
+              "prettyName": null,
+              "freeText": "AWS DynamoDB",
+              "skillType": null
+            },
+            {
+              "uid": "1031626728794472448",
+              "prettyName": "CSS",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626745110315008",
+              "prettyName": "HTML",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1753717145830273024",
+          "title": "VueJS API developer needed",
+          "ciphertext": "~01f9cc1a80dcda9a71",
+          "description": "Hey,\nwe need a vue JS developer that can extend our existing ecommerce application with some functionality and connect this to a given api first symfony backend. we want to extend the existing system with new modals, new components and improve workflows and its functionality. you develop, we sell the results to different customers. \nfeel free to contact us, if you are avaiable for 10 hours a week.",
+          "type": 2,
+          "recno": "1011096425",
+          "freelancersToHire": 1,
+          "duration": "3 to 6 months",
+          "durationLabel": "3 to 6 months",
+          "engagement": "Less than 30 hrs/week",
+          "amount": {
+            "amount": 0.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-03T09:48:44.955Z",
+          "publishedOn": "2024-02-03T09:48:45.232Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 16,
+          "client": {
+            "totalHires": 28,
+            "totalSpent": 25179.64,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "Germany",
+              "city": "Königswartha",
+              "state": "SN",
+              "countryTimezone": "Europe/Berlin",
+              "worldRegion": "Europe"
+            },
+            "totalReviews": 15,
+            "totalFeedback": 4.895937307,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1706953726327",
+          "skills": [
+            {
+              "id": "1031626794477273088",
+              "prefLabel": "Vue.js"
+            },
+            {
+              "id": "1110580482322976768",
+              "prefLabel": "API"
+            },
+            {
+              "id": "996364628025274385",
+              "prefLabel": "PHP"
+            }
+          ],
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "50+",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": "Manual",
+            "min": 10.0,
+            "max": 25.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"10\"}",
+          "attrs": [
+            {
+              "uid": "1031626794477273088",
+              "prettyName": "Vue.js",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580482322976768",
+              "prettyName": "API",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364628025274385",
+              "prettyName": "PHP",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1754092261963231232",
+          "title": "Web Developer to build backend to Website",
+          "ciphertext": "~017d9387cd8f31057b",
+          "description": "Looking to complete the backend for this website\n\nhttps://teachers-directory.vercel.app/\n\nWebsite has been built using:\n\n1. Next.js,\n2. Typescript,\n3. Tailwind CSS,\n4. Headless UI,\n5. Prisma,\n6. tRPC,\n7. PostgreSQL,\n8. Pusher,\n9. Vercel\n\nZoom call is a must.\nIf you camera does not work, or you profile different from who you say you are - you will be reported.",
+          "type": 2,
+          "recno": "1011113379",
+          "freelancersToHire": 1,
+          "duration": "1 to 3 months",
+          "durationLabel": "1 to 3 months",
+          "engagement": "Less than 30 hrs/week",
+          "amount": {
+            "amount": 0.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-04T10:39:19.581Z",
+          "publishedOn": "2024-02-04T10:39:20.020Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 16,
+          "client": {
+            "totalHires": 119,
+            "totalSpent": 24308.49,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "United Kingdom",
+              "city": "London",
+              "state": "ENG",
+              "countryTimezone": "Europe/London",
+              "worldRegion": "Europe"
+            },
+            "totalReviews": 86,
+            "totalFeedback": 4.864765943,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1707043170903",
+          "skills": [
+            {
+              "id": "1031626762688643072",
+              "prefLabel": "Next.js"
+            },
+            {
+              "id": "free_text",
+              "prefLabel": null
+            },
+            {
+              "id": "free_text",
+              "prefLabel": null
+            },
+            {
+              "id": "free_text",
+              "prefLabel": null
+            }
+          ],
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "20 to 50",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": "Manual",
+            "min": 16.0,
+            "max": 25.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"11\"}",
+          "attrs": [
+            {
+              "uid": "1031626762688643072",
+              "prettyName": "Next.js",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "free_text",
+              "prettyName": null,
+              "freeText": "Prisma",
+              "skillType": null
+            },
+            {
+              "uid": "free_text",
+              "prettyName": null,
+              "freeText": "tRPC",
+              "skillType": null
+            },
+            {
+              "uid": "free_text",
+              "prettyName": null,
+              "freeText": "pusher",
+              "skillType": null
+            }
+          ]
+        },
+        {
+          "uid": "1754090045600305152",
+          "title": "Vue.js senior with PHP background",
+          "ciphertext": "~01c803f0fc42a8f429",
+          "description": "Looking for a senior front-end developer with a PHP background to work in a small team for a startup\n\nRequirements:\n2+ years of experience in HTML, CSS (SASS, LESS), and JS.\n2+ years of experience in front-end development using VueJs.\nMost importantly: experience converting designs into code with pixel-perfect precision for different screen sizes and mobile-first approach.\nExperience with implementing REST API and/or GraphQL with the backend.\nShould have demonstrated previous work in web development.\nA one-hour test task will be required from potential candidates.\nCan work independently with minimal supervision.\nSpeaking Arabic is a plus\n\n\nTech stack:\nHTML, CSS, and JS\nCSS preprocessor (SASS)\nVueJs (with its echo system, Vue router, Vuex (Pinia))\nRESTful APIs.\n\nRequired with submission:\n1. Cover letter (Doesn't have to be formal, just use your own words).\n2. Portfolio (A website you created, or took part in developing it)\n\nWe are a start-up and looking for motivated candidates for long-term collaboration.\n\nThank you,",
+          "type": 1,
+          "recno": "1011113260",
+          "freelancersToHire": 1,
+          "duration": "1 to 3 months",
+          "durationLabel": "1 to 3 months",
+          "engagement": null,
+          "amount": {
+            "amount": 250.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-04T10:30:31.287Z",
+          "publishedOn": "2024-02-04T10:30:31.827Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 12,
+          "client": {
+            "totalHires": 0,
+            "totalSpent": 0.0,
+            "paymentVerificationStatus": 2,
+            "location": {
+              "country": "Qatar",
+              "city": null,
+              "state": null,
+              "countryTimezone": "",
+              "worldRegion": "Asia"
+            },
+            "totalReviews": 0,
+            "totalFeedback": 0.0,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1707042644054",
+          "skills": [
+            {
+              "id": "1031626794477273088",
+              "prefLabel": "Vue.js"
+            },
+            {
+              "id": "996364628025274385",
+              "prefLabel": "PHP"
+            },
+            {
+              "id": "free_text",
+              "prefLabel": null
+            }
+          ],
+          "tierText": "Expert",
+          "tier": "Expert",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "5 to 10",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": null,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"12\"}",
+          "attrs": [
+            {
+              "uid": "1031626794477273088",
+              "prettyName": "Vue.js",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364628025274385",
+              "prettyName": "PHP",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "free_text",
+              "prettyName": null,
+              "freeText": "RESTful APIs.",
+              "skillType": null
+            }
+          ]
+        },
+        {
+          "uid": "1753641205742133248",
+          "title": "Modernise nuxt.js website with Ruby on Rails, Sanity, Redis + ElasticSearch",
+          "ciphertext": "~0165e251e2ee3a97b5",
+          "description": "Our client has an existing web app built on the the technology outlined below, that they are wanting to refresh and completely modernize the look of. We have in-house designers who will work with Figma to provide you the front-end design / layout (although they will collaborate with you of course).\n\nThey are on a strict deadline of 3-4 weeks, so the first part of the engagement will be to review the details and existing site structure and contents to confirm if this is deliverable in the proposed timeframe or whether we will need additional team members. Note that none of the core site logic, framework or integrations should need to be rebuilt, however if there are benefits to be gained by changing any of the technologies in use, at minimal effort, please do advise us. \n\nBelow is what we expect is required for the front-end development: \n\nDesign and Build\n» Setup new build using the latest release, install recommended modules for optimal\nwebsite performance such as SEO and speed\n» Create a bespoke website theme and templates based on designed created. Implementation of\nwebsite functions based on current website sitemap and general website functionality as per\nbrief (mobile support)\n» Setup website hosting containers for Staging and Production\n» Liaise with the client for DNS changes\n» Install and configure SSL certificates\n» Cross-device testing, Performance testing and Review of project\n» All standard features as listed\n» CSS & HTML multi-level page development\n» UX design input into page development CMS system setup and full content\nloading » Creation of test site under agency hosting\n» Refinement based on testing and client feedback (allowance for two rounds)\n\nBelow is the current stack in use:\n\nFrontend\n\nMain framework used is Nuxt.js. In addition, following are also used to help manage data display on the front side\n\nCore\nNodeJS - Node version used to develop the frontend / NuxtJS.\nSanity (CMS) \nGoogle Map / API - This is used as Any Property's main street viewer tool to feed and display properties data.\nBackend\n\nAPI backend framework is built with Ruby on Rails. \nRedis\nSidekiq - Background processor for Ruby on Rails\nRuby on Rails - Main backend API framework\nElasticSearch - A java server that filters properties data with post-calculated scores.\n\nData import and staging (you may not need to lead this, but guidance and input will be appreciated).\n\nWe will be given a large flat file (table format) to be imported into the CMS to hold the application data which is 'listings'. In addition, media (images) will also need to be able to be imported in bulk to be associated with the various 'listings'\n\nA bonus would be experience in AWS services provisioning and migrating from another AWS instance to a new one.\n\nPlease let us know if there are any questions.\n\nScreenshots of current website (which is offline) will be provided to the shortlisted candidates for final estimation of effort",
+          "type": 2,
+          "recno": "1011093498",
+          "freelancersToHire": 1,
+          "duration": "1 to 3 months",
+          "durationLabel": "1 to 3 months",
+          "engagement": "Less than 30 hrs/week",
+          "amount": {
+            "amount": 0.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-03T04:46:59.445Z",
+          "publishedOn": "2024-02-03T04:46:59.957Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 12,
+          "client": {
+            "totalHires": 0,
+            "totalSpent": 0.0,
+            "paymentVerificationStatus": 2,
+            "location": {
+              "country": "New Zealand",
+              "city": null,
+              "state": null,
+              "countryTimezone": "",
+              "worldRegion": "Oceania"
+            },
+            "totalReviews": 0,
+            "totalFeedback": 0.0,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1706935634723",
+          "skills": [
+            {
+              "id": "1031626734268039168",
+              "prefLabel": "Elasticsearch"
+            },
+            {
+              "id": "1031626775930060800",
+              "prefLabel": "Ruby on Rails"
+            },
+            {
+              "id": "1031626794477273088",
+              "prefLabel": "Vue.js"
+            },
+            {
+              "id": "1110580482566246400",
+              "prefLabel": "API Integration"
+            },
+            {
+              "id": "996364628012691471",
+              "prefLabel": "Amazon Web Services"
+            },
+            {
+              "id": "free_text",
+              "prefLabel": null
+            }
+          ],
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "15 to 20",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": "Manual",
+            "min": 5.0,
+            "max": 35.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"13\"}",
+          "attrs": [
+            {
+              "uid": "1031626734268039168",
+              "prettyName": "Elasticsearch",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626775930060800",
+              "prettyName": "Ruby on Rails",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626794477273088",
+              "prettyName": "Vue.js",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580482566246400",
+              "prettyName": "API Integration",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364628012691471",
+              "prettyName": "Amazon Web Services",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "free_text",
+              "prettyName": null,
+              "freeText": "Sanity CMS",
+              "skillType": null
+            }
+          ]
+        },
+        {
+          "uid": "1754084153461682176",
+          "title": "Full Stack Developer",
+          "ciphertext": "~018ce88398b3e63d95",
+          "description": "Seeking a full stack developer with proficiency in Elixir and Phoenix, or a strong willingness to learn. The ideal candidate will be comfortable working with the following stack: Elixir, Phoenix, LiveView, Alpine.js, and Tailwind CSS.\n\nTo do this job well you must have:\n\n- Understanding of web analytics and ad attribution mechanisms for both paid and organic traffic.\n- Ability to track and report events, goals, and user behavior on web pages effectively.\n- Experience in building and maintaining SaaS products.\n\nWe will commence with a SaaS template similar to Petal.build to expedite the development process and ensure rapid product delivery.\n\nThis role does not permit subcontracting of tasks.\n\nPlease include the word \"coucou\" at the top of your application if you are motivated by the prospect of taking initiative on projects like this.\n\nLook forward to potentially collaborating with you.\n\nThank you.",
+          "type": 2,
+          "recno": "1011113025",
+          "freelancersToHire": 1,
+          "duration": "More than 6 months",
+          "durationLabel": "More than 6 months",
+          "engagement": "30+ hrs/week",
+          "amount": {
+            "amount": 0.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-04T10:07:06.470Z",
+          "publishedOn": "2024-02-04T10:07:06.768Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 16,
+          "client": {
+            "totalHires": 48,
+            "totalSpent": 14086.55,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "Canada",
+              "city": "Montreal",
+              "state": "QC",
+              "countryTimezone": "America/New_York",
+              "worldRegion": "Americas"
+            },
+            "totalReviews": 23,
+            "totalFeedback": 4.880051878,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1707049355450",
+          "skills": [
+            {
+              "id": "1313512603317481472",
+              "prefLabel": "Tailwind CSS"
+            },
+            {
+              "id": "996364628016885772",
+              "prefLabel": "Elixir"
+            },
+            {
+              "id": "1110580737240190976",
+              "prefLabel": "Web Application"
+            },
+            {
+              "id": "1110580482566246400",
+              "prefLabel": "API Integration"
+            },
+            {
+              "id": "1504884977923260416",
+              "prefLabel": "Phoenix Web Framework"
+            },
+            {
+              "id": "free_text",
+              "prefLabel": null
+            }
+          ],
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "5 to 10",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": "Manual",
+            "min": 5.0,
+            "max": 12.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"14\"}",
+          "attrs": [
+            {
+              "uid": "1313512603317481472",
+              "prettyName": "Tailwind CSS",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364628016885772",
+              "prettyName": "Elixir",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580737240190976",
+              "prettyName": "Web Application",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580482566246400",
+              "prettyName": "API Integration",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1504884977923260416",
+              "prettyName": "Phoenix Web Framework",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "free_text",
+              "prettyName": null,
+              "freeText": "Alpine.js",
+              "skillType": null
+            }
+          ]
+        },
+        {
+          "uid": "1753785409697878016",
+          "title": "Vue.js Developer Needed to Fix Chatbot Widget Interruption Bug",
+          "ciphertext": "~01671380a2e2ff47f3",
+          "description": "Job Description:\n\nWe are looking for a skilled Vue.js developer with experience in web-based chatbot applications to fix a specific bug in our chatbot widget. Our chatbot is designed to provide audio responses to user queries, but we've encountered an issue that needs to be resolved to improve user experience.\n\nVideo of Bug here: https://icecreamapps.com/v/dxzv6yg\n\nIssue Description:\n\nCurrently, when the chatbot is in the process of reading out an answer, if a user tries to interrupt by clicking on the microphone button to ask another question, the chatbot does not stop the previous answer. Instead, it restarts the previous answer from the beginning once the new question is processed and answered. This creates a frustrating experience for users who wish to quickly move on to different questions without waiting for the previous answer to complete.\n\nDesired Outcome:\n\nWe want the chatbot to be able to handle interruptions gracefully. Specifically, when a user clicks the microphone button while an answer is being read out:\n\nThe current audio response should stop immediately.\nThe chatbot should listen for the new question.\nAfter receiving the new question, the chatbot should process it and start reading out the new answer without restarting the previous one.\nRequirements:\n\nProven experience with Vue.js and creating or working with web-based chatbot applications.\nAbility to troubleshoot and debug complex issues efficiently.\nExperience with handling audio playback and interruptions in web applications.\nExcellent communication skills and ability to provide updates on progress.",
+          "type": 2,
+          "recno": "1011099605",
+          "freelancersToHire": 1,
+          "duration": "Less than 1 month",
+          "durationLabel": "Less than 1 month",
+          "engagement": "Less than 30 hrs/week",
+          "amount": {
+            "amount": 0.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-03T14:20:00.420Z",
+          "publishedOn": "2024-02-03T14:20:00.834Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 8,
+          "client": {
+            "totalHires": 6,
+            "totalSpent": 23217.39,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "Canada",
+              "city": "Osgoode",
+              "state": "ON",
+              "countryTimezone": "America/New_York",
+              "worldRegion": "Americas"
+            },
+            "totalReviews": 4,
+            "totalFeedback": 4.979189417,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1706970003315",
+          "skills": [
+            {
+              "id": "1110580737240190976",
+              "prefLabel": "Web Application"
+            },
+            {
+              "id": "1031626794477273088",
+              "prefLabel": "Vue.js"
+            }
+          ],
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "15 to 20",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": "NotProvided",
+            "min": 0.0,
+            "max": 0.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"15\"}",
+          "attrs": [
+            {
+              "uid": "1110580737240190976",
+              "prettyName": "Web Application",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626794477273088",
+              "prettyName": "Vue.js",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1754032098883014656",
+          "title": "Maintenance of platform FE - Vuejs and vue-bootstrap\nBE - Nodejs, ExpressJs, MongoDB,",
+          "ciphertext": "~01816e422a061cf1fa",
+          "description": "I am looking for a team or an individual who can handle my platform maintenance. My platform is live and running. i need a resource to maintain my platform, be on standby 24/7 through setting up of a server manager, ensuring if there is a system issue or a server issue, the person can rectify it and resolve it. also to make small minor front end or back end enhancements along the way. should be available the moment i ping them to fix something. \n\nFrontEnd Tech stack - Vuejs and vue-bootstrap\nBackend Tech Stack - Nodejs, ExpressJs, MongoDB,",
+          "type": 2,
+          "recno": "1011111026",
+          "freelancersToHire": 1,
+          "duration": "More than 6 months",
+          "durationLabel": "More than 6 months",
+          "engagement": "30+ hrs/week",
+          "amount": {
+            "amount": 0.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-04T06:40:15.638Z",
+          "publishedOn": "2024-02-04T06:40:16.000Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 16,
+          "client": {
+            "totalHires": 43,
+            "totalSpent": 58225.87,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "Singapore",
+              "city": "singapore",
+              "state": "01",
+              "countryTimezone": "Asia/Krasnoyarsk",
+              "worldRegion": "Asia"
+            },
+            "totalReviews": 22,
+            "totalFeedback": 4.929878532,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1707028828660",
+          "skills": [
+            {
+              "id": "1031626794477273088",
+              "prefLabel": "Vue.js"
+            },
+            {
+              "id": "996364627995914245",
+              "prefLabel": "MongoDB"
+            },
+            {
+              "id": "1031626762999021568",
+              "prefLabel": "Node.js"
+            },
+            {
+              "id": "1031626720951123968",
+              "prefLabel": "Bootstrap"
+            },
+            {
+              "id": "1110580737240190976",
+              "prefLabel": "Web Application"
+            }
+          ],
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "50+",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": "Default",
+            "min": 15.0,
+            "max": 35.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"16\"}",
+          "attrs": [
+            {
+              "uid": "1031626794477273088",
+              "prettyName": "Vue.js",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364627995914245",
+              "prettyName": "MongoDB",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626762999021568",
+              "prettyName": "Node.js",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626720951123968",
+              "prettyName": "Bootstrap",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580737240190976",
+              "prettyName": "Web Application",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1753714821829713920",
+          "title": "TypeScript code quality check - specialist needed for code-reviews",
+          "ciphertext": "~01cf2bc76626fa43f8",
+          "description": "we are searching for a code-quality hero that can check delivered code commits for code quality and well structured code based on our project requirements. we need to get sure to get clean code by our developers and we want to have someone that can check commits one time a week on a weekly basis and give back comments and quality improvement tasks if nescessary to our developers. no development neede, just quality check for code commits of our team.",
+          "type": 2,
+          "recno": "1011096329",
+          "freelancersToHire": 1,
+          "duration": "More than 6 months",
+          "durationLabel": "More than 6 months",
+          "engagement": "Less than 30 hrs/week",
+          "amount": {
+            "amount": 0.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-03T09:39:30.863Z",
+          "publishedOn": "2024-02-03T09:39:31.246Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 16,
+          "client": {
+            "totalHires": 28,
+            "totalSpent": 25179.64,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "Germany",
+              "city": "Königswartha",
+              "state": "SN",
+              "countryTimezone": "Europe/Berlin",
+              "worldRegion": "Europe"
+            },
+            "totalReviews": 15,
+            "totalFeedback": 4.895937307,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1706953182625",
+          "skills": [
+            {
+              "id": "1110580737240190976",
+              "prefLabel": "Web Application"
+            },
+            {
+              "id": "1031626773660942336",
+              "prefLabel": "React"
+            },
+            {
+              "id": "996364628025274383",
+              "prefLabel": "JavaScript"
+            },
+            {
+              "id": "996364628025274389",
+              "prefLabel": "TypeScript"
+            }
+          ],
+          "tierText": "Expert",
+          "tier": "Expert",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "50+",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": "Manual",
+            "min": 50.0,
+            "max": 70.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"17\"}",
+          "attrs": [
+            {
+              "uid": "1110580737240190976",
+              "prettyName": "Web Application",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626773660942336",
+              "prettyName": "React",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364628025274383",
+              "prettyName": "JavaScript",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364628025274389",
+              "prettyName": "TypeScript",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1753793565504593920",
+          "title": "Help move firebase blog content to a new headless cms and hook up to existing vue site",
+          "ciphertext": "~01894fb092ed21c83c",
+          "description": "I have a site built with vue and firebase: tomchris.com. \n\nThe blog content is stored in Cloud Firestore and I've been using a layer on top of firebase to manage the content but I want some help to move that firebase content to a new headless cms and then hook that up to the site. \n\nI'm open to cms alternatives, but I'd like a good web and mobile writing experience like ghost.org. ",
+          "type": 2,
+          "recno": "1011100019",
+          "freelancersToHire": 1,
+          "duration": "Less than 1 month",
+          "durationLabel": "Less than 1 month",
+          "engagement": "Less than 30 hrs/week",
+          "amount": {
+            "amount": 0.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-03T14:52:24.830Z",
+          "publishedOn": "2024-02-03T14:52:26.179Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 8,
+          "client": {
+            "totalHires": 2,
+            "totalSpent": 629.17,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "Denmark",
+              "city": "Copenhagen",
+              "state": "17",
+              "countryTimezone": "Europe/Berlin",
+              "worldRegion": "Europe"
+            },
+            "totalReviews": 1,
+            "totalFeedback": 5.0,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1706971957375",
+          "skills": [
+            {
+              "id": "1031626728794472448",
+              "prefLabel": "CSS"
+            },
+            {
+              "id": "1031626745110315008",
+              "prefLabel": "HTML"
+            },
+            {
+              "id": "996364628025274383",
+              "prefLabel": "JavaScript"
+            },
+            {
+              "id": "996364628012691465",
+              "prefLabel": "Firebase"
+            },
+            {
+              "id": "1031626795211276288",
+              "prefLabel": "Web Development"
+            }
+          ],
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "15 to 20",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": "Default",
+            "min": 15.0,
+            "max": 30.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"18\"}",
+          "attrs": [
+            {
+              "uid": "1031626728794472448",
+              "prettyName": "CSS",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626745110315008",
+              "prettyName": "HTML",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364628025274383",
+              "prettyName": "JavaScript",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364628012691465",
+              "prettyName": "Firebase",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626795211276288",
+              "prettyName": "Web Development",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1754149879851364352",
+          "title": "[$500] IOU - Report fields are blank after refresh or leave from report #35772 - Expensify",
+          "ciphertext": "~017fe95e1509261ee2",
+          "description": "Expensify is a team of generalists developing today's leading expense management tool. Maintaining our reputation as an innovative leader in the world of finance requires an incredibly reliable and secure system for processing financial transactions. Accordingly, we primarily leverage time-tested languages, but we're looking to unify our front-end across platforms. For this, we're leveraging React Native and are looking toward the community on Upwork to help solve a variety of problems, both big and small, related to this migration.\n\nPlease see the GitHub issue for full details: github.com/Expensify/App/issues/35772\n\nYour Proposal:\n\n- You *must* post a proposal for how you will fix this issue in the GitHub issue linked above.\n- Your proposal should include a technical explanation of the changes you will make. You are not required to submit the final solution or code along with your proposal.\n- Your proposal will be reviewed.\n- If your proposal is accepted, you should post the proposal in Upwork and you will be hired for the job.\n- AFTER your proposal is accepted in Upwork and you have accepted the offer, you may submit the code to implement your solution. To submit the code, go to the Expensify/App GitHub repo where you'll create a fork of our codebase. You'll create a branch on that fork, and when your code is ready for review, you'll create a pull request in our repository to merge your code into our codebase. Include screenshots and confirmation that you have tested the pull request on all platforms. Our engineers will review the code, and approve and merge when the code meets our requirements.\n\nPlease review our Contributor Guidelines before submitting a proposal - github.com/Expensify/App/blob/main/contributingGuides/CONTRIBUTING.md\n\n**Important:** As documented in our CONTRIBUTING.md, payment amounts are variable, dependent on any regressions your work causes.",
+          "type": 1,
+          "recno": "1011115895",
+          "freelancersToHire": 0,
+          "duration": null,
+          "durationLabel": null,
+          "engagement": null,
+          "amount": {
+            "amount": 500.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-04T14:28:16.892Z",
+          "publishedOn": "2024-02-04T14:52:25.605Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 12,
+          "client": {
+            "totalHires": 11029,
+            "totalSpent": 9144984.38,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "United States",
+              "city": "San Francisco",
+              "state": "CA",
+              "countryTimezone": "America/Los_Angeles",
+              "worldRegion": "Americas"
+            },
+            "totalReviews": 6736,
+            "totalFeedback": 4.996787647,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1707058346820",
+          "skills": [],
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "Less than 5",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": null,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"19\"}",
+          "attrs": []
+        },
+        {
+          "uid": "1753884180025618432",
+          "title": "Golang Developer",
+          "ciphertext": "~01d6726ab71dd044cb",
+          "description": "We are looking for a skilled Golang Developer to join our team. The ideal candidate should have experience in developing applications using the Go language. The main responsibilities of the role include designing and implementing solutions using Golang, collaborating with the development team to improve the existing codebase, and ensuring the quality and reliability of the software. The successful candidate should possess strong problem-solving skills, attention to detail, and the ability to work independently. Excellent communication skills and the ability to work effectively in a team are also required. \n\nSkills required:\n- Proficiency in Golang\n- Experience in developing applications\n- Familiarity with Go's syntax and best practices\n- Knowledge of design patterns and principles\n- Understanding of database systems and queries\n- Familiarity with containerization (Docker) and deployment (Kubernetes)",
+          "type": 1,
+          "recno": "1011105098",
+          "freelancersToHire": 1,
+          "duration": "More than 6 months",
+          "durationLabel": "More than 6 months",
+          "engagement": null,
+          "amount": {
+            "amount": 4400.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-03T20:52:29.062Z",
+          "publishedOn": "2024-02-03T20:52:38.936Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 16,
+          "client": {
+            "totalHires": 0,
+            "totalSpent": 0.0,
+            "paymentVerificationStatus": 2,
+            "location": {
+              "country": "United States",
+              "city": null,
+              "state": null,
+              "countryTimezone": "",
+              "worldRegion": "Americas"
+            },
+            "totalReviews": 0,
+            "totalFeedback": 0.0,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1706993565768",
+          "skills": [
+            {
+              "id": "1031626741679374336",
+              "prefLabel": "Golang"
+            },
+            {
+              "id": "1110580482322976768",
+              "prefLabel": "API"
+            },
+            {
+              "id": "1110580682663907328",
+              "prefLabel": "RESTful API"
+            }
+          ],
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "15 to 20",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": null,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"20\"}",
+          "attrs": [
+            {
+              "uid": "1031626741679374336",
+              "prettyName": "Golang",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580482322976768",
+              "prettyName": "API",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580682663907328",
+              "prettyName": "RESTful API",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1754033240224854016",
+          "title": "React developer with good RCA, Babel experience",
+          "ciphertext": "~01506c620b2979d2df",
+          "description": "Hello\n\nReact developer with good experience in building (eg npm insall, npm run build) experience.\n\nShould know:\nCreate React App\nVite\nBabel\nTypescript\n\n\nThe project is to take React code (version 12) and bring it to recent react versions.",
+          "type": 2,
+          "recno": "1011111064",
+          "freelancersToHire": 1,
+          "duration": "1 to 3 months",
+          "durationLabel": "1 to 3 months",
+          "engagement": "Less than 30 hrs/week",
+          "amount": {
+            "amount": 0.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-04T06:44:47.745Z",
+          "publishedOn": "2024-02-04T06:44:49.388Z",
+          "renewedOn": "2024-02-04T06:50:55.671Z",
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 16,
+          "client": {
+            "totalHires": 190,
+            "totalSpent": 34001.67,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "Israel",
+              "city": "Tel Aviv",
+              "state": "TA",
+              "countryTimezone": "Etc/UTC",
+              "worldRegion": "Asia"
+            },
+            "totalReviews": 154,
+            "totalFeedback": 4.934622559,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": true,
+          "jobTime": "1707029467719",
+          "skills": [
+            {
+              "id": "996364628025274389",
+              "prefLabel": "TypeScript"
+            },
+            {
+              "id": "1031626773660942336",
+              "prefLabel": "React"
+            },
+            {
+              "id": "996364628025274383",
+              "prefLabel": "JavaScript"
+            },
+            {
+              "id": "1031626718715559936",
+              "prefLabel": "Babel"
+            }
+          ],
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "20 to 50",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": "Default",
+            "min": 15.0,
+            "max": 30.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"21\"}",
+          "attrs": [
+            {
+              "uid": "996364628025274389",
+              "prettyName": "TypeScript",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626773660942336",
+              "prettyName": "React",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364628025274383",
+              "prettyName": "JavaScript",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626718715559936",
+              "prettyName": "Babel",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1753911899818254336",
+          "title": "Full-stack Developer",
+          "ciphertext": "~01fb3ccfea1ec962e9",
+          "description": "We are seeking a talented Full-stack Developer to join our team and help us build and maintain our web applications. As a Full-stack Developer, you will be responsible for developing both the front-end and back-end of our applications. You will work closely with our team to understand requirements, design solutions, and implement features. The ideal candidate should have a strong understanding of web development technologies and frameworks, as well as experience with database management. \n\nSkills:\n- Proficient in HTML, CSS, JavaScript\n- Experience with front-end frameworks like React or Angular\n- Strong knowledge of back-end technologies such as Node.js or PHP\n- Familiarity with database management systems like MySQL or MongoDB\n- Excellent problem-solving and communication skills\n\nThis is a medium-sized project that requires a developer for 1 to 3 months. We are looking for an intermediate level developer who can work independently and deliver high-quality code.",
+          "type": 1,
+          "recno": "1011106494",
+          "freelancersToHire": 1,
+          "duration": "1 to 3 months",
+          "durationLabel": "1 to 3 months",
+          "engagement": null,
+          "amount": {
+            "amount": 4300.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-03T22:42:37.953Z",
+          "publishedOn": "2024-02-03T22:42:38.437Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 16,
+          "client": {
+            "totalHires": 0,
+            "totalSpent": 0.0,
+            "paymentVerificationStatus": 2,
+            "location": {
+              "country": "United States",
+              "city": null,
+              "state": null,
+              "countryTimezone": "",
+              "worldRegion": "Americas"
+            },
+            "totalReviews": 0,
+            "totalFeedback": 0.0,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1707000169552",
+          "skills": [
+            {
+              "id": "996364628025274383",
+              "prefLabel": "JavaScript"
+            },
+            {
+              "id": "1110580482566246400",
+              "prefLabel": "API Integration"
+            },
+            {
+              "id": "1110580482322976768",
+              "prefLabel": "API"
+            },
+            {
+              "id": "1031626795211276288",
+              "prefLabel": "Web Development"
+            },
+            {
+              "id": "1031626728794472448",
+              "prefLabel": "CSS"
+            }
+          ],
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "20 to 50",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": null,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"22\"}",
+          "attrs": [
+            {
+              "uid": "996364628025274383",
+              "prettyName": "JavaScript",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580482566246400",
+              "prettyName": "API Integration",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580482322976768",
+              "prettyName": "API",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626795211276288",
+              "prettyName": "Web Development",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626728794472448",
+              "prettyName": "CSS",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1753883074348363776",
+          "title": "Golang Developer",
+          "ciphertext": "~01fa869d8a1c9e862a",
+          "description": "We are looking for a skilled Golang Developer to join our team. The ideal candidate should have experience in developing applications using the Go language. The main responsibilities of the role include designing and implementing solutions using Golang, collaborating with the development team to improve the existing codebase, and ensuring the quality and reliability of the software. The successful candidate should possess strong problem-solving skills, attention to detail, and the ability to work independently. Excellent communication skills and the ability to work effectively in a team are also required. \n\nSkills required:\n- Proficiency in Golang\n- Experience in developing applications\n- Familiarity with Go's syntax and best practices\n- Knowledge of design patterns and principles\n- Understanding of database systems and queries\n- Familiarity with containerization (Docker) and deployment (Kubernetes)",
+          "type": 2,
+          "recno": "1011105037",
+          "freelancersToHire": 1,
+          "duration": "More than 6 months",
+          "durationLabel": "More than 6 months",
+          "engagement": "Less than 30 hrs/week",
+          "amount": {
+            "amount": 0.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-03T20:48:05.411Z",
+          "publishedOn": "2024-02-03T20:48:06.119Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 12,
+          "client": {
+            "totalHires": 0,
+            "totalSpent": 0.0,
+            "paymentVerificationStatus": 2,
+            "location": {
+              "country": "United States",
+              "city": null,
+              "state": null,
+              "countryTimezone": "",
+              "worldRegion": "Americas"
+            },
+            "totalReviews": 0,
+            "totalFeedback": 0.0,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1706993287267",
+          "skills": [
+            {
+              "id": "1031626741679374336",
+              "prefLabel": "Golang"
+            },
+            {
+              "id": "1110580482322976768",
+              "prefLabel": "API"
+            },
+            {
+              "id": "1110580682663907328",
+              "prefLabel": "RESTful API"
+            }
+          ],
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "20 to 50",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": "Manual",
+            "min": 16.0,
+            "max": 55.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"23\"}",
+          "attrs": [
+            {
+              "uid": "1031626741679374336",
+              "prettyName": "Golang",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580482322976768",
+              "prettyName": "API",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580682663907328",
+              "prettyName": "RESTful API",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1753844957542608896",
+          "title": "React/Node Developer",
+          "ciphertext": "~019a2420f396185903",
+          "description": "Need someone who can will handle the project already kicked off.\nRequirement:\n- Good communication(should be open to have technical calls at some time for ease of communication)\n- Should be available fully in the next week.\n\nSkills:\n- React\n- Node/Express\n- MongoDB\n- RTK Query\n- Typescript\n- Material-UI\n",
+          "type": 1,
+          "recno": "1011102935",
+          "freelancersToHire": 1,
+          "duration": "1 to 3 months",
+          "durationLabel": "1 to 3 months",
+          "engagement": null,
+          "amount": {
+            "amount": 500.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-03T18:16:37.661Z",
+          "publishedOn": "2024-02-03T18:16:38.015Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 12,
+          "client": {
+            "totalHires": 7,
+            "totalSpent": 265.0,
+            "paymentVerificationStatus": 2,
+            "location": {
+              "country": "Armenia",
+              "city": null,
+              "state": null,
+              "countryTimezone": "",
+              "worldRegion": "Asia"
+            },
+            "totalReviews": 7,
+            "totalFeedback": 4.636792453,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1706984202915",
+          "skills": [
+            {
+              "id": "996364628025274389",
+              "prefLabel": "TypeScript"
+            },
+            {
+              "id": "1031626762999021568",
+              "prefLabel": "Node.js"
+            },
+            {
+              "id": "1031626773660942336",
+              "prefLabel": "React"
+            },
+            {
+              "id": "996364628025274383",
+              "prefLabel": "JavaScript"
+            },
+            {
+              "id": "996364627995914245",
+              "prefLabel": "MongoDB"
+            },
+            {
+              "id": "1031626737090805760",
+              "prefLabel": "ExpressJS"
+            }
+          ],
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "20 to 50",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": null,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"24\"}",
+          "attrs": [
+            {
+              "uid": "996364628025274389",
+              "prettyName": "TypeScript",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626762999021568",
+              "prettyName": "Node.js",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626773660942336",
+              "prettyName": "React",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364628025274383",
+              "prettyName": "JavaScript",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364627995914245",
+              "prettyName": "MongoDB",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626737090805760",
+              "prettyName": "ExpressJS",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1753929877487382528",
+          "title": "Experienced Golang (Go) Developer",
+          "ciphertext": "~019d6a72385137bd6d",
+          "description": "We are seeking a skilled Golang developer with demonstrable experience to refactor and optimize our existing web application. The application is built with a Svelte frontend and a Golang backend. We need someone who is proficient in implementing best coding practices and optimization techniques.\n\nKey Responsibilities:\n\nRefactor and optimize the existing Golang backend code.\nEnsure the codebase follows the best practices for maintainability and scalability.\nWork with microservices architecture and API integrations.\nCollaborate closely with our team to understand the specific requirements and implement solutions that enhance the app's performance and user experience.\nRequirements:\n\nStrong experience in Golang programming.\nProven experience in working with microservices and API development.\nFamiliarity with Svelte or similar frontend frameworks is a plus.\nExcellent problem-solving skills and attention to detail.\nGood communication skills and ability to work as part of a team.",
+          "type": 1,
+          "recno": "1011107264",
+          "freelancersToHire": 1,
+          "duration": "1 to 3 months",
+          "durationLabel": "1 to 3 months",
+          "engagement": null,
+          "amount": {
+            "amount": 800.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-03T23:54:04.119Z",
+          "publishedOn": "2024-02-03T23:54:04.490Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 16,
+          "client": {
+            "totalHires": 13,
+            "totalSpent": 1566.28,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "Spain",
+              "city": "Manacor",
+              "state": "IB",
+              "countryTimezone": "Europe/Berlin",
+              "worldRegion": "Europe"
+            },
+            "totalReviews": 8,
+            "totalFeedback": 4.535520499,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1707004448010",
+          "skills": [
+            {
+              "id": "1031626741679374336",
+              "prefLabel": "Golang"
+            },
+            {
+              "id": "1110580482322976768",
+              "prefLabel": "API"
+            },
+            {
+              "id": "1110580682663907328",
+              "prefLabel": "RESTful API"
+            },
+            {
+              "id": "1031626781382656000",
+              "prefLabel": "Software Architecture & Design"
+            }
+          ],
+          "tierText": "Expert",
+          "tier": "Expert",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "5 to 10",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": null,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"25\"}",
+          "attrs": [
+            {
+              "uid": "1031626741679374336",
+              "prettyName": "Golang",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580482322976768",
+              "prettyName": "API",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580682663907328",
+              "prettyName": "RESTful API",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626781382656000",
+              "prettyName": "Software Architecture & Design",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1754071465941381120",
+          "title": "Website built on python 2.7 / vue.js: Improvements, Maintenance & New features to be implemented.",
+          "ciphertext": "~01fba797eafaca0c42",
+          "description": "Hi there, we are looking for someone to help us maintain and develop the following platform: www.headup.space (a free storytelling platform available worldwide since 2016 to provide a service to anyone out there who needs to communicate). We need to implement new features, get ideas suggestions, especially now with free AI tools available, bots... \nThis is a short-term work but could become a longer-term partnership with you.\nHere is the repo for reference, have a look and if you are passionate about the idea and already see some improvements to make this project bigger, let us know: https://github.com/tabaresjc/HeadUP\n\nSome first features we need:\n- Better image resizing for users\n- Add time reading feature on the stories (cf Hackernoon)\n- Add tags to segment the stories (serving as filters) allowing search + alphabetical searches and by date.\n- Recreate a share button for both desktop and mobile to help users to push their content to any other platform (wechat, Line, whatsapp, reddit, linkedin, facebook, insta, etc)\n- Add cool AI features\n- Update logo\n- Update URLs using Headline of the story\n- Add a section on the website for people to create their own blog or make their stories visible to only a restricted group of people\n- Others\n\nHappy to discuss that over a call and decide for a first short collaboration to see how it goes. Thanks a lot! \n\nPS: We want passionate people about the project as this is our project for the global community to empower anyone who wants to share her/his story to the rest of the world.",
+          "type": 2,
+          "recno": "1011112494",
+          "freelancersToHire": 1,
+          "duration": "1 to 3 months",
+          "durationLabel": "1 to 3 months",
+          "engagement": "Less than 30 hrs/week",
+          "amount": {
+            "amount": 0.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-04T09:16:41.538Z",
+          "publishedOn": "2024-02-04T09:16:42.035Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 16,
+          "client": {
+            "totalHires": 3,
+            "totalSpent": 730.0,
+            "paymentVerificationStatus": 1,
+            "location": {
+              "country": "Singapore",
+              "city": "Singapore",
+              "state": "01",
+              "countryTimezone": "Asia/Krasnoyarsk",
+              "worldRegion": "Asia"
+            },
+            "totalReviews": 2,
+            "totalFeedback": 5.0,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1707038210665",
+          "skills": [
+            {
+              "id": "1633880476564385792",
+              "prefLabel": "AI-Generated Code"
+            },
+            {
+              "id": "1031626738982436864",
+              "prefLabel": "Flask"
+            },
+            {
+              "id": "1031626794477273088",
+              "prefLabel": "Vue.js"
+            },
+            {
+              "id": "996364628025274383",
+              "prefLabel": "JavaScript"
+            },
+            {
+              "id": "996364628025274386",
+              "prefLabel": "Python"
+            },
+            {
+              "id": "1031626795211276288",
+              "prefLabel": "Web Development"
+            },
+            {
+              "id": "1691099313604145152",
+              "prefLabel": "AI Builder"
+            }
+          ],
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "10 to 15",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": "NotProvided",
+            "min": 0.0,
+            "max": 0.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"26\"}",
+          "attrs": [
+            {
+              "uid": "1633880476564385792",
+              "prettyName": "AI-Generated Code",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626738982436864",
+              "prettyName": "Flask",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626794477273088",
+              "prettyName": "Vue.js",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364628025274383",
+              "prettyName": "JavaScript",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364628025274386",
+              "prettyName": "Python",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626795211276288",
+              "prettyName": "Web Development",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1691099313604145152",
+              "prettyName": "AI Builder",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1753909495535529984",
+          "title": "Full-stack Developer",
+          "ciphertext": "~0165a38f68deb0da87",
+          "description": "We are seeking a talented Full-stack Developer to join our team and help us build and maintain our web applications. As a Full-stack Developer, you will be responsible for developing both the front-end and back-end of our applications. You will work closely with our team to understand requirements, design solutions, and implement features. The ideal candidate should have a strong understanding of web development technologies and frameworks, as well as experience with database management. \n\nSkills:\n- Proficient in HTML, CSS, JavaScript\n- Experience with front-end frameworks like React or Angular\n- Strong knowledge of back-end technologies such as Node.js or PHP\n- Familiarity with database management systems like MySQL or MongoDB\n- Excellent problem-solving and communication skills\n\nThis is a medium-sized project that requires a developer for 1 to 3 months. We are looking for an intermediate level developer who can work independently and deliver high-quality code.",
+          "type": 2,
+          "recno": "1011106364",
+          "freelancersToHire": 1,
+          "duration": "1 to 3 months",
+          "durationLabel": "1 to 3 months",
+          "engagement": "Less than 30 hrs/week",
+          "amount": {
+            "amount": 0.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-03T22:33:04.753Z",
+          "publishedOn": "2024-02-03T22:33:05.306Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 12,
+          "client": {
+            "totalHires": 0,
+            "totalSpent": 0.0,
+            "paymentVerificationStatus": 2,
+            "location": {
+              "country": "United States",
+              "city": null,
+              "state": null,
+              "countryTimezone": "",
+              "worldRegion": "Americas"
+            },
+            "totalReviews": 0,
+            "totalFeedback": 0.0,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1706999591768",
+          "skills": [
+            {
+              "id": "996364628025274383",
+              "prefLabel": "JavaScript"
+            },
+            {
+              "id": "1110580482566246400",
+              "prefLabel": "API Integration"
+            },
+            {
+              "id": "1110580482322976768",
+              "prefLabel": "API"
+            },
+            {
+              "id": "1031626795211276288",
+              "prefLabel": "Web Development"
+            },
+            {
+              "id": "1031626728794472448",
+              "prefLabel": "CSS"
+            }
+          ],
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "20 to 50",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": "Manual",
+            "min": 15.0,
+            "max": 55.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"27\"}",
+          "attrs": [
+            {
+              "uid": "996364628025274383",
+              "prettyName": "JavaScript",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580482566246400",
+              "prettyName": "API Integration",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580482322976768",
+              "prettyName": "API",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626795211276288",
+              "prettyName": "Web Development",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626728794472448",
+              "prettyName": "CSS",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1753928469316923392",
+          "title": "Full-Stack Developer Needed",
+          "ciphertext": "~01d604323fc0e78024",
+          "description": "We are seeking a talented full-stack developer to join our team and contribute to the development of our web application. The ideal candidate should have strong experience in both front-end and back-end development, with a deep understanding of JavaScript, HTML, CSS, and various frameworks. Responsibilities will include designing and implementing new features, debugging and fixing issues, and collaborating with the team to ensure high-quality code delivery. The successful candidate should be able to work independently, possess excellent problem-solving skills, and have a passion for creating innovative and user-friendly web applications. \n    Skills required:\n    - Full-stack development\n    - JavaScript\n    - HTML/CSS\n    - Frameworks (e.g., React, Angular, Vue.js)\n    - Database management\n    - Version control (e.g., Git)\n    - Problem-solving",
+          "type": 1,
+          "recno": "1011107214",
+          "freelancersToHire": 1,
+          "duration": "3 to 6 months",
+          "durationLabel": "3 to 6 months",
+          "engagement": null,
+          "amount": {
+            "amount": 50.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-03T23:48:28.456Z",
+          "publishedOn": "2024-02-03T23:48:29.024Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 8,
+          "client": {
+            "totalHires": 0,
+            "totalSpent": 0.0,
+            "paymentVerificationStatus": 2,
+            "location": {
+              "country": "United States",
+              "city": null,
+              "state": null,
+              "countryTimezone": "",
+              "worldRegion": "Americas"
+            },
+            "totalReviews": 0,
+            "totalFeedback": 0.0,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1707004389961",
+          "skills": [
+            {
+              "id": "1031626732825198592",
+              "prefLabel": ".NET Framework"
+            },
+            {
+              "id": "996364628025274383",
+              "prefLabel": "JavaScript"
+            },
+            {
+              "id": "1031626795211276288",
+              "prefLabel": "Web Development"
+            },
+            {
+              "id": "1031626728794472448",
+              "prefLabel": "CSS"
+            },
+            {
+              "id": "996364628025274385",
+              "prefLabel": "PHP"
+            },
+            {
+              "id": "1110580482322976768",
+              "prefLabel": "API"
+            },
+            {
+              "id": "1031626745110315008",
+              "prefLabel": "HTML"
+            },
+            {
+              "id": "1110580737240190976",
+              "prefLabel": "Web Application"
+            },
+            {
+              "id": "1031626743407427584",
+              "prefLabel": "GUI Design"
+            },
+            {
+              "id": "1031626745131286528",
+              "prefLabel": "HTML5 Canvas"
+            }
+          ],
+          "tierText": "Intermediate",
+          "tier": "Intermediate",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "20 to 50",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": null,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"28\"}",
+          "attrs": [
+            {
+              "uid": "1031626732825198592",
+              "prettyName": ".NET Framework",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364628025274383",
+              "prettyName": "JavaScript",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626795211276288",
+              "prettyName": "Web Development",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626728794472448",
+              "prettyName": "CSS",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "996364628025274385",
+              "prettyName": "PHP",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580482322976768",
+              "prettyName": "API",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626745110315008",
+              "prettyName": "HTML",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580737240190976",
+              "prettyName": "Web Application",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626743407427584",
+              "prettyName": "GUI Design",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626745131286528",
+              "prettyName": "HTML5 Canvas",
+              "freeText": null,
+              "skillType": 3
+            }
+          ]
+        },
+        {
+          "uid": "1753657786228498432",
+          "title": "Fullstack Developer - Build MVP for a B2B app ",
+          "ciphertext": "~01399fa22db1d16c0b",
+          "description": "Build end to end MVP for an enterprise grade B2B app",
+          "type": 1,
+          "recno": "1011094093",
+          "freelancersToHire": 1,
+          "duration": "1 to 3 months",
+          "durationLabel": "1 to 3 months",
+          "engagement": null,
+          "amount": {
+            "amount": 500.0,
+            "currencyCode": "USD"
+          },
+          "createdOn": "2024-02-03T05:52:52.505Z",
+          "publishedOn": "2024-02-03T05:52:53.951Z",
+          "renewedOn": null,
+          "prefFreelancerLocation": null,
+          "prefFreelancerLocationMandatory": false,
+          "connectPrice": 12,
+          "client": {
+            "totalHires": 0,
+            "totalSpent": 0.0,
+            "paymentVerificationStatus": 2,
+            "location": {
+              "country": "Australia",
+              "city": null,
+              "state": null,
+              "countryTimezone": "",
+              "worldRegion": "Oceania"
+            },
+            "totalReviews": 0,
+            "totalFeedback": 0.0,
+            "hasFinancialPrivacy": false
+          },
+          "enterpriseJob": false,
+          "premium": false,
+          "jobTime": "1706939588428",
+          "skills": [
+            {
+              "id": "1031626731499798528",
+              "prefLabel": "DevOps"
+            },
+            {
+              "id": "1110580737240190976",
+              "prefLabel": "Web Application"
+            },
+            {
+              "id": "1031626762999021568",
+              "prefLabel": "Node.js"
+            },
+            {
+              "id": "1110580541408137216",
+              "prefLabel": "Database Architecture"
+            },
+            {
+              "id": "1031626718199660544",
+              "prefLabel": "AWS AppSync"
+            },
+            {
+              "id": "1031626712168251392",
+              "prefLabel": "Amazon Neptune"
+            },
+            {
+              "id": "free_text",
+              "prefLabel": null
+            }
+          ],
+          "tierText": "Expert",
+          "tier": "Expert",
+          "tierLabel": "Experience Level",
+          "proposalsTier": "5 to 10",
+          "isApplied": false,
+          "hourlyBudget": {
+            "type": null,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "weeklyBudget": {
+            "amount": 0.0
+          },
+          "clientRelation": null,
+          "relevanceEncoded": "{\"position\":\"29\"}",
+          "attrs": [
+            {
+              "uid": "1031626731499798528",
+              "prettyName": "DevOps",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580737240190976",
+              "prettyName": "Web Application",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626762999021568",
+              "prettyName": "Node.js",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1110580541408137216",
+              "prettyName": "Database Architecture",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626718199660544",
+              "prettyName": "AWS AppSync",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "1031626712168251392",
+              "prettyName": "Amazon Neptune",
+              "freeText": null,
+              "skillType": 3
+            },
+            {
+              "uid": "free_text",
+              "prettyName": null,
+              "freeText": "Frontend",
+              "skillType": null
+            }
+          ]
+        }
+      ],
+      "paging": {
+        "total": 30,
+        "count": 30,
+        "minTime": "1706939572505",
+        "maxTime": "1707060500965"
+      }
+    }
+  }
+}
