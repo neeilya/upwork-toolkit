@@ -2,7 +2,12 @@ import PromptForm from '@/components/PromptForm'
 import useMediaQuery from '@/hooks/useMediaQuery'
 import coverLetterStorage from '@/utils/coverLetter'
 import errors from '@/utils/errors'
-import openAiApiKeyStorage from '@/utils/openAiApiKey'
+import openAiApiConfigStorage, {
+  ApiProvider,
+  OpenAiApiConfig,
+  providerIds,
+} from '@/utils/openAiApiConfig'
+import openAiApiSettingsStorage from '@/utils/openAiApiSettings'
 import promptStorage from '@/utils/prompt'
 import { captureException } from '@/utils/sentry'
 import { helperKey } from '@/utils/system'
@@ -13,8 +18,12 @@ import {
   Box,
   Button,
   Divider,
+  FormControl,
   IconButton,
+  InputLabel,
   Link,
+  MenuItem,
+  Select,
   TextField,
   Typography,
 } from '@mui/material'
@@ -24,6 +33,49 @@ import { useEffect, useState } from 'react'
 const OPENAI_API_KEYS_URL = 'https://platform.openai.com/api-keys'
 
 const MAX_TEXT_SIZE = 8000
+const CUSTOM_MODEL = '__custom_model__'
+
+const getApiKeyLabel = (provider: ApiProvider) =>
+  `${openAiApiConfigStorage.getProvider(provider).label} API key`
+
+const getApiKeyPlaceholder = (provider: ApiProvider) => {
+  if (provider === 'groq') return 'gsk_...'
+  if (provider === 'openrouter') return 'sk-or-v1-...'
+
+  return 'sk-...'
+}
+
+const ApiKeyInfoAlert = (props: { provider: ApiProvider }) => {
+  if (props.provider !== 'openai') {
+    const provider = openAiApiConfigStorage.getProvider(props.provider)
+
+    return (
+      <Alert severity="info" sx={{ mt: 2 }}>
+        <AlertTitle>
+          Connect your API key to start generating cover letters
+        </AlertTitle>
+        Get an API key from {provider.label} and paste it below.
+      </Alert>
+    )
+  }
+
+  return (
+    <Alert severity="info" sx={{ mt: 2 }}>
+      <AlertTitle>
+        Connect your OpenAI API key to start generating cover letters
+      </AlertTitle>
+      You can now apply to jobs with custom-tailored AI generated cover letters
+      - just add your OpenAI-compatible API key by clicking the button below.
+      <br />
+      Create a key at{' '}
+      <Link href={OPENAI_API_KEYS_URL} target="_blank" rel="noopener">
+        <strong>platform.openai.com/api-keys</strong>
+        <OpenInNew sx={{ verticalAlign: 'middle', fontSize: '100%' }} />
+      </Link>{' '}
+      and paste it below.
+    </Alert>
+  )
+}
 
 /** Shows the first and last few characters, masking the rest. */
 const maskApiKey = (key: string) => {
@@ -36,6 +88,86 @@ const maskApiKey = (key: string) => {
   return `${trimmed.slice(0, 3)}${'•'.repeat(8)}${trimmed.slice(-4)}`
 }
 
+const AiProviderFields = (props: {
+  apiConfig: OpenAiApiConfig
+  disabled: boolean
+  onConfigChange: (config: OpenAiApiConfig) => void
+  onProviderChange: (provider: ApiProvider) => void
+}) => {
+  const selectedProvider = openAiApiConfigStorage.getProvider(
+    props.apiConfig.provider
+  )
+  const supportedModels = openAiApiConfigStorage.getModels(
+    props.apiConfig.provider
+  )
+  const isCustomModel = !supportedModels.includes(props.apiConfig.model)
+
+  return (
+    <>
+      <FormControl fullWidth sx={{ mt: 2 }}>
+        <InputLabel id="ai-provider-label">Provider</InputLabel>
+        <Select
+          labelId="ai-provider-label"
+          label="Provider"
+          value={props.apiConfig.provider}
+          onChange={(event) =>
+            props.onProviderChange(event.target.value as ApiProvider)
+          }
+          disabled={props.disabled}
+        >
+          {providerIds.map((provider) => (
+            <MenuItem key={provider} value={provider}>
+              {openAiApiConfigStorage.getProvider(provider).label}
+            </MenuItem>
+          ))}
+        </Select>
+      </FormControl>
+
+      <TextField
+        select
+        fullWidth
+        sx={{ mt: 2 }}
+        label="Model"
+        value={isCustomModel ? CUSTOM_MODEL : props.apiConfig.model}
+        onChange={(event) => {
+          const model = event.target.value
+
+          props.onConfigChange({
+            ...props.apiConfig,
+            model: model === CUSTOM_MODEL ? '' : model,
+          })
+        }}
+        disabled={props.disabled}
+        helperText={`Select a preset or enter a model ID supported by ${selectedProvider.label}`}
+      >
+        {supportedModels.map((model: string) => (
+          <MenuItem key={model} value={model}>
+            {model}
+          </MenuItem>
+        ))}
+        <MenuItem value={CUSTOM_MODEL}>Custom model ID</MenuItem>
+      </TextField>
+
+      {isCustomModel && (
+        <TextField
+          fullWidth
+          sx={{ mt: 2 }}
+          label="Custom model ID"
+          value={props.apiConfig.model}
+          onChange={(event) =>
+            props.onConfigChange({
+              ...props.apiConfig,
+              model: event.target.value,
+            })
+          }
+          disabled={props.disabled}
+          helperText={`Enter a model ID supported by ${selectedProvider.label}`}
+        />
+      )}
+    </>
+  )
+}
+
 const CoverLetter = () => {
   const { isMobile } = useMediaQuery()
   const { enqueueSnackbar } = useSnackbar()
@@ -44,6 +176,12 @@ const CoverLetter = () => {
   const [prompt, setPrompt] = useState(promptStorage.defaultPrompt)
   const [apiKey, setApiKey] = useState('')
   const [savedApiKey, setSavedApiKey] = useState('')
+  const [apiConfig, setApiConfig] = useState<OpenAiApiConfig>(
+    openAiApiConfigStorage.defaultConfig
+  )
+  const [savedApiConfig, setSavedApiConfig] = useState<OpenAiApiConfig>(
+    openAiApiConfigStorage.defaultConfig
+  )
   const [showApiKey, setShowApiKey] = useState(false)
   const [editingApiKey, setEditingApiKey] = useState(false)
   const [initialized, setInitialized] = useState(false)
@@ -54,6 +192,8 @@ const CoverLetter = () => {
   // Gating reflects the persisted key, not the in-progress input value.
   const hasApiKey = savedApiKey.trim().length > 0
   const showKeyForm = !hasApiKey || editingApiKey
+  const apiKeyLabel = getApiKeyLabel(apiConfig.provider)
+  const apiKeyPlaceholder = getApiKeyPlaceholder(apiConfig.provider)
 
   const onEditApiKey = () => {
     setApiKey(savedApiKey)
@@ -62,8 +202,17 @@ const CoverLetter = () => {
 
   const onCancelEditApiKey = () => {
     setApiKey(savedApiKey)
+    setApiConfig(savedApiConfig)
     setShowApiKey(false)
     setEditingApiKey(false)
+  }
+
+  const onProviderChange = (provider: ApiProvider) => {
+    setApiConfig({
+      provider,
+      model: openAiApiConfigStorage.getProvider(provider).defaultModel,
+    })
+    setApiKey('')
   }
 
   const makeSaveHandler =
@@ -83,8 +232,39 @@ const CoverLetter = () => {
     }
 
   const onSaveApiKey = makeSaveHandler(setSavingApiKey, async () => {
-    setSavedApiKey(await openAiApiKeyStorage.save(apiKey.trim()))
-    setEditingApiKey(false)
+    const model = apiConfig.model.trim()
+    if (!model) {
+      throw new Error('Enter a model name')
+    }
+
+    const nextConfig = { provider: apiConfig.provider, model }
+    const permissionGranted = await openAiApiConfigStorage.requestPermission(
+      nextConfig.provider
+    )
+
+    if (!permissionGranted) {
+      throw new Error('Permission was not granted for this AI provider')
+    }
+
+    const providerChanged = savedApiConfig.provider !== nextConfig.provider
+    const savedSettings = await openAiApiSettingsStorage.save({
+      apiKey: apiKey.trim(),
+      config: nextConfig,
+    })
+    const savedKey = savedSettings.apiKey
+
+    setApiKey(savedKey)
+    setSavedApiKey(savedKey)
+    setApiConfig(nextConfig)
+    setSavedApiConfig(nextConfig)
+
+    if (providerChanged) {
+      try {
+        await openAiApiConfigStorage.removePermission(savedApiConfig.provider)
+      } catch (error) {
+        captureException(error)
+      }
+    }
   })
 
   const onSaveCoverLetter = makeSaveHandler(setSavingCoverLetter, () =>
@@ -97,16 +277,18 @@ const CoverLetter = () => {
 
   useEffect(() => {
     const init = async () => {
-      const [prompt, text, apiKey] = await Promise.all([
+      const [prompt, text, apiSettings] = await Promise.all([
         promptStorage.get(),
         coverLetterStorage.get(),
-        openAiApiKeyStorage.get(),
+        openAiApiSettingsStorage.get(),
       ])
 
       setPrompt(prompt)
       setText(text)
-      setApiKey(apiKey)
-      setSavedApiKey(apiKey)
+      setApiKey(apiSettings.apiKey)
+      setSavedApiKey(apiSettings.apiKey)
+      setApiConfig(apiSettings.config)
+      setSavedApiConfig(apiSettings.config)
 
       setInitialized(true)
     }
@@ -122,27 +304,20 @@ const CoverLetter = () => {
 
       {showKeyForm ? (
         <>
-          {!hasApiKey && (
-            <Alert severity="info" sx={{ mt: 2 }}>
-              <AlertTitle>
-                Connect your OpenAI API key to start generating cover letters
-              </AlertTitle>
-              Cover letters are generated with your own OpenAI account.
-              <br />
-              Create a key at{' '}
-              <Link href={OPENAI_API_KEYS_URL} target="_blank" rel="noopener">
-                <strong>platform.openai.com/api-keys</strong>
-                <OpenInNew sx={{ verticalAlign: 'middle', fontSize: '100%' }} />
-              </Link>{' '}
-              and paste it below.
-            </Alert>
-          )}
+          {!hasApiKey && <ApiKeyInfoAlert provider={apiConfig.provider} />}
+
+          <AiProviderFields
+            apiConfig={apiConfig}
+            disabled={savingApiKey || !initialized}
+            onConfigChange={setApiConfig}
+            onProviderChange={onProviderChange}
+          />
 
           <TextField
             fullWidth
             sx={{ mt: 2 }}
-            label="OpenAI API key"
-            placeholder="sk-..."
+            label={apiKeyLabel}
+            placeholder={apiKeyPlaceholder}
             value={apiKey}
             type={showApiKey ? 'text' : 'password'}
             onChange={(e) => setApiKey(e.target.value)}
@@ -191,7 +366,7 @@ const CoverLetter = () => {
           <TextField
             fullWidth
             disabled
-            label="OpenAI API key"
+            label={apiKeyLabel}
             value={maskApiKey(savedApiKey)}
           />
 
@@ -206,8 +381,8 @@ const CoverLetter = () => {
           <Typography sx={{ mt: 2 }}>
             Create a detailed prompt below and next time you're on a job
             proposal page click "Generate" button under the cover letter input
-            (you can also use "{helperKey} + Enter" as a shortcut) and let
-            ChatGPT generate a unique cover letter.
+            (you can also use "{helperKey} + Enter" as a shortcut) and let AI
+            generate a unique cover letter.
             <br />
             <br />
             You can also edit the prompt for each job separately when you apply.

@@ -15,7 +15,19 @@ export type GenerateCoverLetterMessage = {
 export type GenerateCoverLetterResponse =
   | { type: 'chunk'; content: string }
   | { type: 'done' }
-  | { type: 'error'; error: 'NO_API_KEY' | 'GENERATION_FAILED' }
+  | {
+      type: 'error'
+      error:
+        | 'NO_API_KEY'
+        | 'API_PROVIDER_PERMISSION_REQUIRED'
+        | 'ACCESS_DENIED'
+        | 'INVALID_API_KEY'
+        | 'INSUFFICIENT_CREDITS'
+        | 'MODEL_UNAVAILABLE'
+        | 'NETWORK_ERROR'
+        | 'RATE_LIMITED'
+        | 'GENERATION_FAILED'
+    }
 
 export type PlaySoundMessage = {
   volume: number

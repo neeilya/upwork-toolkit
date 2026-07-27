@@ -19,6 +19,11 @@ export default defineConfig({
       'declarativeNetRequest',
     ],
     host_permissions: ['https://*.upwork.com/', 'https://api.openai.com/'],
+    optional_host_permissions: [
+      'https://openrouter.ai/*',
+      'https://api.groq.com/*',
+      'https://api.deepseek.com/*',
+    ],
     declarative_net_request: {
       rule_resources: [
         {
