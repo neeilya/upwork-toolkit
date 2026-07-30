@@ -1,4 +1,5 @@
 import { browser } from '#imports'
+import mobileNotificationsApi from '@/api/mobileNotifications'
 import upworkApi, { Job } from '@/api/upwork'
 import colors from '@/utils/colors'
 import { ErrorType } from '@/utils/errors'
@@ -104,10 +105,12 @@ const fetchJobs = async () => {
     (job) => job.ciphertext
   )
 
+  const newJobs = newBatch.filter(
+    (job) => !oldBatchIds.includes(job.ciphertext)
+  )
+
   const newProcessedBatch = [
-    ...newBatch
-      .filter((job) => !oldBatchIds.includes(job.ciphertext))
-      .map((job) => ({ ...job, __isSeen: false })),
+    ...newJobs.map((job) => ({ ...job, __isSeen: false })),
     ...(oldBatch ?? []),
   ].slice(0, 50)
 
@@ -165,6 +168,10 @@ const fetchJobs = async () => {
       },
       globalState.soundSettings
     ),
+    // Also relay this cycle's new jobs to the user's phone (Telegram / ntfy /
+    // webhook), if configured. Fire-and-forget: failures are swallowed and
+    // never affect the desktop path.
+    mobileNotificationsApi.send({ count: newJobs.length, jobs: newJobs }),
     logger.info([
       extension.Cycles.FETCH_JOBS,
       cycleId,

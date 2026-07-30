@@ -18,7 +18,15 @@ export default defineConfig({
       'notifications',
       'declarativeNetRequest',
     ],
-    host_permissions: ['https://*.upwork.com/', 'https://api.openai.com/'],
+    host_permissions: [
+      'https://*.upwork.com/',
+      'https://api.openai.com/',
+      'https://api.telegram.org/',
+      'https://ntfy.sh/',
+    ],
+    // Generic webhook + custom ntfy servers use arbitrary hosts, requested at
+    // runtime via browser.permissions.request when the user saves them.
+    optional_host_permissions: ['*://*/*'],
     declarative_net_request: {
       rule_resources: [
         {
