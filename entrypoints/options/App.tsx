@@ -8,6 +8,7 @@ import { SnackbarProvider } from 'notistack'
 import analytics from '@/utils/analytics'
 import Settings from './pages/Settings'
 import CoverLetter from './pages/CoverLetter'
+import Filters from './pages/Filters'
 import { useContext, useEffect, useState } from 'react'
 import { LocalizationProvider } from '@mui/x-date-pickers'
 import { Route, Routes, HashRouter } from 'react-router-dom'
@@ -50,6 +51,7 @@ const App = () => {
                     <Route path="debug" element={<Debug />} />
                     <Route path="settings" element={<Settings />} />
                     <Route path="cover-letter" element={<CoverLetter />} />
+                    <Route path="filters" element={<Filters />} />
                   </Route>
                 </Routes>
               </HashRouter>

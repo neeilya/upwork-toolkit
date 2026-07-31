@@ -5,6 +5,8 @@ import { ErrorType } from '@/utils/errors'
 import extension from '@/utils/extension'
 import stateStorage from '@/utils/globalState'
 import jobStorage from '@/utils/jobs'
+import jobFiltersStorage from '@/utils/jobFilters'
+import { filterJobs } from '@/utils/matchJob'
 import logger from '@/utils/logger'
 import notifications from '@/utils/notifications'
 import { captureEvent, captureException } from '@/utils/sentry'
@@ -104,19 +106,23 @@ const fetchJobs = async () => {
     (job) => job.ciphertext
   )
 
+  const newJobs = newBatch.filter(
+    (job) => !oldBatchIds.includes(job.ciphertext)
+  )
+
   const newProcessedBatch = [
-    ...newBatch
-      .filter((job) => !oldBatchIds.includes(job.ciphertext))
-      .map((job) => ({ ...job, __isSeen: false })),
+    ...newJobs.map((job) => ({ ...job, __isSeen: false })),
     ...(oldBatch ?? []),
   ].slice(0, 50)
 
-  const unseenJobs = newProcessedBatch.filter((job) => !job.__isSeen)
-  const unseenCount = unseenJobs.length
+  // Advanced filters refine what notifies and what's counted; every job is
+  // still stored so the list can be un-filtered without re-fetching.
+  const filters = await jobFiltersStorage.get()
 
-  const hasNewUnseenJobs =
-    unseenJobs.length > 0 &&
-    unseenJobs.some((job) => !oldBatchIds.includes(job.ciphertext))
+  const unseenJobs = newProcessedBatch.filter((job) => !job.__isSeen)
+  const unseenCount = filterJobs(unseenJobs, filters).length
+
+  const hasNewUnseenJobs = filterJobs(newJobs, filters).length > 0
 
   await Promise.all([
     jobStorage.save(newProcessedBatch),

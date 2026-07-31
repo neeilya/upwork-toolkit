@@ -8,6 +8,7 @@ import colors from '@/utils/colors'
 import { ErrorType } from '@/utils/errors'
 import extension from '@/utils/extension'
 import notifications from '@/utils/notifications'
+import { filterJobs } from '@/utils/matchJob'
 import {
   AlertTitle,
   Box,
@@ -44,6 +45,12 @@ const Home = () => {
         .sort()
         .join('/')
     : ''
+
+  // Jobs remain stored in full; filters only affect what's shown and counted.
+  const visibleJobs = filterJobs(storage.jobs, storage.jobFilters)
+  const visibleUnseenIds = unseenIds.filter((id) =>
+    visibleJobs.some((job) => job.ciphertext === id)
+  )
 
   const lastCycleError = storage.globalState.lastCycleError
 
@@ -285,12 +292,13 @@ const Home = () => {
   )
 
   useEffect(() => {
-    eventEmitter.emit(Event.UNSEEN_IDS_UPDATED, unseenIds)
+    eventEmitter.emit(Event.UNSEEN_IDS_UPDATED, visibleUnseenIds)
 
     return () => {
       eventEmitter.emit(Event.UNSEEN_IDS_UPDATED, [])
     }
-  }, [unseenIds])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [visibleUnseenIds.join('/')])
 
   return (
     <>
@@ -342,9 +350,18 @@ const Home = () => {
           </Box>
         )}
 
+      {storage.jobs.length > 0 && visibleJobs.length === 0 && (
+        <MuiAlert severity="info" sx={{ mb: 3 }}>
+          <AlertTitle>No jobs match your filters</AlertTitle>
+          None of your {storage.jobs.length} stored jobs pass your active
+          filters. Adjust them on the <Link href="#/filters">Filters</Link>{' '}
+          page.
+        </MuiAlert>
+      )}
+
       <JobList
-        jobs={storage.jobs}
-        unseenIds={unseenIds}
+        jobs={visibleJobs}
+        unseenIds={visibleUnseenIds}
         onJobClick={onJobClick}
         detailed={!storage.globalState.compactList}
       />
