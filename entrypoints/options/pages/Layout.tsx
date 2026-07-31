@@ -4,6 +4,7 @@ import Storage, { StorageInterface } from '@/contexts/storage'
 import useMediaQuery from '@/hooks/useMediaQuery'
 import { Event, eventEmitter } from '@/utils/events'
 import extension from '@/utils/extension'
+import { filterJobs } from '@/utils/matchJob'
 import {
   AppBar,
   Box,
@@ -47,7 +48,9 @@ const Layout = () => {
   const [debugMode, setDebugMode] = useState(false)
   const [unseenIds, setUnseenIds] = useState<string[]>([])
 
-  const unseenJobs = storage.jobs.filter((job) => !job.__isSeen)
+  const unseenJobs = filterJobs(storage.jobs, storage.jobFilters).filter(
+    (job) => !job.__isSeen
+  )
 
   const socialLinks = [
     { href: import.meta.env.WXT_GITHUB_URL, label: 'GitHub', Icon: GithubIcon },
@@ -57,6 +60,7 @@ const Layout = () => {
   const menuLinks: MenuLink[] = [
     { text: 'Jobs', href: '', count: unseenIds.length || unseenJobs.length },
     { text: 'Cover letter', href: 'cover-letter', new: true },
+    { text: 'Filters', href: 'filters', new: true },
     { text: 'Settings', href: 'settings' },
     ...(import.meta.env.DEV || debugMode
       ? [

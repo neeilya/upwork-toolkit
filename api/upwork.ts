@@ -48,6 +48,9 @@ export type Job = {
     paymentVerificationStatus: number | null
     totalFeedback: number
     totalSpent: number
+    // Returned by all feeds but only surfaced for filtering (optional per feed).
+    totalReviews?: number
+    totalHires?: number
 
     location?: {
       country: string | null
@@ -64,6 +67,10 @@ export type Job = {
   duration: string | null
   renewedOn: Date | null
   createdOn: Date | string
+
+  // Surfaced for filtering (present on all feeds via the raw response).
+  isApplied?: boolean
+  premium?: boolean
 
   // internal attribute
   __isSeen: boolean
