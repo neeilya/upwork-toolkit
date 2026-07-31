@@ -165,6 +165,10 @@ const MobileNotifications = () => {
     provider: MobileProvider,
     enabled: boolean
   ) => {
+    // Enabling a provider that talks to an arbitrary host needs permission first
+    // (mirrors Save/Test); leave it disabled if the host check fails.
+    if (enabled && !(await ensureProviderHost(provider))) return
+
     updateProvider(provider, { enabled })
 
     try {

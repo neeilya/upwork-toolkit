@@ -53,6 +53,14 @@ export type NotificationPayload = {
 const MAX_CARDS = 5
 const DESCRIPTION_LIMIT = 350
 const FEED_URL = 'https://www.upwork.com/nx/find-work/'
+const REQUEST_TIMEOUT_MS = 10000
+
+/**
+ * fetch that aborts if a provider stalls, so a hung request can't leave the
+ * background send hanging indefinitely. Rejects with an AbortError on timeout.
+ */
+const timedFetch = (url: string, options: RequestInit): Promise<Response> =>
+  fetch(url, { ...options, signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) })
 
 const capitalizeFirst = (value: string) =>
   value.charAt(0).toUpperCase() + value.slice(1).toLowerCase()
@@ -195,7 +203,7 @@ const postTelegram = async (
   const botToken = telegram.botToken.trim()
   const chatId = telegram.chatId.trim()
 
-  const response = await fetch(
+  const response = await timedFetch(
     `https://api.telegram.org/bot${botToken}/sendMessage`,
     {
       method: 'POST',
@@ -265,7 +273,7 @@ const postNtfy = async (
   serverUrl: string,
   payload: Record<string, unknown>
 ): Promise<void> => {
-  const response = await fetch(serverUrl, {
+  const response = await timedFetch(serverUrl, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     // High priority so ntfy shows a heads-up banner + sound instead of a
@@ -323,7 +331,7 @@ const sendWebhook = async (
     throw new Error('Webhook URL is required')
   }
 
-  const response = await fetch(url, {
+  const response = await timedFetch(url, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ event: 'new_jobs', count, jobs: views }),
