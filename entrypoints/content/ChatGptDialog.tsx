@@ -2,7 +2,10 @@ import { browser } from '#imports'
 import PromptForm from '@/components/PromptForm'
 import Storage, { StorageInterface } from '@/contexts/storage'
 import useKeyPress from '@/hooks/useKeyPress'
-import runtime, { GenerateCoverLetterResponse } from '@/utils/runtime'
+import runtime, {
+  GenerateCoverLetterError,
+  GenerateCoverLetterResponse,
+} from '@/utils/runtime'
 import { helperKey } from '@/utils/system'
 import {
   Alert,
@@ -15,6 +18,22 @@ import {
   Typography,
 } from '@mui/material'
 import { useContext, useEffect, useRef, useState } from 'react'
+
+const settingsLocation = 'the extension’s Cover letter settings'
+
+const errorMessages: Record<GenerateCoverLetterError, string> = {
+  NO_API_KEY: `Add an AI provider API key in ${settingsLocation} to generate cover letters.`,
+  NO_MODEL: `Choose a model in ${settingsLocation} to generate cover letters.`,
+  INVALID_SETTINGS: `Your AI settings could not be read. Open ${settingsLocation} and save them again.`,
+  MISSING_HOST_PERMISSION: `The extension is no longer allowed to reach your AI provider. Open ${settingsLocation} and save your settings again to restore access.`,
+  INVALID_API_KEY: `Your AI provider rejected the API key. Update it in ${settingsLocation}.`,
+  INSUFFICIENT_QUOTA:
+    'Your AI provider account has run out of credit. Top it up and try again.',
+  RATE_LIMITED:
+    'Your AI provider is rate limiting requests. Wait a moment and try again.',
+  MODEL_UNAVAILABLE: `The selected model is not available on your account. Pick another one in ${settingsLocation}.`,
+  GENERATION_FAILED: 'Cover letter generation failed. Please try again.',
+}
 
 const ChatGptDialog = (props: {
   onClose: () => void
@@ -93,11 +112,7 @@ const ChatGptDialog = (props: {
       if (response.type === 'error') {
         setStreaming(false)
         setMode('writingPrompt')
-        setError(
-          response.error === 'NO_API_KEY'
-            ? 'Add your OpenAI API key in the extension’s Cover letter settings to generate cover letters.'
-            : 'Cover letter generation failed. Please try again.'
-        )
+        setError(errorMessages[response.error])
         finish()
       }
     })
