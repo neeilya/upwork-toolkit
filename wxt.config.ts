@@ -1,9 +1,13 @@
 import { defineConfig } from 'wxt'
 import { sentryVitePlugin } from '@sentry/vite-plugin'
+import {
+  optionalHostPermissions,
+  staticHostPermissions,
+} from './utils/aiCatalog'
 
 // See https://wxt.dev/api/config.html
 export default defineConfig({
-  manifest: {
+  manifest: ({ manifestVersion }) => ({
     name: 'Upwork toolkit - your own freelance assistant',
     description: 'Save time and earn more with Upwork toolkit.',
     action: {
@@ -18,7 +22,12 @@ export default defineConfig({
       'notifications',
       'declarativeNetRequest',
     ],
-    host_permissions: ['https://*.upwork.com/', 'https://api.openai.com/'],
+    host_permissions: ['https://*.upwork.com/', ...staticHostPermissions],
+    // WXT drops `optional_host_permissions` from MV2 builds without converting
+    // it, which would leave Firefox unable to request any provider origin.
+    ...(manifestVersion === 3
+      ? { optional_host_permissions: optionalHostPermissions }
+      : { optional_permissions: optionalHostPermissions }),
     declarative_net_request: {
       rule_resources: [
         {
@@ -28,7 +37,7 @@ export default defineConfig({
         },
       ],
     },
-  },
+  }),
   imports: false,
   modules: ['@wxt-dev/module-react'],
   outDir: 'build',

@@ -42,9 +42,11 @@ uptoolkit/
 │       │   └── Debug.tsx     # Hidden debug tools
 ├── api/
 │   ├── upwork.ts             # Upwork GraphQL API
-│   ├── openai.ts             # OpenAI API (AI cover letter generation)
+│   ├── ai.ts                 # AI SDK provider/gateway calls (cover letters)
 │   └── gqlQueries.ts         # GraphQL query definitions
 ├── utils/
+│   ├── aiCatalog.ts          # Providers, models, host permissions (data only)
+│   ├── aiSettings.ts         # Stored AI connection + legacy key migration
 │   ├── globalState.ts        # Cloud-synced state management
 │   ├── jobs.ts               # Job caching
 │   ├── notifications.ts      # Desktop notifications
@@ -82,8 +84,10 @@ uptoolkit/
 
 ### 3. AI-Powered Cover Letter Generation
 
-- **Status**: Free — uses the user's own OpenAI API key
-- **ChatGPT integration** via a direct call to the OpenAI API (no backend)
+- **Status**: Free — uses the user's own AI provider API key
+- **Two connection modes** (no backend): a direct provider key (OpenAI, Google
+  Gemini, Anthropic, Groq, DeepSeek, OpenRouter) or a Vercel AI Gateway key
+  whose model list is discovered at runtime
 - **Prompt template system** with variables:
   - `#{title}` - Job title
   - `#{job_description}` - Full job description
@@ -121,11 +125,14 @@ uptoolkit/
 - Cookie-based authentication
 - Queries: MyFeed, BestMatches, MostRecent, UserInfo, JobDetails
 
-### OpenAI API (`api/openai.ts`)
+### AI providers (`api/ai.ts`)
 
-- Endpoint: `https://api.openai.com/v1/chat/completions`
+- Vercel AI SDK (`streamText`) over the provider chosen in settings, or over the
+  AI Gateway when the user supplies a gateway key
 - Authenticated with the user's own API key (stored in synced storage)
-- Streaming chat completions; cover letter generation runs through the background worker
+- Non-OpenAI origins are optional host permissions, requested from the settings
+  page and re-checked in the background worker before every generation
+- Streaming; cover letter generation runs through the background worker
 
 ### External Services
 
@@ -156,6 +163,8 @@ Synced across devices via Chrome storage:
 
 - `__COVER_LETTER` - Cover letter template
 - `__COVER_LETTER_PROMPT` - AI prompt template
+- `__AI_SETTINGS` - Connection mode, provider, model, API keys (migrated from
+  the retired `__OPENAI_API_KEY`, which is deleted once the new record lands)
 
 ---
 
@@ -193,6 +202,12 @@ Synced across devices via Chrome storage:
 - `notifications` - Desktop notifications
 - `declarativeNetRequest` - Modify requests
 
+Host permissions are declared once in `utils/aiCatalog.ts` and consumed by
+`wxt.config.ts`. Every AI origin except `api.openai.com` is optional and
+requested from the Cover letter settings page. WXT strips
+`optional_host_permissions` on MV2, so the Firefox build emits the same origins
+under `optional_permissions`.
+
 ---
 
 ## Key Files Reference
@@ -205,7 +220,7 @@ Synced across devices via Chrome storage:
 | Options app      | `entrypoints/options/App.tsx`         |
 | Global state     | `utils/globalState.ts`                |
 | Upwork API       | `api/upwork.ts`                       |
-| OpenAI API       | `api/openai.ts`                       |
+| AI providers     | `api/ai.ts`                           |
 | Theme config     | `theme.ts`                            |
 | WXT config       | `wxt.config.ts`                       |
 
@@ -229,7 +244,7 @@ SENTRY_PROJECT             # Sentry project
 ### File Organization
 
 - **Entrypoints**: One folder per extension context (background, content, options)
-- **API modules**: Separate file per external service (`api/upwork.ts`, `api/openai.ts`)
+- **API modules**: Separate file per external service (`api/upwork.ts`, `api/ai.ts`)
 - **Utils**: Single-responsibility utility files
 - **Components**: Reusable UI in `components/`, page-specific in `entrypoints/options/pages/`
 
