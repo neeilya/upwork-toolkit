@@ -1,8 +1,8 @@
 import { browser, defineBackground } from '#imports'
-import openAiApi from '@/api/openai'
+import aiApi from '@/api/ai'
+import aiSettingsStorage, { AiSettings } from '@/utils/aiSettings'
 import extension, { Cycles } from '@/utils/extension'
 import stateStorage, { GlobalState } from '@/utils/globalState'
-import openAiApiKeyStorage from '@/utils/openAiApiKey'
 import runtime, { GenerateCoverLetterResponse } from '@/utils/runtime'
 import { captureException } from '@/utils/sentry'
 import dailyReport from './dailyReport'
@@ -174,16 +174,40 @@ export default defineBackground({
           return
         }
 
+        let settings: AiSettings
+
         try {
-          const apiKey = await openAiApiKeyStorage.get()
+          settings = await aiSettingsStorage.get()
+        } catch (error) {
+          captureException(error)
+          post({ type: 'error', error: 'INVALID_SETTINGS' })
+          return
+        }
 
-          if (!apiKey) {
-            post({ type: 'error', error: 'NO_API_KEY' })
-            return
-          }
+        if (!aiSettingsStorage.getApiKey(settings).trim()) {
+          post({ type: 'error', error: 'NO_API_KEY' })
+          return
+        }
 
-          await openAiApi.generateCoverLetter({
-            apiKey,
+        if (!aiSettingsStorage.getModel(settings).trim()) {
+          post({ type: 'error', error: 'NO_MODEL' })
+          return
+        }
+
+        // The settings page requested this origin, but the user can revoke it
+        // at any time from the browser's own extension controls.
+        const granted = await browser.permissions.contains({
+          origins: [aiSettingsStorage.getHostPermission(settings)],
+        })
+
+        if (!granted) {
+          post({ type: 'error', error: 'MISSING_HOST_PERMISSION' })
+          return
+        }
+
+        try {
+          await aiApi.generateCoverLetter({
+            settings,
             prompt: message.prompt,
             signal: abortController.signal,
             onChunk: (content) => post({ type: 'chunk', content }),
@@ -196,8 +220,13 @@ export default defineBackground({
             return
           }
 
-          captureException(error)
-          post({ type: 'error', error: 'GENERATION_FAILED' })
+          const failure = aiApi.classifyError(error)
+
+          if (failure.reportable) {
+            captureException(error, { data: failure.diagnostics })
+          }
+
+          post({ type: 'error', error: failure.code })
         }
       })
     })

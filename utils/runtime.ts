@@ -9,13 +9,28 @@ export type GenerateCoverLetterMessage = {
   type: Message.GENERATE_COVER_LETTER
 }
 
+/** Machine-readable failures the provider itself reported. */
+export type AiErrorCode =
+  | 'INVALID_API_KEY'
+  | 'INSUFFICIENT_QUOTA'
+  | 'RATE_LIMITED'
+  | 'MODEL_UNAVAILABLE'
+  | 'GENERATION_FAILED'
+
+export type GenerateCoverLetterError =
+  | AiErrorCode
+  | 'NO_API_KEY'
+  | 'NO_MODEL'
+  | 'INVALID_SETTINGS'
+  | 'MISSING_HOST_PERMISSION'
+
 /**
  * Streamed responses sent back over the GENERATE_COVER_LETTER port.
  */
 export type GenerateCoverLetterResponse =
   | { type: 'chunk'; content: string }
   | { type: 'done' }
-  | { type: 'error'; error: 'NO_API_KEY' | 'GENERATION_FAILED' }
+  | { type: 'error'; error: GenerateCoverLetterError }
 
 export type PlaySoundMessage = {
   volume: number
