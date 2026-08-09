@@ -35,7 +35,7 @@ export type LayoutContext = {
   headerContainer: RefObject<null>
 }
 
-const SIDEBAR_WIDTH = 180
+const SIDEBAR_WIDTH = 190
 
 const Layout = () => {
   const location = useLocation()
@@ -56,7 +56,7 @@ const Layout = () => {
 
   const menuLinks: MenuLink[] = [
     { text: 'Jobs', href: '', count: unseenIds.length || unseenJobs.length },
-    { text: 'Cover letter', href: 'cover-letter', new: true },
+    { text: 'Cover letter', href: 'cover-letter' },
     { text: 'Mobile alerts', href: 'mobile-notifications', new: true },
     { text: 'Settings', href: 'settings' },
     ...(import.meta.env.DEV || debugMode
