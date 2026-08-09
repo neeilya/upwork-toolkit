@@ -150,17 +150,6 @@ const MobileNotifications = () => {
       [provider]: { ...prev[provider], ...patch },
     }))
 
-  const onToggleMaster = async (enabled: boolean) => {
-    setConfig((prev) => ({ ...prev, enabled }))
-
-    try {
-      setSavedConfig(await mobileNotificationsStorage.save({ enabled }))
-    } catch (error) {
-      captureException(error)
-      enqueueSnackbar(errors.getErrorMessage(error), { variant: 'error' })
-    }
-  }
-
   const onToggleProvider = async (
     provider: MobileProvider,
     enabled: boolean
@@ -190,7 +179,15 @@ const MobileNotifications = () => {
     let origin: string
 
     try {
-      origin = `${new URL(rawUrl).origin}/*`
+      const url = new URL(rawUrl)
+
+      if (url.protocol !== 'https:' && url.protocol !== 'http:') {
+        throw new Error('unsupported protocol')
+      }
+
+      // Build the pattern from the hostname, not the origin: match patterns
+      // must not contain a port, and a port-less pattern covers every port.
+      origin = `${url.protocol}//${url.hostname}/*`
     } catch {
       enqueueSnackbar('Please enter a valid URL (including https://)', {
         variant: 'error',
@@ -257,10 +254,33 @@ const MobileNotifications = () => {
     withBusy(key, true)
 
     try {
-      await mobileNotificationsApi.sendTest(provider, config)
-      enqueueSnackbar('Test notification sent — check your phone', {
-        variant: 'success',
+      // Persist the form first and test the saved values — real alerts read the
+      // stored config, so a test must never pass with credentials that only
+      // exist in unsaved form state.
+      const saved = await mobileNotificationsStorage.save({
+        [provider]: config[provider],
       })
+      setSavedConfig(saved)
+
+      if (provider === 'telegram') {
+        setEditingToken(false)
+        setShowToken(false)
+      }
+
+      await mobileNotificationsApi.sendTest(provider, saved)
+
+      // The test bypasses the enable switch; warn when real alerts would
+      // still be skipped so a passing test can't hide a disabled provider.
+      if (!saved[provider].enabled) {
+        enqueueSnackbar(
+          `Test sent, but the ${provider} switch is off — real job alerts will not be sent`,
+          { variant: 'warning' }
+        )
+      } else {
+        enqueueSnackbar('Test notification sent — check your phone', {
+          variant: 'success',
+        })
+      }
     } catch (error) {
       enqueueSnackbar(errors.getErrorMessage(error), { variant: 'error' })
     } finally {
@@ -319,18 +339,6 @@ const MobileNotifications = () => {
         They honor the same enable switch and working-hours schedule as desktop
         notifications.
       </Alert>
-
-      <FormControlLabel
-        sx={{ mt: 2, display: 'flex' }}
-        control={
-          <Switch
-            checked={config.enabled}
-            disabled={!initialized}
-            onChange={(e) => onToggleMaster(e.target.checked)}
-          />
-        }
-        label="Enable mobile notifications"
-      />
 
       {/* Telegram */}
       <Paper variant="outlined" sx={{ mt: 3, p: 2 }}>

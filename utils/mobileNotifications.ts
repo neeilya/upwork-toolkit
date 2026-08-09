@@ -13,8 +13,6 @@ export type MobileProvider = 'telegram' | 'ntfy' | 'webhook'
  * Secrets (bot token) live here just like the OpenAI API key does.
  */
 export type MobileNotificationsConfig = {
-  // Master toggle for all mobile notifications
-  enabled: boolean
   telegram: {
     enabled: boolean
     botToken: string
@@ -32,7 +30,6 @@ export type MobileNotificationsConfig = {
 }
 
 export const getDefaultConfig = (): MobileNotificationsConfig => ({
-  enabled: false,
   telegram: {
     enabled: false,
     botToken: '',

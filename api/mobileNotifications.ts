@@ -79,9 +79,13 @@ const decodeEntities = (value: string) =>
     .replace(/&apos;/g, "'")
     .replace(/&nbsp;/g, ' ')
 
-/** Turn Upwork HTML (titles, descriptions) into clean plain text. */
-const toPlainText = (html: string) =>
-  decodeEntities(html.replace(/<[^>]*>/g, ' '))
+/**
+ * Turn Upwork HTML (titles, descriptions) into clean plain text. Null-safe:
+ * real feed jobs can miss fields the sample job always has, and a throw here
+ * would take down the whole send.
+ */
+const toPlainText = (html: string | null | undefined) =>
+  decodeEntities((html ?? '').replace(/<[^>]*>/g, ' '))
     .replace(/\s+/g, ' ')
     .trim()
 
@@ -351,21 +355,32 @@ const send = async (payload: NotificationPayload): Promise<void> => {
   if (payload.count <= 0 || payload.jobs.length === 0) return
 
   const config = await mobileNotificationsStorage.get()
-  if (!config.enabled) return
+  const hasEnabledProvider =
+    config.telegram.enabled || config.ntfy.enabled || config.webhook.enabled
+
+  if (!hasEnabledProvider) return
 
   const views = payload.jobs.map(toView)
   const shown = views.slice(0, MAX_CARDS)
   const extra = Math.max(payload.count - shown.length, 0)
 
   const run = (provider: MobileProvider, task: () => Promise<void>) =>
-    task().catch((error: any) =>
-      logger.warn([
-        'mobile_notifications',
-        provider,
-        'failed:',
-        error?.message ?? String(error),
-      ])
-    )
+    task()
+      .then(() =>
+        logger.info([
+          'mobile_notifications',
+          provider,
+          `sent ${payload.count} job${payload.count > 1 ? 's' : ''}`,
+        ])
+      )
+      .catch((error: any) =>
+        logger.warn([
+          'mobile_notifications',
+          provider,
+          'failed:',
+          error?.message ?? String(error),
+        ])
+      )
 
   const tasks: Promise<void>[] = []
 
