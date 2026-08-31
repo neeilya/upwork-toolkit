@@ -35,7 +35,7 @@
     "query-string": "^9.1.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router-dom": "^7.6.0",
+    "react-router-dom": "^7.18.2",
     "uuid": "^14.0.0"
   },
   "devDependencies": {
