@@ -95,7 +95,7 @@ const ChatGptDialog = (props: {
         setMode('writingPrompt')
         setError(
           response.error === 'NO_API_KEY'
-            ? 'Add your OpenAI API key in the extension’s Cover letter settings to generate cover letters.'
+            ? 'Add your AI provider’s API key in the extension’s Cover letter settings to generate cover letters.'
             : 'Cover letter generation failed. Please try again.'
         )
         finish()

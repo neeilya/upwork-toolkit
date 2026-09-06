@@ -1,7 +1,11 @@
 import PromptForm from '@/components/PromptForm'
+import Storage, { StorageInterface } from '@/contexts/storage'
 import useMediaQuery from '@/hooks/useMediaQuery'
+import { AiProvider, aiProviderOptions } from '@/utils/aiProvider'
+import anthropicApiKeyStorage from '@/utils/anthropicApiKey'
 import coverLetterStorage from '@/utils/coverLetter'
 import errors from '@/utils/errors'
+import geminiApiKeyStorage from '@/utils/geminiApiKey'
 import openAiApiKeyStorage from '@/utils/openAiApiKey'
 import promptStorage from '@/utils/prompt'
 import { captureException } from '@/utils/sentry'
@@ -15,13 +19,19 @@ import {
   Divider,
   IconButton,
   Link,
+  MenuItem,
+  Select,
   TextField,
   Typography,
 } from '@mui/material'
 import { useSnackbar } from 'notistack'
-import { useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 
-const OPENAI_API_KEYS_URL = 'https://platform.openai.com/api-keys'
+const providerApiKeyStorage: Record<AiProvider, typeof openAiApiKeyStorage> = {
+  [AiProvider.OpenAI]: openAiApiKeyStorage,
+  [AiProvider.Claude]: anthropicApiKeyStorage,
+  [AiProvider.Gemini]: geminiApiKeyStorage,
+}
 
 const MAX_TEXT_SIZE = 8000
 
@@ -39,6 +49,10 @@ const maskApiKey = (key: string) => {
 const CoverLetter = () => {
   const { isMobile } = useMediaQuery()
   const { enqueueSnackbar } = useSnackbar()
+  const storage = useContext<StorageInterface>(Storage)
+
+  const provider = storage.globalState.aiProvider
+  const providerOption = aiProviderOptions[provider]
 
   const [text, setText] = useState('')
   const [prompt, setPrompt] = useState(promptStorage.defaultPrompt)
@@ -54,6 +68,9 @@ const CoverLetter = () => {
   // Gating reflects the persisted key, not the in-progress input value.
   const hasApiKey = savedApiKey.trim().length > 0
   const showKeyForm = !hasApiKey || editingApiKey
+
+  const onProviderChange = (newProvider: AiProvider) =>
+    storage.setState({ aiProvider: newProvider })
 
   const onEditApiKey = () => {
     setApiKey(savedApiKey)
@@ -83,7 +100,7 @@ const CoverLetter = () => {
     }
 
   const onSaveApiKey = makeSaveHandler(setSavingApiKey, async () => {
-    setSavedApiKey(await openAiApiKeyStorage.save(apiKey.trim()))
+    setSavedApiKey(await providerApiKeyStorage[provider].save(apiKey.trim()))
     setEditingApiKey(false)
   })
 
@@ -97,41 +114,66 @@ const CoverLetter = () => {
 
   useEffect(() => {
     const init = async () => {
-      const [prompt, text, apiKey] = await Promise.all([
+      const [prompt, text] = await Promise.all([
         promptStorage.get(),
         coverLetterStorage.get(),
-        openAiApiKeyStorage.get(),
       ])
 
       setPrompt(prompt)
       setText(text)
-      setApiKey(apiKey)
-      setSavedApiKey(apiKey)
-
       setInitialized(true)
     }
 
     init()
   }, [])
 
+  // Re-load the API key whenever the selected provider changes, since each
+  // provider's key lives in its own storage namespace.
+  useEffect(() => {
+    const loadApiKey = async () => {
+      const key = await providerApiKeyStorage[provider].get()
+      setApiKey(key)
+      setSavedApiKey(key)
+      setShowApiKey(false)
+      setEditingApiKey(false)
+    }
+
+    loadApiKey()
+  }, [provider])
+
   return (
     <Box sx={{ pb: 10 }}>
       <Typography variant="h6" component="h6">
-        Use ChatGPT to apply faster with personalized cover letters
+        Use AI to apply faster with personalized cover letters
       </Typography>
+
+      <Select
+        fullWidth
+        sx={{ mt: 2 }}
+        value={provider}
+        disabled={!initialized}
+        onChange={(e) => onProviderChange(e.target.value as AiProvider)}
+      >
+        {Object.entries(aiProviderOptions).map(([value, option]) => (
+          <MenuItem key={value} value={value}>
+            {option.label}
+          </MenuItem>
+        ))}
+      </Select>
 
       {showKeyForm ? (
         <>
           {!hasApiKey && (
             <Alert severity="info" sx={{ mt: 2 }}>
               <AlertTitle>
-                Connect your OpenAI API key to start generating cover letters
+                Connect your {providerOption.apiKeyLabel} to start generating
+                cover letters
               </AlertTitle>
-              Cover letters are generated with your own OpenAI account.
+              {providerOption.helpText}
               <br />
               Create a key at{' '}
-              <Link href={OPENAI_API_KEYS_URL} target="_blank" rel="noopener">
-                <strong>platform.openai.com/api-keys</strong>
+              <Link href={providerOption.apiKeyUrl} target="_blank" rel="noopener">
+                <strong>{providerOption.apiKeyUrl.replace(/^https?:\/\//, '')}</strong>
                 <OpenInNew sx={{ verticalAlign: 'middle', fontSize: '100%' }} />
               </Link>{' '}
               and paste it below.
@@ -141,8 +183,8 @@ const CoverLetter = () => {
           <TextField
             fullWidth
             sx={{ mt: 2 }}
-            label="OpenAI API key"
-            placeholder="sk-..."
+            label={providerOption.apiKeyLabel}
+            placeholder={providerOption.apiKeyPlaceholder}
             value={apiKey}
             type={showApiKey ? 'text' : 'password'}
             onChange={(e) => setApiKey(e.target.value)}
@@ -191,7 +233,7 @@ const CoverLetter = () => {
           <TextField
             fullWidth
             disabled
-            label="OpenAI API key"
+            label={providerOption.apiKeyLabel}
             value={maskApiKey(savedApiKey)}
           />
 
@@ -206,8 +248,8 @@ const CoverLetter = () => {
           <Typography sx={{ mt: 2 }}>
             Create a detailed prompt below and next time you're on a job
             proposal page click "Generate" button under the cover letter input
-            (you can also use "{helperKey} + Enter" as a shortcut) and let
-            ChatGPT generate a unique cover letter.
+            (you can also use "{helperKey} + Enter" as a shortcut) to
+            generate a unique cover letter.
             <br />
             <br />
             You can also edit the prompt for each job separately when you apply.
