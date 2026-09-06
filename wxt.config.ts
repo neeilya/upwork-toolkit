@@ -21,6 +21,8 @@ export default defineConfig({
     host_permissions: [
       'https://*.upwork.com/',
       'https://api.openai.com/',
+      'https://api.anthropic.com/',
+      'https://generativelanguage.googleapis.com/',
       'https://api.telegram.org/',
       'https://ntfy.sh/',
     ],

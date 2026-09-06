@@ -43,6 +43,8 @@ uptoolkit/
 ├── api/
 │   ├── upwork.ts             # Upwork GraphQL API
 │   ├── openai.ts             # OpenAI API (AI cover letter generation)
+│   ├── anthropic.ts          # Anthropic Claude API (AI cover letter generation)
+│   ├── gemini.ts             # Google Gemini API (AI cover letter generation)
 │   └── gqlQueries.ts         # GraphQL query definitions
 ├── utils/
 │   ├── globalState.ts        # Cloud-synced state management
@@ -82,8 +84,11 @@ uptoolkit/
 
 ### 3. AI-Powered Cover Letter Generation
 
-- **Status**: Free — uses the user's own OpenAI API key
-- **ChatGPT integration** via a direct call to the OpenAI API (no backend)
+- **Status**: Free — uses the user's own API key for their chosen provider
+- **Provider choice**: OpenAI (ChatGPT), Anthropic (Claude), or Google (Gemini) —
+  selectable in Settings → Cover letter; stored as `aiProvider` in global state.
+  Google AI Studio issues free-tier Gemini keys, making Gemini the no-cost option.
+- **Direct API calls** to the selected provider (no backend)
 - **Prompt template system** with variables:
   - `#{title}` - Job title
   - `#{job_description}` - Full job description
@@ -127,6 +132,20 @@ uptoolkit/
 - Authenticated with the user's own API key (stored in synced storage)
 - Streaming chat completions; cover letter generation runs through the background worker
 
+### Anthropic Claude API (`api/anthropic.ts`)
+
+- Endpoint: `https://api.anthropic.com/v1/messages`
+- Authenticated with the user's own API key via `x-api-key`
+- Requires the `anthropic-dangerous-direct-browser-access` header to call the API directly from the extension
+- Streaming Messages API; same background-worker flow as OpenAI
+
+### Google Gemini API (`api/gemini.ts`)
+
+- Endpoint: `https://generativelanguage.googleapis.com/v1beta/models/{model}:streamGenerateContent`
+- Authenticated with the user's own API key via the `key` query parameter
+- Google AI Studio (`aistudio.google.com/apikey`) issues free-tier keys
+- Streaming `generateContent`; same background-worker flow as OpenAI
+
 ### External Services
 
 - **Sentry**: Error tracking
@@ -146,6 +165,7 @@ Synced across devices via Chrome storage:
 - `soundSettings { enabled, volume }`
 - `usTimeFormat`
 - `instanceId`, `usernameHash`
+- `aiProvider` - selected cover-letter provider (`openai` | `claude` | `gemini`)
 
 ### Local Storage
 
@@ -156,6 +176,7 @@ Synced across devices via Chrome storage:
 
 - `__COVER_LETTER` - Cover letter template
 - `__COVER_LETTER_PROMPT` - AI prompt template
+- `__OPENAI_API_KEY` / `__ANTHROPIC_API_KEY` / `__GEMINI_API_KEY` - per-provider API keys
 
 ---
 
@@ -206,6 +227,8 @@ Synced across devices via Chrome storage:
 | Global state     | `utils/globalState.ts`                |
 | Upwork API       | `api/upwork.ts`                       |
 | OpenAI API       | `api/openai.ts`                       |
+| Anthropic API    | `api/anthropic.ts`                    |
+| Gemini API       | `api/gemini.ts`                       |
 | Theme config     | `theme.ts`                            |
 | WXT config       | `wxt.config.ts`                       |
 

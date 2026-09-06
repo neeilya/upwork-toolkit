@@ -2,6 +2,7 @@ import { storage } from '#imports'
 import { FeedType } from '@/api/upwork'
 import isFunction from 'lodash/isFunction'
 import { v4 } from 'uuid'
+import { AiProvider } from './aiProvider'
 import { ErrorType } from './errors'
 import extension from './extension'
 
@@ -47,6 +48,8 @@ export type GlobalState = {
   usTimeFormat: boolean
 
   usernameHash: string | null
+
+  aiProvider: AiProvider
 }
 
 const getDefaultState = (): GlobalState => ({
@@ -74,6 +77,8 @@ const getDefaultState = (): GlobalState => ({
   usTimeFormat: false,
 
   usernameHash: null,
+
+  aiProvider: AiProvider.OpenAI,
 })
 
 const get = () =>

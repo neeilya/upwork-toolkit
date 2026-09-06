@@ -1,12 +1,23 @@
 import { browser, defineBackground } from '#imports'
+import anthropicApi from '@/api/anthropic'
+import geminiApi from '@/api/gemini'
 import openAiApi from '@/api/openai'
+import { AiProvider } from '@/utils/aiProvider'
+import anthropicApiKeyStorage from '@/utils/anthropicApiKey'
 import extension, { Cycles } from '@/utils/extension'
+import geminiApiKeyStorage from '@/utils/geminiApiKey'
 import stateStorage, { GlobalState } from '@/utils/globalState'
 import openAiApiKeyStorage from '@/utils/openAiApiKey'
 import runtime, { GenerateCoverLetterResponse } from '@/utils/runtime'
 import { captureException } from '@/utils/sentry'
 import dailyReport from './dailyReport'
 import fetchJobs from './fetchJobs'
+
+const coverLetterProviders = {
+  [AiProvider.OpenAI]: { api: openAiApi, apiKeyStorage: openAiApiKeyStorage },
+  [AiProvider.Claude]: { api: anthropicApi, apiKeyStorage: anthropicApiKeyStorage },
+  [AiProvider.Gemini]: { api: geminiApi, apiKeyStorage: geminiApiKeyStorage },
+}
 
 const ENABLED_SCRIPTS: {
   cycleName: Cycles
@@ -175,14 +186,16 @@ export default defineBackground({
         }
 
         try {
-          const apiKey = await openAiApiKeyStorage.get()
+          const { aiProvider } = await stateStorage.get()
+          const { api, apiKeyStorage } = coverLetterProviders[aiProvider]
+          const apiKey = await apiKeyStorage.get()
 
           if (!apiKey) {
             post({ type: 'error', error: 'NO_API_KEY' })
             return
           }
 
-          await openAiApi.generateCoverLetter({
+          await api.generateCoverLetter({
             apiKey,
             prompt: message.prompt,
             signal: abortController.signal,
